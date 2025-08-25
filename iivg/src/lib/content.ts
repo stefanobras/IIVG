@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { Catalog, Game, SeriesEntry } from "./types";
+import type { Catalog, Game, SeriesEntry, CatalogGen } from "./types";
 
 function safeReadJSON<T>(file: string, fallback: T): T {
   try { return JSON.parse(fs.readFileSync(file, "utf8")) as T; }
@@ -16,40 +16,47 @@ function listGenDirs(root: string): string[] {
 }
 
 export function loadCatalog(dataRoot = path.join(process.cwd(), "data")): Catalog {
-  const gens = listGenDirs(dataRoot);
+  const gensFolders = listGenDirs(dataRoot);
 
   const baseGames: Game[] = [];
   const extraGames: Game[] = [];
   const seriesMap: Record<string, string[]> = {};
 
-  for (const gen of gens) {
-    const genDir = path.join(dataRoot, gen);
-    const games = safeReadJSON<Game[]>(path.join(genDir, "games.json"), []);
+  const gensMeta: CatalogGen[] = [];
+
+  for (const genName of gensFolders) {
+    const idx = Number(genName.replace(/\D/g, "")) || 0;
+    const genDir = path.join(dataRoot, genName);
+    const games = safeReadJSON<Game[]>(path.join(genDir, "games.json"), []).map(g => ({ ...g, gen: idx }));
     const series = safeReadJSON<SeriesEntry[]>(path.join(genDir, "series.json"), []);
-    const extras = safeReadJSON<Game[]>(path.join(genDir, "extra.json"), []);
+    const extras = safeReadJSON<Game[]>(path.join(genDir, "extra.json"), []).map(g => ({ ...g, gen: idx }));
 
     baseGames.push(...games);
     extraGames.push(...extras);
 
     for (const s of series) {
       if (!seriesMap[s.series]) seriesMap[s.series] = [];
-      // append while keeping order unique
-      for (const t of s.games) {
-        if (!seriesMap[s.series].includes(t)) seriesMap[s.series].push(t);
-      }
+      for (const t of s.games) if (!seriesMap[s.series].includes(t)) seriesMap[s.series].push(t);
     }
+
+    const years = [...games, ...extras].map(g => g.releaseYear);
+    if (years.length) gensMeta.push({
+      index: idx,
+      name: genName,
+      minYear: Math.min(...years),
+      maxYear: Math.max(...years),
+    });
   }
 
-  // index by title (base first; extras can fill gaps)
   const byTitle: Record<string, Game> = {};
-  for (const g of [...baseGames, ...extraGames]) {
-    if (!byTitle[g.title]) byTitle[g.title] = g;
-  }
+  for (const g of [...baseGames, ...extraGames]) if (!byTitle[g.title]) byTitle[g.title] = g;
 
   const allGames = [...baseGames, ...extraGames];
   const years = allGames.map(g => g.releaseYear);
-  const minYear = Math.min(...years);
-  const maxYear = Math.max(...years);
+  const minYear = years.length ? Math.min(...years) : 1979;
+  const maxYear = years.length ? Math.max(...years) : 1979;
 
-  return { baseGames, extraGames, seriesMap, byTitle, allGames, minYear, maxYear };
+  gensMeta.sort((a, b) => a.index - b.index);
+
+  return { baseGames, extraGames, seriesMap, byTitle, allGames, gens: gensMeta, minYear, maxYear };
 }

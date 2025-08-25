@@ -66,11 +66,12 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
       {/* Add Elective toggle + form */}
       <section className="space-y-3">
         <button
-          onClick={() => setShowElective((v) => !v)}
-          className="rounded-xl px-3 py-2 border hover:shadow"
+          onClick={() => setShowElective(v => !v)}
+          className="rounded-xl px-3 py-2 border transition-colors hover:bg-zinc-100 hover:shadow-sm dark:hover:bg-zinc-800"
         >
           {showElective ? "Close elective form" : "Add an Elective"}
         </button>
+
 
         {showElective && (
           <ElectiveForm

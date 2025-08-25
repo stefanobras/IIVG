@@ -7,7 +7,8 @@
 "console": "Atari 2600",
 "releaseYear": 1978,
 "orderIndex": 6.944,
-"image": "https://images.launchbox-app.com//0fd94795-e074-402a-a14a-f508db714db1.png"
+"image": "https://images.launchbox-app.com//0fd94795-e074-402a-a14a-f508db714db1.png",
+"gen": 1
 },
 
 
@@ -20,7 +21,8 @@
 "console": "Atari 2600",
 "releaseYear": 1979,
 "orderIndex": 10.011,
-"image": "https://images.launchbox-app.com//d51d33af-fda3-4455-8932-c718c152415c.png"
+"image": "https://images.launchbox-app.com//d51d33af-fda3-4455-8932-c718c152415c.png",
+"gen": 1
 },
 
 
@@ -32,7 +34,9 @@
 "seriesIndex": null,
 "console": "Atari 2600",
 "releaseYear": 1980,
-"orderIndex": 17.512
+"orderIndex": 17.512,
+"image": "https://images.launchbox-app.com//debaaa87-1f9d-4904-a88d-d3c1c52ac48a.png",
+"gen": 1
 },
 {
 "id": "1980-2",
@@ -41,7 +45,9 @@
 "seriesIndex": 1,
 "console": "Atari 2600",
 "releaseYear": 1980,
-"orderIndex": 12.763
+"orderIndex": 12.763,
+"image": "https://images.launchbox-app.com//c9d86701-eb2f-4044-91bd-6008b23949f1.png",
+"gen": 1
 },
 {
 "id": "1980-3",
@@ -50,7 +56,9 @@
 "seriesIndex": 1,
 "console": "Atari 2600",
 "releaseYear": 1980,
-"orderIndex": 9.617
+"orderIndex": 9.617,
+"image": "https://images.launchbox-app.com//1dc1246a-6c84-4159-a8ab-0a4d68f3498d.png",
+"gen": 1
 },
 
 
@@ -62,7 +70,9 @@
 "seriesIndex": 1,
 "console": "Atari 2600",
 "releaseYear": 1981,
-"orderIndex": 16.680
+"orderIndex": 16.680,
+"image": "https://images.launchbox-app.com//492c8e99-dc88-42c8-a945-32e4cd70616f.png",
+"gen": 1
 },
 {
 "id": "1981-2",
@@ -71,7 +81,9 @@
 "seriesIndex": 1,
 "console": "Atari 2600",
 "releaseYear": 1981,
-"orderIndex": 9.251
+"orderIndex": 9.251,
+"image": "https://images.launchbox-app.com//6e982c01-21c3-466f-ab1c-63af7b253677.png",
+"gen": 1
 },
 {
 "id": "1981-3",
@@ -80,7 +92,9 @@
 "seriesIndex": 1,
 "console": "Atari 2600",
 "releaseYear": 1981,
-"orderIndex": 7.399
+"orderIndex": 7.399,
+"image": "https://images.launchbox-app.com//0126e6de-3963-4efe-a3e8-0fe174202421.png",
+"gen": 1
 },
 
 
@@ -92,7 +106,9 @@
 "seriesIndex": null,
 "console": "Atari 2600",
 "releaseYear": 1982,
-"orderIndex": 15.774
+"orderIndex": 15.774,
+"image": "https://images.launchbox-app.com//13321431-4e58-47e2-930e-6c72e5dfd060.png",
+"gen": 1
 },
 {
 "id": "1982-2",
@@ -101,7 +117,9 @@
 "seriesIndex": null,
 "console": "Atari 2600",
 "releaseYear": 1982,
-"orderIndex": 13.276
+"orderIndex": 13.276,
+"image": "https://images.launchbox-app.com//ec9ed270-ccd3-4de5-9238-47372297cfe3.png",
+"gen": 1
 },
 {
 "id": "1982-3",
@@ -110,7 +128,9 @@
 "seriesIndex": 1,
 "console": "Atari 2600",
 "releaseYear": 1982,
-"orderIndex": 12.857
+"orderIndex": 12.857,
+"image": "https://images.launchbox-app.com//a384ac00-c3fa-45b1-9a04-c599342e3613.png",
+"gen": 1
 },
 {
 "id": "1982-4",
@@ -119,7 +139,9 @@
 "seriesIndex": null,
 "console": "Atari 2600",
 "releaseYear": 1982,
-"orderIndex": 12.143
+"orderIndex": 12.143,
+"image": "https://images.launchbox-app.com//3e966e5b-1324-4086-a07d-2f2706e21b3c.png",
+"gen": 1
 },
 {
 "id": "1982-5",
@@ -128,7 +150,9 @@
 "seriesIndex": 1,
 "console": "Atari 2600",
 "releaseYear": 1982,
-"orderIndex": 8.134
+"orderIndex": 8.134,
+"image": "https://images.launchbox-app.com//55899e35-d86c-45b5-af75-4566eae38535.png",
+"gen": 1
 },
 {
 "id": "1982-6",
@@ -137,7 +161,9 @@
 "seriesIndex": 2,
 "console": "Atari 2600",
 "releaseYear": 1982,
-"orderIndex": 4.691
+"orderIndex": 4.691,
+"image": "https://images.launchbox-app.com//48c4f303-b6a2-4cdc-ad3b-c2d1d3231919.png",
+"gen": 1
 },
 
 
@@ -149,7 +175,9 @@
 "seriesIndex": null,
 "console": "Atari 2600",
 "releaseYear": 1983,
-"orderIndex": 24.593
+"orderIndex": 24.593,
+"image": "https://images.launchbox-app.com//e38871fd-5249-4d60-8052-e6b1ecdfa8e1.png",
+"gen": 1
 },
 {
 "id": "1983-2",
@@ -158,16 +186,20 @@
 "seriesIndex": null,
 "console": "Atari 2600",
 "releaseYear": 1983,
-"orderIndex": 21.170
+"orderIndex": 21.170,
+"image": "https://images.launchbox-app.com//4292af79-d78e-4ac4-be90-e0b8ef7ee960.png",
+"gen": 1
 },
 {
 "id": "1983-3",
-"title": "Decathlon",
+"title": "The Activision Decathlon",
 "series": null,
 "seriesIndex": null,
 "console": "Atari 2600",
 "releaseYear": 1983,
-"orderIndex": 18.935
+"orderIndex": 18.935,
+"image": "https://images.launchbox-app.com//431e8813-618a-4ebf-b083-949796f4ffb5.png",
+"gen": 1
 },
 {
 "id": "1983-4",
@@ -176,7 +208,9 @@
 "seriesIndex": null,
 "console": "Atari 2600",
 "releaseYear": 1983,
-"orderIndex": 4.200
+"orderIndex": 4.200,
+"image": "https://images.launchbox-app.com//e67d0358-2860-4564-9c00-3778dffc6fab.png",
+"gen": 1
 },
 
 
@@ -188,7 +222,9 @@
 "seriesIndex": 2,
 "console": "Atari 2600",
 "releaseYear": 1984,
-"orderIndex": 6.196
+"orderIndex": 6.196,
+"image": "https://images.launchbox-app.com//4c39daf6-2790-4302-87fe-f70b844d4eaf.png",
+"gen": 1
 }
 
 
@@ -196,12 +232,14 @@
 ,
 {
 "id": "1985-1",
-"title": "Winter Games",
+"title": "https://images.launchbox-app.com//a3ae27e1-49c9-4a00-83b3-550ef626ca07.png",
 "series": null,
 "seriesIndex": null,
 "console": "Atari 2600",
 "releaseYear": 1985,
-"orderIndex": 18.075
+"orderIndex": 18.075,
+"image": "https://images.launchbox-app.com//d51d33af-fda3-4455-8932-c718c152415c.png",
+"gen": 1
 }
 
 
