@@ -1,0 +1,380 @@
+[
+{
+"id": "centipede-2",
+"title": "Centipede (1998)",
+"series": "Centipede",
+"seriesIndex": 2,
+"console": "PlayStation",
+"releaseYear": 1999,
+"orderIndex": 0.993
+},
+{
+"id": "centipede-3",
+"title": "Centipede: Infestation",
+"series": "Centipede",
+"seriesIndex": 3,
+"console": "Wii",
+"releaseYear": 2011,
+"orderIndex": 1.500
+},
+{
+"id": "yars-2",
+"title": "Yar's Revenge (2011)",
+"series": "Yars",
+"seriesIndex": 2,
+"console": "Xbox 360",
+"releaseYear": 2011,
+"orderIndex": 2.995
+},
+{
+"id": "yars-3",
+"title": "Yars: Recharged",
+"series": "Yars",
+"seriesIndex": 3,
+"console": "PC",
+"releaseYear": 2022,
+"orderIndex": 1.533
+},
+{
+"id": "yars-4",
+"title": "Yars Rising",
+"series": "Yars",
+"seriesIndex": 4,
+"console": "PC",
+"releaseYear": 2024,
+"orderIndex": 0.649
+},
+{
+"id": "missilecommand-2",
+"title": "Missile Command 3D",
+"series": "Missile Command",
+"seriesIndex": 2,
+"console": "Atari Jaguar",
+"releaseYear": 1995,
+"orderIndex": 7.974
+},
+{
+"id": "missilecommand-3",
+"title": "Missile Command (1999)",
+"series": "Missile Command",
+"seriesIndex": 3,
+"console": "PC",
+"releaseYear": 1999,
+"orderIndex": 2.006
+},
+{
+"id": "missilecommand-4",
+"title": "Missile Command (2007)",
+"series": "Missile Command",
+"seriesIndex": 3,
+"console": "Xbox 360",
+"releaseYear": 2007,
+"orderIndex": 15.049
+},
+{
+"id": "pacman-3",
+"title": "Pac-Attack",
+"series": "Pac-Man",
+"seriesIndex": 3,
+"console": "SNES",
+"releaseYear": 1993,
+"orderIndex": 0.800
+},
+{
+"id": "pacman-4",
+"title": "Pac-Man 2: The New Adventures",
+"series": "Pac-Man",
+"seriesIndex": 4,
+"console": "SNES",
+"releaseYear": 1994,
+"orderIndex": 2.441
+},
+{
+"id": "pacman-5",
+"title": "Pac-In-Time",
+"series": "Pac-Man",
+"seriesIndex": 5,
+"console": "Game Boy",
+"releaseYear": 1995,
+"orderIndex": 1.704
+},
+{
+"id": "pacman-6",
+"title": "Pac-Man World",
+"series": "Pac-Man",
+"seriesIndex": 6,
+"console": "PlayStation",
+"releaseYear": 1999,
+"orderIndex": 0.928
+},
+{
+"id": "pacman-7",
+"title": "Pac-Man Fever",
+"series": "Pac-Man",
+"seriesIndex": 7,
+"console": "GameCube",
+"releaseYear": 2002,
+"orderIndex": 1.495
+},
+{
+"id": "pacman-8",
+"title": "Pac-Man World 2",
+"series": "Pac-Man",
+"seriesIndex": 8,
+"console": "PlayStation 2",
+"releaseYear": 2002,
+"orderIndex": 1.180
+},
+{
+"id": "pacman-9",
+"title": "Pac-Man Vs.",
+"series": "Pac-Man",
+"seriesIndex": 9,
+"console": "GameCube",
+"releaseYear": 2003,
+"orderIndex": 12.039
+},
+{
+"id": "pacman-10",
+"title": "Pac-Pix",
+"series": "Pac-Man",
+"seriesIndex": 10,
+"console": "DS",
+"releaseYear": 2005,
+"orderIndex": 1.366
+},
+{
+"id": "pacman-11",
+"title": "Pac-Man Pinball Advance",
+"series": "Pac-Man",
+"seriesIndex": 11,
+"console": "Game Boy Advance",
+"releaseYear": 2005,
+"orderIndex": 2.400
+},
+{
+"id": "pacman-12",
+"title": "Pac 'n Roll",
+"series": "Pac-Man",
+"seriesIndex": 12,
+"console": "DS",
+"releaseYear": 2005,
+"orderIndex": 1.770
+},
+{
+"id": "pacman-13",
+"title": "Pac-Man World 3",
+"series": "Pac-Man",
+"seriesIndex": 13,
+"console": "PlayStation 2",
+"releaseYear": 2005,
+"orderIndex": 0.724
+},
+{
+"id": "pacman-14",
+"title": "Pac-Man World Rally",
+"series": "Pac-Man",
+"seriesIndex": 14,
+"console": "PlayStation 2",
+"releaseYear": 2006,
+"orderIndex": 2.458
+},
+{
+"id": "pacman-15",
+"title": "Pac-Man Party",
+"series": "Pac-Man",
+"seriesIndex": 15,
+"console": "Wii",
+"releaseYear": 2010,
+"orderIndex": 0.439
+},
+{
+"id": "pacman-16",
+"title": "Pac-Man and the Ghostly Adventures",
+"series": "Pac-Man",
+"seriesIndex": 16,
+"console": "PlayStation 3",
+"releaseYear": 2013,
+"orderIndex": 0.871
+},
+{
+"id": "pacman-17",
+"title": "Pac-Man and the Ghostly Adventures 2",
+"series": "Pac-Man",
+"seriesIndex": 17,
+"console": "PlayStation 3",
+"releaseYear": 2014,
+"orderIndex": 0.714
+},
+{
+"id": "pacman-18",
+"title": "Pac-Man 256",
+"series": "Pac-Man",
+"seriesIndex": 18,
+"console": "PC",
+"releaseYear": 2014,
+"orderIndex": 0.336
+},
+{
+"id": "pacman-19",
+"title": "Pac-Man 99",
+"series": "Pac-Man",
+"seriesIndex": 19,
+"console": "Switch",
+"releaseYear": 2021,
+"orderIndex": 4.104
+},
+{
+"id": "pacman-20",
+"title": "Shadow Labyrinth",
+"series": "Pac-Man",
+"seriesIndex": 20,
+"console": "PC",
+"releaseYear": 2025,
+"orderIndex": 0.163
+},
+{
+"id": "defender2",
+"title": "Stargate",
+"series": "Defender",
+"seriesIndex": 2,
+"console": "NES",
+"releaseYear": 1988,
+"orderIndex": 10.909
+},
+{
+"id": "defender3",
+"title": "Defender 2000",
+"series": "Defender",
+"seriesIndex": 3,
+"console": "Atari Jaguar",
+"releaseYear": 1996,
+"orderIndex": 10.909
+},
+{
+"id": "defender4",
+"title": "Defender (2002)",
+"series": "Defender",
+"seriesIndex": 4,
+"console": "PlayStation 2",
+"releaseYear": 1996,
+"orderIndex": 1.204
+},
+{
+"id": "pitfall-3",
+"title": "Super Pitfall",
+"series": "Pitfall",
+"seriesIndex": 3,
+"console": "NES",
+"releaseYear": 1986,
+"orderIndex": 2.339
+},
+{
+"id": "pitfall-4",
+"title": "Pitfall: The Mayan Adventure",
+"series": "Pitfall",
+"seriesIndex": 4,
+"console": "SNES",
+"releaseYear": 1986,
+"orderIndex": 1.569
+},
+{
+"id": "pitfall-5",
+"title": "Pitfall 3D: Beyond the Jungle",
+"series": "Pitfall",
+"seriesIndex": 5,
+"console": "PlayStation",
+"releaseYear": 1998,
+"orderIndex": 1.088
+},
+{
+"id": "pitfall-6",
+"title": "Pitfall: The Lost Expedition",
+"series": "Pitfall",
+"seriesIndex": 6,
+"console": "PlayStation 2",
+"releaseYear": 2004,
+"orderIndex": 0.597
+},
+{
+"id": "frogger-2",
+"title": "Frogger II: ThreeeDeep!",
+"series": "Frogger",
+"seriesIndex": 2,
+"console": "Atari 5200",
+"releaseYear": 1984,
+"orderIndex": 14.634
+},
+{
+"id": "frogger-3",
+"title": "Frogger (1997)",
+"series": "Frogger",
+"seriesIndex": 3,
+"console": "PlayStation",
+"releaseYear": 1997 ,
+"orderIndex": 0.721
+},
+{
+"id": "frogger-4",
+"title": "Frogger 2: Swampy's Revenge",
+"series": "Frogger",
+"seriesIndex": 4,
+"console": "PlayStation",
+"releaseYear": 2000,
+"orderIndex": 2.461
+},
+{
+"id": "frogger-5",
+"title": "Frogger: The Great Quest",
+"series": "Frogger",
+"seriesIndex": 5,
+"console": "PlayStation 2",
+"releaseYear": 2001,
+"orderIndex": 1.687
+},
+{
+"id": "frogger-6",
+"title": "Frogger Beyond",
+"series": "Frogger",
+"seriesIndex": 6,
+"console": "GameCube",
+"releaseYear": 2002,
+"orderIndex": 0.932
+},
+{
+"id": "frogger-7",
+"title": "Frogger's Adventures: The Rescue",
+"series": "Frogger",
+"seriesIndex": 7,
+"console": "GameCube",
+"releaseYear": 2003,
+"orderIndex": 0.993
+},
+{
+"id": "frogger-8",
+"title": "Frogger: Ancient Shadow",
+"series": "Frogger",
+"seriesIndex": 8,
+"console": "GameCube",
+"releaseYear": 2005,
+"orderIndex": 0.443
+},
+{
+"id": "spaceinvaders-2",
+"title": "Space Invaders Extreme",
+"series": "Space Invaders",
+"seriesIndex": 2,
+"console": "DS",
+"releaseYear": 2008,
+"orderIndex": 3.130
+},
+{
+"id": "spaceinvaders-3",
+"title": "Space Invaders Extreme 2",
+"series": "Space Invaders",
+"seriesIndex": 3,
+"console": "DS",
+"releaseYear": 2009,
+"orderIndex": 1.528
+}
+]
