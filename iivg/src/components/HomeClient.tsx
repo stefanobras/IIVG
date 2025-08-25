@@ -1,17 +1,32 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useIIVG } from "@/store/useIIVG";
 import type { Catalog, Game } from "@/lib/types";
 import GameCard from "@/components/GameCard";
 import AchievementToast from "@/components/AchievementToast";
 import ElectiveForm from "@/components/ElectiveForm";
 
+const RESET_ON_BOOT = true; // dev-only reset
+
 export default function HomeClient({ catalog }: { catalog: Catalog }) {
   const { available, completed, dynamicExtras, bootstrap, complete, name, setName } = useIIVG();
-  const [showElective, setShowElective] = useState(false); // NEW
+  const [showElective, setShowElective] = useState(false);
+  const didInit = useRef(false);
 
-  useEffect(() => { bootstrap(catalog); }, [bootstrap, catalog]);
+  useEffect(() => {
+    if (didInit.current) return;
+    didInit.current = true;
+
+    if (RESET_ON_BOOT && typeof window !== "undefined") {
+      try {
+        // remove any old persisted state from earlier versions
+        localStorage.removeItem("iivg-store");
+      } catch {}
+    }
+
+    bootstrap(catalog);
+  }, [bootstrap, catalog]);
 
   const byId = useMemo(() => {
     const all = [...catalog.allGames, ...dynamicExtras];
@@ -59,7 +74,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
 
       {!hasGames && (
         <div className="text-sm opacity-70">
-          No games available yet. Check <code>data/gen1/games.json</code> and confirm there are entries for the starting year (1979).
+          No games available yet. Check <code>data/gen1/games.json</code> and confirm there are entries for the starting year (1978).
         </div>
       )}
 

@@ -40,7 +40,7 @@ export default function GameCard({
 
         <div className="mt-2 flex items-center justify-between gap-3">
           <button
-            onClick={() => setOpen((v) => !v)}
+            onClick={() => setOpen(true)}  // force it open (no toggle glitches)
             className="rounded-xl px-3 py-2 border transition-colors hover:bg-zinc-100 hover:shadow-sm dark:hover:bg-zinc-800"
           >
             Mark as Completed
@@ -48,7 +48,7 @@ export default function GameCard({
         </div>
 
         {open && (
-          <div className="mt-3 flex items-center gap-3">
+          <div className="mt-3 flex items-center gap-3 flex-wrap">
             <label className="text-sm">Rating:</label>
             <input
               aria-label="Rating"
@@ -59,11 +59,23 @@ export default function GameCard({
               onChange={(e) => setRating(parseInt(e.target.value))}
             />
             <span className="w-6 text-center text-sm">{rating}</span>
+
             <button
-              onClick={() => { onComplete(rating); setOpen(false); }}
-              className="rounded-xl px-3 py-2 border bg-black text-white transition-colors hover:opacity-90 dark:bg-white dark:text-black"
+              onClick={() => {
+                onComplete(rating);     // triggers store logic: remove card, add next year, achievements, series avg, etc.
+                setOpen(false);
+                setRating(10);
+              }}
+              className="rounded-xl px-3 py-2 border bg-black text-white transition-opacity hover:opacity-90 dark:bg-white dark:text-black"
             >
               Confirm
+            </button>
+
+            <button
+              onClick={() => { setOpen(false); setRating(10); }}
+              className="rounded-xl px-3 py-2 border transition-colors hover:bg-zinc-100 hover:shadow-sm dark:hover:bg-zinc-800"
+            >
+              Cancel
             </button>
           </div>
         )}

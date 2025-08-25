@@ -1,6 +1,6 @@
 import type { Catalog, Game, UserState } from "./types";
 
-const START_YEAR = 1979;
+const START_YEAR = 1978;
 
 function sortWithinYear(a: Game, b: Game) {
   // DESC by orderIndex (bigger shows first)

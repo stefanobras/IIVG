@@ -16,7 +16,7 @@ export const useIIVG = create<UserState & Actions>()((set, get) => ({
   completed: [],
   addedYears: [],
   currentGen: 1,
-  yearCursor: 1979,
+  yearCursor: 1978,
   dynamicExtras: [],
   seriesRatings: {},
 
