@@ -1,2 +1,5 @@
 # IIVG
-Internet Institute of Video Games (IIVG) turns a game backlog into a curriculum. The home screen deals the user a wave of titles (like classes in an educational environment). The user shall mark a game as completed, rate it (1–10), and the app will refill the carousel of games when a single "class" remains. High ratings may auto-queue related entries from the same series (prequels/sequels). Moreover, the user may add “Elective Courses” for games they’ve played outside IIVG's curriculum, and unlock achievements (degrees) per console as they progress.
+Internet Institute of Video Games (IIVG) turns a game backlog into a curriculum. 
+The home screen deals the user a wave of titles (like classes in an educational environment). 
+The user shall mark a game as completed, rate it (1–10), and the app will refill the carousel of games when a single "class" remains. High ratings may auto-queue related entries from the same series (prequels/sequels). 
+Moreover, the user may add “Elective Courses” for games they’ve played outside IIVG's curriculum, and unlock achievements (degrees) per console as they progress.
