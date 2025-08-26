@@ -3,13 +3,13 @@ import type { Completion, Game } from "./types";
 
 
 export const DEGREE_STEPS = [
-{ threshold: 3, label: "Kindergarten" },
-{ threshold: 5, label: "Primary School" },
-{ threshold: 8, label: "Middle School" },
-{ threshold: 10, label: "High School" },
-{ threshold: 13, label: "Associate's" },
-{ threshold: 15, label: "Bachelor's" },
-{ threshold: 18, label: "Master's" },
+{ threshold: 3, label: "Kindergarten Diploma" },
+{ threshold: 5, label: "Primary School Diploma" },
+{ threshold: 8, label: "Middle School Certificate" },
+{ threshold: 10, label: "High School Diploma" },
+{ threshold: 13, label: "Associate's Degree" },
+{ threshold: 15, label: "Bachelor's Degree" },
+{ threshold: 18, label: "Master's Degree" },
 { threshold: 20, label: "PhD" }
 ] as const;
 

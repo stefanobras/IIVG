@@ -1,94 +1,93 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useIIVG } from "@/store/useIIVG";
 import type { Catalog, Game } from "@/lib/types";
 import GameCard from "@/components/GameCard";
 import AchievementToast from "@/components/AchievementToast";
 import ElectiveForm from "@/components/ElectiveForm";
 
-const RESET_ON_BOOT = true; // dev-only reset
-
 export default function HomeClient({ catalog }: { catalog: Catalog }) {
-  const { available, completed, dynamicExtras, bootstrap, complete, name, setName } = useIIVG();
+  const { available, completed, dynamicExtras, bootstrap, complete } = useIIVG();
   const [showElective, setShowElective] = useState(false);
-  const didInit = useRef(false);
 
-  useEffect(() => {
-    if (didInit.current) return;
-    didInit.current = true;
-
-    if (RESET_ON_BOOT && typeof window !== "undefined") {
-      try {
-        // remove any old persisted state from earlier versions
-        localStorage.removeItem("iivg-store");
-      } catch {}
-    }
-
-    bootstrap(catalog);
-  }, [bootstrap, catalog]);
+  useEffect(() => { bootstrap(catalog); }, [bootstrap, catalog]);
 
   const byId = useMemo(() => {
     const all = [...catalog.allGames, ...dynamicExtras];
     return Object.fromEntries(all.map(g => [g.id, g])) as Record<string, Game>;
   }, [catalog.allGames, dynamicExtras]);
 
-  const hasGames = available.some((id) => byId[id]);
+  const count = Math.max(available.filter(id => byId[id]).length, 1);
 
   return (
-    <main className="max-w-5xl mx-auto p-6 space-y-6">
-      <header className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-bold">Internet Institute of Video Games</h1>
-          <p className="opacity-70 text-sm">
-            Finish, rate, and progress year-by-year. High ratings queue series extras.
-          </p>
-        </div>
-        <div className="flex items-center gap-2">
-          <input
-            className="border rounded-xl px-3 py-2"
-            placeholder="Your name (optional)"
-            value={name || ""}
-            onChange={(e) => setName(e.target.value)}
-          />
-          <a className="underline text-sm" href="/achievements">Achievements</a>
+    <main className="min-h-screen">
+      {/* NAVBAR */}
+      {/* NAVBAR */}
+      <header className="sticky top-0 z-20 bg-black text-white border-b border-zinc-800">
+        <div className="max-w-screen-2xl mx-auto px-6 py-3 flex items-center justify-between">
+          {/* Logo + subtitle (stacked) */}
+          <div className="flex flex-col items-start">
+            <img
+              src="/images/logo_2.png"   // your file in /public/images
+              alt="IIVG"
+              className="h-16 w-auto block"
+            />
+            <div className="font-subtitle mt-3 text-[14px] leading-none text-zinc-300">
+              Complete the following courses and cultivate your video game education.
+            </div>
+          </div>
+
+          {/* Right-side nav */}
+          <nav className="flex items-center gap-4">
+            <a
+              href="/achievements"
+              className="text-sm underline decoration-transparent hover:decoration-inherit transition-colors hover:text-[var(--iivg-royal)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--iivg-royal)] rounded"
+            >
+              Achievements
+            </a>
+          </nav>
         </div>
       </header>
 
+
       <AchievementToast completed={completed} games={[...catalog.allGames, ...dynamicExtras]} />
 
-      {/* Games grid */}
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {/* FULL-WIDTH GIANT COLUMNS */}
+      <section
+        className="max-w-screen-2xl mx-auto px-6 py-4 grid gap-4"
+        style={{
+          gridTemplateColumns: `repeat(${count}, minmax(0, 1fr))`,
+          minHeight: "calc(100svh - 5rem)" /* approx: screen minus navbar */
+        }}
+      >
         {available.map((id) => {
           const g = byId[id];
           if (!g) return null;
           return (
-            <GameCard
-              key={id}
-              game={g}
-              onComplete={(rating) => complete(g, rating, catalog)}
-            />
+            <div key={id} className="flex">
+              <GameCard
+                game={g}
+                // make card fill the column height
+                onComplete={(rating) => complete(g, rating, catalog)}
+              />
+            </div>
           );
         })}
       </section>
 
-      {!hasGames && (
-        <div className="text-sm opacity-70">
-          No games available yet. Check <code>data/gen1/games.json</code> and confirm there are entries for the starting year (1978).
-        </div>
-      )}
+      {/* FLOATING ELECTIVE BUTTON + PANEL (bottom-left) */}
+      <button
+        onClick={() => setShowElective(v => !v)}
+        className="fixed left-6 bottom-6 rounded-full px-5 py-3 shadow-lg hover:shadow-xl text-white"
+        style={{ background: "var(--iivg-royal)" }}
+      >
+        {showElective ? "Close Elective" : "Add Elective"}
+      </button>
 
-      {/* Add Elective toggle + form */}
-      <section className="space-y-3">
-        <button
-          onClick={() => setShowElective(v => !v)}
-          className="rounded-xl px-3 py-2 border transition-colors hover:bg-zinc-100 hover:shadow-sm dark:hover:bg-zinc-800"
-        >
-          {showElective ? "Close elective form" : "Add an Elective"}
-        </button>
-
-
-        {showElective && (
+      {showElective && (
+        <div className="fixed left-6 bottom-24 w-[22rem] max-w-[90vw] rounded-2xl border bg-white shadow-lg p-4">
+          <div className="font-semibold mb-2">Add Elective Course</div>
           <ElectiveForm
             onAdd={(g, r) => {
               const id = g.id || `elective-${Date.now()}`;
@@ -99,8 +98,8 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
               useIIVG.setState({ ...state });
             }}
           />
-        )}
-      </section>
+        </div>
+      )}
     </main>
   );
 }
