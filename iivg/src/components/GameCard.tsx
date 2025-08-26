@@ -68,42 +68,31 @@ export default function GameCard({
         {/* Overlay: scales with tier, never overflows the column */}
         {open && (
           <div
-            className="absolute inset-0 z-10 bg-black/50 backdrop-blur-sm flex items-center justify-center p-3"
+            className="absolute inset-0 z-10 bg-black/50 backdrop-blur-sm flex items-center justify-center p-4"
             onClick={() => setOpen(false)}
             role="dialog"
             aria-modal="true"
           >
             <div
-              className={`w-full ${overlayMaxW} rounded-xl border border-white/10 bg-black/70 text-white backdrop-blur-md p-3 ${overlayText}`}
+              className="w-full max-w-md rounded-xl border border-white/10 bg-black/70 text-white backdrop-blur-md p-4"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="font-game-title text-lg mb-2">Rate this game</div>
 
-              <div className="flex items-center gap-3 flex-wrap">
-                <label className="text-sm">Rating:</label>
-                <input
-                  aria-label="Rating"
-                  type="range"
-                  min={1}
-                  max={10}
-                  value={rating}
-                  onChange={(e) => setRating(parseInt(e.target.value))}
-                  style={{ accentColor: "var(--iivg-royal)" }}
-                />
-                <span className="w-6 text-center text-sm">{rating}</span>
-              </div>
+              {/* Rating row with colored chip */}
+              <RatingRow rating={rating} onChange={setRating} />
 
-              <div className="mt-3 flex items-center gap-3">
+              <div className="mt-4 flex items-center gap-3">
                 <button
                   onClick={() => { onComplete(rating); setOpen(false); setRating(10); }}
-                  className={`rounded-xl border text-white transition-opacity hover:opacity-90 ${btnPad}`}
+                  className="rounded-xl px-4 py-2 border text-white transition-opacity hover:opacity-90"
                   style={{ background: "var(--iivg-royal)" }}
                 >
                   Confirm
                 </button>
                 <button
                   onClick={() => { setOpen(false); setRating(10); }}
-                  className={`rounded-xl border bg-white text-black transition-colors hover:bg-zinc-100 hover:shadow-sm dark:hover:bg-zinc-800 ${btnPad}`}
+                  className="rounded-xl px-4 py-2 border transition-colors hover:bg-zinc-100 hover:shadow-sm dark:hover:bg-zinc-800 bg-white text-black"
                 >
                   Cancel
                 </button>
@@ -134,6 +123,54 @@ export default function GameCard({
           </button>
         </div>
       </div>
+    </div>
+  );
+}
+
+function hueForRating(r: number) {
+  // clamp 1..10 (if you ever switch to 0..10 it still works)
+  const v = Math.max(0, Math.min(10, r));
+  // 0→red(0°), 10→green(120°)
+  return Math.round((v / 10) * 120);
+}
+
+function colorForRating(r: number) {
+  const h = hueForRating(r);
+  // spicy & legible — tweak S/L if you like
+  return `hsl(${h} 80% 35%)`;
+}
+
+function RatingRow({
+  rating,
+  onChange,
+}: {
+  rating: number;
+  onChange: (n: number) => void;
+}) {
+  const bg = colorForRating(rating);
+
+  return (
+    <div className="flex items-center gap-3 flex-wrap">
+      <label className="text-sm">Rating:</label>
+
+      {/* Slider; the thumb color follows the rating */}
+      <input
+        aria-label="Rating"
+        type="range"
+        min={1}
+        max={10}
+        value={rating}
+        onChange={(e) => onChange(parseInt(e.target.value))}
+        style={{ accentColor: bg }}
+      />
+
+      {/* Colored chip */}
+      <span
+        className="min-w-[2.2rem] text-center text-sm font-semibold rounded-md px-2 py-1"
+        style={{ background: bg, color: "#fff" }}
+      >
+        {rating}
+      </span>
     </div>
   );
 }
