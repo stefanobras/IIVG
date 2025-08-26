@@ -10,9 +10,9 @@ export default function GameCard({
   const [rating, setRating] = useState(10);
 
   return (
-    <div className="rounded-2xl border shadow-sm overflow-hidden flex flex-col w-full h-[calc(100svh-7rem)]">
+    <div className="rounded-2xl border shadow-sm overflow-hidden flex flex-col w-full h-[76svh]">
       {/* IMAGE / BANNER */}
-      <div className="relative h-[40%] bg-gradient-to-br from-zinc-800 to-zinc-700">
+      <div className="relative h-[70%] bg-gradient-to-br from-zinc-800 to-zinc-700">
         {game.image ? (
           <img
             src={game.image}
