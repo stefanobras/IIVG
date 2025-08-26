@@ -20,6 +20,13 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
 
   const count = Math.max(available.filter(id => byId[id]).length, 1);
 
+  const sizeTier =
+  count >= 9 ? "xxs" :
+  count >= 7 ? "xs"  :
+  count >= 6 ? "sm"  :
+  count >= 4 ? "md"  :
+               "lg";
+
   return (
     <main className="min-h-screen">
       {/* NAVBAR */}
@@ -67,9 +74,10 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
           return (
             <div key={id} className="flex">
               <GameCard
+                key={id}
                 game={g}
-                // make card fill the column height
                 onComplete={(rating) => complete(g, rating, catalog)}
+                size={sizeTier}
               />
             </div>
           );

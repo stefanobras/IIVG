@@ -2,17 +2,57 @@
 import { useState } from "react";
 import type { Game } from "@/lib/types";
 
+type SizeTier = "lg" | "md" | "sm" | "xs" | "xxs";
+
 export default function GameCard({
   game,
   onComplete,
-}: { game: Game; onComplete: (rating: number) => void }) {
+  size = "lg",
+}: {
+  game: Game;
+  onComplete: (rating: number) => void;
+  size?: SizeTier;
+}) {
   const [open, setOpen] = useState(false);
   const [rating, setRating] = useState(10);
 
+  // Typography / spacing map per tier
+  const titleCls = {
+    lg: "text-4xl", md: "text-3xl", sm: "text-2xl", xs: "text-xl", xxs: "text-lg",
+  }[size];
+
+  const consoleCls = {
+    lg: "text-xl", md: "text-lg", sm: "text-base", xs: "text-sm", xxs: "text-xs",
+  }[size];
+
+  const seriesCls = {
+    lg: "text-base", md: "text-sm", sm: "text-sm", xs: "text-xs", xxs: "text-xs",
+  }[size];
+
+  const bodyPad = {
+    lg: "p-6", md: "p-5", sm: "p-4", xs: "p-3", xxs: "p-2",
+  }[size];
+
+  const bannerH = {
+    lg: "h-[70%]", md: "h-[65%]", sm: "h-[60%]", xs: "h-[55%]", xxs: "h-[50%]",
+  }[size];
+
+  const btnPad = {
+    lg: "px-4 py-2", md: "px-3.5 py-2", sm: "px-3 py-1.5", xs: "px-2.5 py-1.5 text-sm", xxs: "px-2 py-1 text-xs",
+  }[size];
+
+  const overlayMaxW = {
+    lg: "max-w-md", md: "max-w-sm", sm: "max-w-[18rem]", xs: "max-w-[16rem]", xxs: "max-w-[14rem]",
+  }[size];
+
+  const overlayText = {
+    lg: "text-base", md: "text-sm", sm: "text-sm", xs: "text-xs", xxs: "text-xs",
+  }[size];
+
   return (
     <div className="rounded-2xl border shadow-sm overflow-hidden flex flex-col w-full h-[76svh]">
-      {/* BANNER (overlay sits here; does NOT change card size) */}
-      <div className="relative h-[70%] bg-gradient-to-br from-zinc-800 to-zinc-700">
+      {/* BANNER with overlay */}
+      <div className={`relative ${bannerH} bg-gradient-to-br from-zinc-800 to-zinc-700`}>
         {game.image ? (
           <img
             src={game.image}
@@ -25,16 +65,16 @@ export default function GameCard({
           <div className="absolute inset-0" />
         )}
 
-        {/* Overlay controls */}
+        {/* Overlay: scales with tier, never overflows the column */}
         {open && (
           <div
-            className="absolute inset-0 z-10 bg-black/50 backdrop-blur-sm flex items-center justify-center p-4"
+            className="absolute inset-0 z-10 bg-black/50 backdrop-blur-sm flex items-center justify-center p-3"
             onClick={() => setOpen(false)}
             role="dialog"
             aria-modal="true"
           >
             <div
-              className="w-full max-w-md rounded-xl border border-white/10 bg-black/70 text-white backdrop-blur-md p-4"
+              className={`w-full ${overlayMaxW} rounded-xl border border-white/10 bg-black/70 text-white backdrop-blur-md p-3 ${overlayText}`}
               onClick={(e) => e.stopPropagation()}
             >
               <div className="font-game-title text-lg mb-2">Rate this game</div>
@@ -53,21 +93,17 @@ export default function GameCard({
                 <span className="w-6 text-center text-sm">{rating}</span>
               </div>
 
-              <div className="mt-4 flex items-center gap-3">
+              <div className="mt-3 flex items-center gap-3">
                 <button
-                  onClick={() => {
-                    onComplete(rating);
-                    setOpen(false);
-                    setRating(10);
-                  }}
-                  className="rounded-xl px-4 py-2 border text-white transition-opacity hover:opacity-90"
+                  onClick={() => { onComplete(rating); setOpen(false); setRating(10); }}
+                  className={`rounded-xl border text-white transition-opacity hover:opacity-90 ${btnPad}`}
                   style={{ background: "var(--iivg-royal)" }}
                 >
                   Confirm
                 </button>
                 <button
                   onClick={() => { setOpen(false); setRating(10); }}
-                  className="rounded-xl px-4 py-2 border transition-colors hover:bg-zinc-100 hover:shadow-sm dark:hover:bg-zinc-800 bg-white text-black"
+                  className={`rounded-xl border bg-white text-black transition-colors hover:bg-zinc-100 hover:shadow-sm dark:hover:bg-zinc-800 ${btnPad}`}
                 >
                   Cancel
                 </button>
@@ -77,14 +113,14 @@ export default function GameCard({
         )}
       </div>
 
-      {/* BODY — unchanged sizing (same as your earlier version) */}
-      <div className="font-game-body flex-1 p-6 flex flex-col gap-3">
-        <div className="font-game-title text-4xl">{game.title}</div>
-        <div className="text-xl opacity-70">
+      {/* BODY (keeps your original look, just scales with tier) */}
+      <div className={`font-game-body flex-1 ${bodyPad} flex flex-col gap-3`}>
+        <div className={`font-game-title ${titleCls}`}>{game.title}</div>
+        <div className={`${consoleCls} opacity-70`}>
           {game.console} • {game.releaseYear}
         </div>
         {game.series && (
-          <div className="text-base opacity-70">
+          <div className={`${seriesCls} opacity-70`}>
             Series: {game.series}{game.seriesIndex ? ` #${game.seriesIndex}` : ""}
           </div>
         )}
@@ -92,7 +128,7 @@ export default function GameCard({
         <div className="mt-auto flex items-center gap-3">
           <button
             onClick={() => setOpen(true)}
-            className="rounded-xl px-4 py-2 border transition-colors hover:bg-zinc-100 hover:shadow-sm dark:hover:bg-zinc-800"
+            className={`rounded-xl border transition-colors hover:bg-zinc-100 hover:shadow-sm dark:hover:bg-zinc-800 ${btnPad}`}
           >
             Mark as Completed
           </button>
