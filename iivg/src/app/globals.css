@@ -13,6 +13,13 @@
   .font-game-body { font-family: var(--font-iivg-body), system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif; }
 }
 
+@layer utilities {
+  .font-header { 
+    font-family: var(--font-iivg-header), system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+
 
 :root {
   --background: #ffffff;
@@ -40,7 +47,7 @@ body {
 }
 
 :root{
-  --iivg-royal:#1d3c99;
+  --iivg-royal:#3c6af5;
   --iivg-black:#000000;
   --iivg-white:#ffffff;
 }

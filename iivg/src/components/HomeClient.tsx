@@ -42,7 +42,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
           <nav className="flex items-center gap-4">
             <a
               href="/achievements"
-              className="text-sm underline decoration-transparent hover:decoration-inherit transition-colors hover:text-[var(--iivg-royal)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--iivg-royal)] rounded"
+              className="font-header tracking-wide uppercase text-sm underline decoration-transparent hover:decoration-inherit transition-colors hover:text-[var(--iivg-royal)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--iivg-royal)] rounded"
             >
               Achievements
             </a>

@@ -20,7 +20,14 @@ const robotoSerif = Roboto_Serif({
   variable: "--font-roboto-serif",
 });
 
-// Body: your custom font
+// header/nav font
+const iivgHeader = localFont({
+  src: [{ path: "./fonts/NeueHaasGrotDisp-65Medium-Trial.otf", weight: "700", style: "normal" }],
+  variable: "--font-iivg-header",
+  display: "swap",
+});
+
+// Body: custom font
 const iivgBody = localFont({
   src: [{ path: "/fonts/NeueHaasGrotText-55Roman-Trial.otf", weight: "400", style: "normal" }],
   variable: "--font-iivg-body",
@@ -28,7 +35,7 @@ const iivgBody = localFont({
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${robotoMono.variable} ${robotoSerif.variable} ${iivgBody.variable}`}>
+    <html lang="en" className={`${robotoMono.variable} ${robotoSerif.variable} ${iivgHeader.variable} ${iivgBody.variable}`}>
       <body>{children}</body>
     </html>
   );
