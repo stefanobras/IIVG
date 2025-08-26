@@ -25,7 +25,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
       {/* NAVBAR */}
       {/* NAVBAR */}
       <header className="sticky top-0 z-20 bg-black text-white border-b border-zinc-800">
-        <div className="max-w-screen-2xl mx-auto px-6 py-3 flex items-center justify-between">
+        <div className="max-w-screen-2xl mx-auto px-6 py-6 flex items-center justify-between">
           {/* Logo + subtitle (stacked) */}
           <div className="flex flex-col items-start">
             <img
@@ -42,7 +42,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
           <nav className="flex items-center gap-4">
             <a
               href="/achievements"
-              className="font-header tracking-wide uppercase text-sm underline decoration-transparent hover:decoration-inherit transition-colors hover:text-[var(--iivg-royal)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--iivg-royal)] rounded"
+              className="font-header tracking-wide uppercase text-lg underline decoration-transparent hover:decoration-inherit transition-colors hover:text-[var(--iivg-royal)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--iivg-royal)] rounded"
             >
               Achievements
             </a>
@@ -79,7 +79,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
       {/* FLOATING ELECTIVE BUTTON + PANEL (bottom-left) */}
       <button
         onClick={() => setShowElective(v => !v)}
-        className="fixed left-6 bottom-6 rounded-full px-5 py-3 shadow-lg hover:shadow-xl text-white"
+        className="fixed right-6 bottom-6 rounded-full px-5 py-3 shadow-lg hover:shadow-xl text-white"
         style={{ background: "var(--iivg-royal)" }}
       >
         {showElective ? "Close Elective" : "Add Elective"}

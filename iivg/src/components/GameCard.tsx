@@ -31,13 +31,13 @@ export default function GameCard({
       {/* BODY */}
       <div className="font-game-body flex-1 p-6 flex flex-col gap-3">
         {game.image && (
-          <div className="font-game-title text-xl">{game.title}</div>
+          <div className="font-game-title text-4xl">{game.title}</div>
         )}
-        <div className="text-sm opacity-70">
+        <div className="text-xl opacity-70">
           {game.console} • {game.releaseYear}
         </div>
         {game.series && (
-          <div className="text-xs opacity-70">
+          <div className="text-base opacity-70">
             Series: {game.series}{game.seriesIndex ? ` #${game.seriesIndex}` : ""}
           </div>
         )}
