@@ -13,6 +13,15 @@ export const DEGREE_STEPS = [
 { threshold: 20, label: "PhD" }
 ] as const;
 
+export function degreeForCount(count: number) {
+  const hit = [...DEGREE_STEPS].reverse().find(d => count >= d.threshold);
+  return hit?.label;
+}
+
+export function degreeIndex(label: string) {
+  const i = DEGREE_STEPS.findIndex(d => d.label === label);
+  return i >= 0 ? i + 1 : undefined; // 1-based for diploma_1, diploma_2, ...
+}
 
 export function achievementsByConsole(
 completed: Completion[],

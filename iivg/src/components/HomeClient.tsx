@@ -4,12 +4,14 @@ import { useEffect, useMemo, useState } from "react";
 import { useIIVG } from "@/store/useIIVG";
 import type { Catalog, Game } from "@/lib/types";
 import GameCard from "@/components/GameCard";
-import AchievementToast from "@/components/AchievementToast";
 import ElectiveForm from "@/components/ElectiveForm";
+import AchievementModal from "@/components/AchievementModal";
+
 
 export default function HomeClient({ catalog }: { catalog: Catalog }) {
   const { available, completed, dynamicExtras, bootstrap, complete } = useIIVG();
   const [showElective, setShowElective] = useState(false);
+  const { lastEarned, dismissAchievement, name } = useIIVG();
 
   useEffect(() => { bootstrap(catalog); }, [bootstrap, catalog]);
 
@@ -29,7 +31,6 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
 
   return (
     <main className="min-h-screen">
-      {/* NAVBAR */}
       {/* NAVBAR */}
       <header className="sticky top-0 z-20 bg-black text-white border-b border-zinc-800">
         <div className="max-w-screen-2xl mx-auto px-6 py-6 flex items-center justify-between">
@@ -57,9 +58,13 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
         </div>
       </header>
 
-
-      <AchievementToast completed={completed} games={[...catalog.allGames, ...dynamicExtras]} />
-
+      {/* NEW: graduation modal */}
+      <AchievementModal
+        record={lastEarned}
+        userName={name || "StefanoBras"}
+        onClose={dismissAchievement}
+      />
+      
       {/* FULL-WIDTH GIANT COLUMNS */}
       <section
         className="max-w-screen-2xl mx-auto px-6 py-4 grid gap-4"
@@ -84,7 +89,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
         })}
       </section>
 
-      {/* FLOATING ELECTIVE BUTTON + PANEL (bottom-left) */}
+      {/* FLOATING ELECTIVE BUTTON + PANEL*/}
       <button
         onClick={() => setShowElective(v => !v)}
         className="fixed right-6 bottom-6 rounded-full px-5 py-3 shadow-lg hover:shadow-xl text-white"
@@ -94,7 +99,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
       </button>
 
       {showElective && (
-        <div className="fixed left-6 bottom-24 w-[22rem] max-w-[90vw] rounded-2xl border bg-white shadow-lg p-4">
+        <div className="fixed right-6 bottom-24 w-[22rem] max-w-[90vw] rounded-2xl border bg-white shadow-lg p-4">
           <div className="font-semibold mb-2">Add Elective Course</div>
           <ElectiveForm
             onAdd={(g, r) => {

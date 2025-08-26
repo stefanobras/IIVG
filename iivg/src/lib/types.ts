@@ -40,5 +40,14 @@ export type UserState = {
   currentGen: number;
   yearCursor: number;
   dynamicExtras: Game[];
-  seriesRatings: Record<string, number>; // NEW
+  seriesRatings: Record<string, number>;
+  earnedAchievements: AchievementRecord[];   // stored “json” for the current (global) user
+  lastEarned?: AchievementRecord | null;     // drives the modal popup
 };
+
+export type AchievementRecord = {
+  console: string;
+  label: string;      // e.g. "Kindergarten"
+  earnedAt: string;   // ISO date
+};
+
