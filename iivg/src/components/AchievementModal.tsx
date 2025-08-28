@@ -3,6 +3,8 @@ import { useEffect, useMemo, useRef } from "react";
 import { degreeIndex } from "@/lib/achievements";
 import type { AchievementRecord } from "@/lib/types";
 import { useIIVG } from "@/store/useIIVG"; 
+import { diplomaImageNumber } from "@/lib/achievements";
+import { CONSOLE_ORDER } from "@/lib/consoleOrder";
 
 export default function AchievementModal({
   record,
@@ -20,8 +22,8 @@ export default function AchievementModal({
 
   const tplPath = useMemo(() => {
     if (!record) return null;
-    const idx = degreeIndex(record.label) ?? 1;
-    return `/images/diplomas/diploma_${idx}.png`;
+    const n = diplomaImageNumber(record.label, record.console, CONSOLE_ORDER);
+    return `/images/diplomas/diploma_${n}.png`;
   }, [record]);
 
   useEffect(() => {
@@ -56,8 +58,11 @@ export default function AchievementModal({
       ctx.fillText(nameText, W / 2, H * 0.55);
 
       // Console line
-      ctx.font = "700 40px Roboto Mono, Arial, sans-serif";
-      ctx.fillText(consoleText, W / 2, H * 0.68);
+      const lvl = degreeIndex(record.label) ?? 1; // 1 = Kindergarten, 2 = Primary, ...
+      if (lvl === 1) {
+        ctx.font = "700 40px Roboto Mono, Arial, sans-serif";
+        ctx.fillText(consoleText, W / 2, H * 0.68);
+      }
 
        const key = `${record.console}__${record.label}`;
         if (savedKeyRef.current !== key) {
