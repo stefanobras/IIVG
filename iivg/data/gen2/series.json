@@ -1,0 +1,304 @@
+[
+{
+"series": "Contra",
+"games": [
+    "Contra",
+    "Super Contra",
+    "Contra III: The Alien Wars",
+    "Contra: Hard Corps",
+    "Contra: Shattered Soldier",
+    "Neo Contra",
+    "Contra 4",
+    "Contra: Operation Galuga"
+]
+},
+{
+"series": "Teenage Mutant Ninja Turtles",
+"games": [
+    "Teenage Mutant Ninja Turtles",
+    "Teenage Mutant Ninja Turtles II: The Arcade Game",
+    "Teenage Mutant Ninja Turtles: Fall of the Foot Clan",
+    "Teenage Mutant Ninja Turtles III: The Manhattan Project",
+    "Teenage Mutant Ninja Turtles II: Back from the Sewers",
+    "Teenage Mutant Ninja Turtles IV: Turtles in Time",
+    "Teenage Mutant Ninja Turtles: The Hyperstone Heist",
+    "Teenage Mutant Ninja Turtles III: Radical Rescue",
+    "Teenage Mutant Ninja Turtles: Tournament Fighters",
+    "Teenage Mutant Ninja Turtles (2003)",
+    "Teenage Mutant Ninja Turtles (GBA)",
+    "Teenage Mutant Ninja Turtles 2: Battle Nexus",
+    "Teenage Mutant Ninja Turtles 3: Mutant Nightmare",
+    "TMNT: Mutant Melee",
+    "TMNT",
+    "TMNT (GBA)",
+    "Teenage Mutant Ninja Turtles: Smash-Up",
+    "Teenage Mutant Ninja Turtles (2013)",
+    "Teenage Mutant Ninja Turtles: Danger of the Ooze",
+    "Teenage Mutant Ninja Turtles: Mutants in Manhattan",
+    "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    "Teenage Mutant Ninja Turtles: Splintered Fate",
+    "Teenage Mutant Ninja Turtles: Mutants Unleashed"
+]
+},
+{
+"series": "Super Mario",
+"games": [
+    "Super Mario Bros.",
+    "Super Mario Bros. 2",
+    "Super Mario Bros. 3",
+    "Super Mario Land",
+    "Super Mario World",
+    "Super Mario Land 2: 6 Golden Coins",
+    "Super Mario World 2: Yoshi's Island",
+    "Super Mario 64",
+    "Super Mario Sunshine",
+    "New Super Mario Bros.",
+    "Super Mario Galaxy",
+    "New Super Mario Bros. Wii",
+    "Super Mario Galaxy 2",
+    "Super Mario 3D Land",
+    "New Super Mario Bros. 2",
+    "New Super Mario Bros. U",
+    "Super Mario 3D World",
+    "Super Mario Maker",
+    "Super Mario Odyssey",
+    "Super Mario Maker 2",
+    "Bowser's Fury",
+    "Super Mario Bros. Wonder"
+]
+},
+{
+"series": "Mega Man",
+"games": [
+    "Mega Man",
+    "Mega Man 2",
+    "Mega Man 3",
+    "Mega Man 4",
+    "Mega Man 5",
+    "Mega Man 6",
+    "Mega Man 7",
+    "Mega Man 8",
+    "Mega Man 9",
+    "Mega Man 10",
+    "Mega Man 11"
+]
+},
+{
+"series": "Castlevania",
+"games": [
+    "Castlevania",
+    "Castlevania II: Simon's Quest",
+    "Castlevania: The Adventure",
+    "Castlevania III: Dracula's Curse",
+    "Castlevania II: Belmont's Revenge",
+    "Super Castlevania IV",
+    "Castlevania Chronicles",
+    "Castlevania: Bloodlines",
+    "Castlevania: Dracula X",
+    "Castlevania: Symphony of the Night",
+    "Castlevania Legends",
+    "Castlevania (1999)",
+    "Castlevania: Legacy of Darkness",
+    "Castlevania: Circle of the Moon",
+    "Castlevania: Harmony of Dissonance",
+    "Castlevania: Aria of Sorrow",
+    "Castlevania: Lament of Innocence",
+    "Castlevania: Dawn of Sorrow",
+    "Castlevania: Curse of Darkness",
+    "Castlevania: Portrait of Ruin",
+    "Castlevania: Order of Ecclesia",
+    "Castlevania: Lords of Shadow",
+    "Castlevania: Lords of Shadow - Mirror of Fate",
+    "Castlevania: Lords of Shadow 2"
+]
+},
+{
+"series": "Kirby",
+"games": [
+    "Kirby's Dream Land",
+    "Kirby's Adventure",
+    "Kirby's Dream Land 2",
+    "Kirby Super Star",
+    "Kirby's Dream Land 3",
+    "Kirby 64: The Crystal Shards",
+    "Kirby: Nightmare in Dream Land",
+    "Kirby & The Amazing Mirror",
+    "Kirby: Squeak Squad",
+    "Kirby Super Star Ultra",
+    "Kirby's Return to Dream Land",
+    "Kirby: Triple Deluxe",
+    "Kirby: Planet Robobot",
+    "Kirby Star Allies",
+    "Kirby and the Forgotten Land",
+    "Kirby's Return to Dream Land Deluxe"
+]
+},
+{
+"series": "Punch-Out!!",
+"games": [
+    "Mike Tyson's Punch-Out!!",
+    "Super Punch-Out!!",
+    "Punch-Out!!"
+]
+},
+{
+"series": "Metroid",
+"games": [
+    "Metroid",
+    "Metroid II: Return of Samus",
+    "Super Metroid",
+    "Metroid Fusion",
+    "Metroid Prime",
+    "Metroid: Zero Mission",
+    "Metroid Prime 2: Echoes",
+    "Metroid Prime 3: Corruption",
+    "Metroid: Other M",
+    "Metroid: Samus Returns",
+    "Metroid Dread",
+    "Metroid Prime 4: Beyond"
+]
+},
+{
+"series": "The Legend of Zelda",
+"games": [
+    "The Legend of Zelda",
+    "Zelda II: The Adventure of Link",
+    "The Legend of Zelda: A Link to the Past",
+    "The Legend of Zelda: Ocarina of Time",
+    "The Legend of Zelda: Majora's Mask",
+    "The Legend of Zelda: Oracle of Seasons",
+    "The Legend of Zelda: Oracle of Ages",
+    "Four Swords",
+    "The Legend of Zelda: The Wind Waker",
+    "The Legend of Zelda: Four Swords Adventures",
+    "The Legend of Zelda: The Minish Cap",
+    "The Legend of Zelda: Twilight Princess",
+    "The Legend of Zelda: Phantom Hourglass",
+    "The Legend of Zelda: Spirit Tracks",
+    "The Legend of Zelda: Skyward Sword",
+    "The Legend of Zelda: A Link Between Worlds",
+    "The Legend of Zelda: Tri Force Heroes",
+    "The Legend of Zelda: Breath of the Wild",
+    "The Legend of Zelda: Link's Awakening (2019)",
+    "The Legend of Zelda: Tears of the Kingdom",
+    "The Legend of Zelda: Echoes of Wisdom"
+]
+},
+{
+"series": "Dragon Quest",
+"games": [
+    "Dragon Quest",
+    "Dragon Quest II",
+    "Dragon Quest III",
+    "Dragon Quest IV",
+    "Dragon Quest V",
+    "Dragon Quest VI",
+    "Dragon Quest VII",
+    "Dragon Quest VIII",
+    "Dragon Quest IX",
+    "Dragon Quest X",
+    "Dragon Quest XI"
+]
+},
+{
+"series": "Final Fantasy",
+"games": [
+    "Final Fantasy",
+    "Final Fantasy II",
+    "Final Fantasy III",
+    "Final Fantasy IV",
+    "Final Fantasy V",
+    "Final Fantasy VI",
+    "Final Fantasy VII",
+    "Final Fantasy VIII",
+    "Final Fantasy IX",
+    "Final Fantasy X",
+    "Final Fantasy XI",
+    "Final Fantasy XII",
+    "Final Fantasy XIII",
+    "Final Fantasy XIV",
+    "Final Fantasy XV",
+    "Final Fantasy XVI"
+]
+},
+{
+"series": "Alex Kidd",
+"games": [
+    "Alex Kidd in Miracle World",
+    "Alex Kidd: High-Tech World",
+    "Alex Kidd in the Enchanted Castle",
+    "Alex Kidd in Shinobi World",
+    "Alex Kidd in Miracle World DX"
+]
+},
+{
+"series": "R-Type",
+"games": [
+    "R-Type",
+    "R-Type II",
+    "R-Type III: The Third Lightning",
+    "R-Type Delta",
+    "R-Type Final",
+    "R-Type Final 2",
+    "R-Type Final 3 Evolved"
+]
+},
+{
+"series": "Fantasy Zone",
+"games": [
+    "Fantasy Zone",
+    "Fantasy Zone II: The Tears of Opa-Opa",
+    "Super Fantasy Zone"
+]
+},
+{
+"series": "Shinobi",
+"games": [
+    "Shinobi",
+    "Shadow Dancer",
+    "The Revenge of Shinobi",
+    "Shadow Dancer: The Secret of Shinobi",
+    "The Cyber Shinobi",
+    "Shinobi III: Return of the Ninja Master",
+    "Shinobi Legions",
+    "Shinobi (2002)",
+    "Nightshade",
+    "Shinobi (2011)",
+    "Shinobi: Art of Vengeance"
+]
+},
+{
+"series": "Wonder Boy",
+"games": [
+    "Wonder Boy",
+    "Wonder Boy in Monster Land",
+    "Wonder Boy III: The Dragon's Trap",
+    "Wonder Boy in Monster World"
+]
+},
+{
+"series": "Ys",
+"games": [
+    "Ys I: Ancient Ys Vanished",
+    "Ys II: Ancient Ys Vanished - The Final Chapter",
+    "Ys III: Wanderers from Ys",
+    "Ys IV: Mask of the Sun",
+    "Ys V: Lost Kefin, Kingdom of Sand",
+    "Ys VI: The Ark of Napishtim",
+    "Ys: The Oath in Felghana",
+    "Ys Seven",
+    "Ys VIII: Lacrimosa of Dana",
+    "Ys IX: Monstrum Nox",
+    "Ys X: Nordics"
+]
+},
+{
+"series": "Phantasy Star",
+"games": [
+    "Phantasy Star",
+    "Phantasy Star II",
+    "Phantasy Star III: Generations of Doom",
+    "Phantasy Star IV: The End of the Millennium"
+]
+}
+]

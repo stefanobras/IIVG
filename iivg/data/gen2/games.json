@@ -1,0 +1,467 @@
+[
+{
+"id": "1985-1",
+"title": "Hang-On",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Master System",
+"releaseYear": 1985,
+"orderIndex": 7.513,
+"image": "https://images.launchbox-app.com//de8f4d64-647d-442c-b6b9-2b0ad1c6a903.png",
+"gen": 1
+},
+{
+"id": "1985-2",
+"title": "Super Mario Bros.",
+"series": "Super Mario",
+"seriesIndex": 1,
+"console": "NES",
+"releaseYear": 1985,
+"orderIndex": 4.168,
+"image": "https://images.launchbox-app.com//713ad66d-6083-4e89-b1e9-b895c87dffbd.png",
+"gen": 1
+},
+{
+"id": "1985-3",
+"title": "Space Harrier",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Master System",
+"releaseYear": 1985,
+"orderIndex": 6.544,
+"image": "https://gamesdb-images.launchbox.gg/r2_26bc168b-e555-43e8-adbd-21666256215a.png",
+"gen": 1
+},
+
+
+{
+"id": "1986-1",
+"title": "Out Run",
+"series": "Fantasy Zone",
+"seriesIndex": 1,
+"console": "Sega Master System",
+"releaseYear": 1986,
+"orderIndex": 6.737,
+"image": "https://images.launchbox-app.com//e1650cc2-7935-4890-8ffc-6f7bcc3e0dc8.png",
+"gen": 1
+},
+{
+"id": "1986-2",
+"title": "Fantasy Zone",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Master System",
+"releaseYear": 1986,
+"orderIndex": 6.289,
+"image": "https://images.launchbox-app.com//ea3136c5-a60f-4668-96f9-2c8b760df8e1.png",
+"gen": 1
+},
+{
+"id": "1986-3",
+"title": "Alex Kidd in Miracle World",
+"series": "Alex Kidd",
+"seriesIndex": "Alex Kidd",
+"console": "Sega Master System",
+"releaseYear": 1986,
+"orderIndex": 3.251,
+"image": "https://images.launchbox-app.com//e6a33c2a-a096-4f20-99bd-0c80f7013d0b.png",
+"gen": 1
+},
+{
+"id": "1986-4",
+"title": "Wonder Boy",
+"series": "Wonder Boy",
+"seriesIndex": 1,
+"console": "Sega Master System",
+"releaseYear": 1986,
+"orderIndex": 2.061,
+"image": "https://images.launchbox-app.com//c95b1d5e-c478-4846-9045-133d78aee293.png",
+"gen": 1
+},
+
+
+
+{
+"id": "1987-1",
+"title": "R-Type",
+"series": "R-Type",
+"seriesIndex": 1,
+"console": "Sega Master System",
+"releaseYear": 1987,
+"orderIndex": 6.400,
+"image": "https://images.launchbox-app.com//e88e75b7-5da9-4461-8bb3-4ddc7e82df84.png",
+"gen": 1
+},
+{
+"id": "1987-2",
+"title": "Pac-Mania",
+"series": "Pac-Man",
+"seriesIndex": 3,
+"console": "Sega Master System",
+"releaseYear": 1987,
+"orderIndex": 6.073,
+"image": "https://images.launchbox-app.com//2bfda23f-65fa-45ea-8bb6-91eb1a64fe03.png",
+"gen": 1
+},
+{
+"id": "1987-3",
+"title": "After Burner",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Master System",
+"releaseYear": 1987,
+"orderIndex": 6.072,
+"image": "https://images.launchbox-app.com//2d401a8f-afa7-41ae-a1c1-91b6d5e89d8a.png",
+"gen": 1
+},
+{
+"id": "1987-4",
+"title": "Shinobi",
+"series": "Shinobi",
+"seriesIndex": 1,
+"console": "Sega Master System",
+"releaseYear": 1987,
+"orderIndex": 4.306,
+"image": "https://images.launchbox-app.com//a5a6de15-395f-4ec1-ae5e-0367318c7412.png",
+"gen": 1
+},
+{
+"id": "1987-5",
+"title": "Castlevania",
+"series": "Castlevania",
+"seriesIndex": 1,
+"console": "NES",
+"releaseYear": 1987,
+"orderIndex": 2.463,
+"image": "https://images.launchbox-app.com//ed029744-eff6-49f0-9f6c-361be31209b8.png",
+"gen": 1
+},
+{
+"id": "1987-6",
+"title": "Mike Tyson's Punch-Out!!",
+"series": "Punch-Out!!",
+"seriesIndex": 1,
+"console": "NES",
+"releaseYear": 1987,
+"orderIndex": 1.687,
+"image": "https://images.launchbox-app.com//128d493f-d0c0-4307-9bee-eca70a57a088.png",
+"gen": 1
+},
+{
+"id": "1987-7",
+"title": "Metroid",
+"series": "Metroid",
+"seriesIndex": 1,
+"console": "NES",
+"releaseYear": 1987,
+"orderIndex": 1.092,
+"image": "https://images.launchbox-app.com//9d168c50-dad2-4b0f-9f28-83182f1b9677.png",
+"gen": 1
+},
+{
+"id": "1987-8",
+"title": "The Legend of Zelda",
+"series": "The Legend of Zelda",
+"seriesIndex": 1,
+"console": "NES",
+"releaseYear": 1987,
+"orderIndex": 0.936,
+"image": "https://images.launchbox-app.com//6a64b2a8-f946-4a55-bf85-e13282d4b4af.png",
+"gen": 1
+},
+
+
+
+{
+"id": "1988-1",
+"title": "Contra",
+"series": "Contra",
+"seriesIndex": 1,
+"console": "NES",
+"releaseYear": 1988,
+"orderIndex": 7.801,
+"image": "https://images.launchbox-app.com//334db7d2-c0e8-4b1b-8c79-8ba87a594a86.png",
+"gen": 2
+},
+{
+"id": "1988-2",
+"title": "Super Mario Bros. 2",
+"series": "Super Mario",
+"seriesIndex": 2,
+"console": "NES",
+"releaseYear": 1988,
+"orderIndex": 2.461,
+"image": "https://images.launchbox-app.com//f3506f48-5f8c-44e9-90ea-7bc4ba22f9df.png",
+"gen": 2
+},
+{
+"id": "1988-3",
+"title": "Wonder Boy in Monster Land",
+"series": "Wonder Boy",
+"seriesIndex": 2,
+"console": "Sega Master System",
+"releaseYear": 1988,
+"orderIndex": 1.350,
+"image": "https://images.launchbox-app.com//7d8bb13c-4a64-4cac-bb25-38a6c56f87d8.png",
+"gen": 2
+},
+{
+"id": "1988-4",
+"title": "Phantasy Star",
+"series": "Phantasy Star",
+"seriesIndex": 1,
+"console": "Sega Master System",
+"releaseYear": 1988,
+"orderIndex": 1.350,
+"image": "https://images.launchbox-app.com//46a52174-67ed-4a71-b3d5-d8a469346544.png",
+"gen": 2
+},
+
+
+
+{
+"id": "1989-1",
+"title": "Teenage Mutant Ninja Turtles II: The Arcade Game",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 2,
+"console": "NES",
+"releaseYear": 1989,
+"orderIndex": 4.815,
+"image": "https://images.launchbox-app.com//bc782ee8-ab8d-4ca6-a38c-6b37dce42ba7.png",
+"gen": 2
+},
+{
+"id": "1989-2",
+"title": "DuckTales",
+"series": null,
+"seriesIndex": null,
+"console": "NES",
+"releaseYear": 1989,
+"orderIndex": 4.808,
+"image": "https://images.launchbox-app.com//e8b4a2fc-59bc-40f5-bd5f-6b17f5781f63.png",
+"gen": 2
+},
+{
+"id": "1989-3",
+"title": "Mega Man 2",
+"series": "Mega Man",
+"seriesIndex": 2,
+"console": "NES",
+"releaseYear": 1989,
+"orderIndex": 2.642,
+"image": "https://images.launchbox-app.com//0864194b-45b4-4cdd-b142-02ad27e69211.png",
+"gen": 2
+},
+{
+"id": "1989-4",
+"title": "Ninja Gaiden",
+"series": "Ninja Gaiden",
+"seriesIndex": 1,
+"console": "NES",
+"releaseYear": 1989,
+"orderIndex": 2.422,
+"image": "https://images.launchbox-app.com//66d9f622-d694-4134-93ef-c032a8c5338c.png",
+"gen": 2
+},
+{
+"id": "1989-5",
+"title": "California Games",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Master System",
+"releaseYear": 1989,
+"orderIndex": 1.775,
+"image": "https://images.launchbox-app.com//e9b95cef-11ca-4bb9-a997-4032a77ea19b.png",
+"gen": 2
+},
+{
+"id": "1989-6",
+"title": "Wonder Boy III: The Dragon's Trap",
+"series": "Wonder Boy",
+"seriesIndex": 3,
+"console": "Sega Master System",
+"releaseYear": 1989,
+"orderIndex": 1.063,
+"image": "https://images.launchbox-app.com//e4be744d-a13b-4588-93c9-492bd91b4522.png",
+"gen": 2
+},
+{
+"id": "1989-7",
+"title": "Ys: The Vanished Omens",
+"series": "Ys",
+"seriesIndex": 3,
+"console": "Sega Master System",
+"releaseYear": 1989,
+"orderIndex": 0.808,
+"image": "https://images.launchbox-app.com//b048ea1c-f8fd-4b28-95de-e3a89823b978.png",
+"gen": 2
+},
+{
+"id": "1989-8",
+"title": "Dragon Quest",
+"series": "Dragon Quest",
+"seriesIndex": 1,
+"console": "NES",
+"releaseYear": 1989,
+"orderIndex": 0.473,
+"image": "https://images.launchbox-app.com//ae462d70-6521-4299-98c3-cd1bdfc05b80.png",
+"gen": 2
+},
+
+
+{
+"id": "1990-1",
+"title": "Alex Kidd in Shinobi World",
+"series": "Alex Kidd",
+"seriesIndex": 4,
+"console": "Sega Master System",
+"releaseYear": 1990,
+"orderIndex": 8.163,
+"image": "https://images.launchbox-app.com//28ff3c6d-966e-4880-8046-8d8df12269ae.png",
+"gen": 2
+},
+{
+"id": "1990-2",
+"title": "R.C. Grand Prix",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Master System",
+"releaseYear": 1990,
+"orderIndex": 3.038,
+"image": "https://images.launchbox-app.com//173dcac3-014a-43dd-a3bb-6f16531df10d.png",
+"gen": 2
+},
+{
+"id": "1990-3",
+"title": "Mega Man 3",
+"series": "Mega Man",
+"seriesIndex": 3,
+"console": "NES",
+"releaseYear": 1990,
+"orderIndex": 2.136,
+"image": "https://images.launchbox-app.com//59aa9119-b8bf-45dd-9bdf-c6d1c9c40541.png",
+"gen": 2
+},
+{
+"id": "1990-4",
+"title": "Castlevania III: Dracula's Curse",
+"series": "Castlevania",
+"seriesIndex": 4,
+"console": "NES",
+"releaseYear": 1990,
+"orderIndex": 1.644,
+"image": "https://images.launchbox-app.com//ac727c49-c0ef-4298-aa18-7ed6d658cd74.png",
+"gen": 2
+},
+{
+"id": "1990-5",
+"title": "Super Mario Bros. 3",
+"series": "Super Mario",
+"seriesIndex": 3,
+"console": "NES",
+"releaseYear": 1990,
+"orderIndex": 0.498,
+"image": "https://images.launchbox-app.com//174ffd17-c402-46f3-a298-da381f49bb23.png",
+"gen": 2
+},
+{
+"id": "1990-6",
+"title": "Final Fantasy",
+"series": "Final Fantasy",
+"seriesIndex": 1,
+"console": "NES",
+"releaseYear": 1990,
+"orderIndex": 0.418,
+"image": "https://images.launchbox-app.com//174ffd17-c402-46f3-a298-da381f49bb23.png",
+"gen": 2
+},
+
+
+
+{
+"id": "1991-1",
+"title": "Rampart",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Master System",
+"releaseYear": 1991,
+"orderIndex": 2.431,
+"image": "https://images.launchbox-app.com//23c6db53-0470-4fa2-a5b8-be37d6b224df.png",
+"gen": 2
+},
+
+
+
+{
+"id": "1992-1",
+"title": "Master of Darkness",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Master System",
+"releaseYear": 1992,
+"orderIndex": 4.026,
+"image": "https://images.launchbox-app.com//5785e7e3-7063-48fb-bce7-aff6a7216ec2.png",
+"gen": 2
+},
+{
+"id": "1992-2",
+"title": "Asterix (1992)",
+"series": "Asterix",
+"seriesIndex": 1,
+"console": "Sega Master System",
+"releaseYear": 1992,
+"orderIndex": 2.443,
+"image": "https://images.launchbox-app.com//029816b9-8174-48c7-98d5-523d1057be41.png",
+"gen": 2
+},
+{
+"id": "1992-3",
+"title": "Mega Man 4",
+"series": "Mega Man",
+"seriesIndex": 4,
+"console": "NES",
+"releaseYear": 1992,
+"orderIndex": 2.360,
+"image": "https://images.launchbox-app.com//765ae056-6312-46ec-be80-48f653bcaa05.png",
+"gen": 2
+},
+{
+"id": "1992-4",
+"title": "Mega Man 5",
+"series": "Mega Man",
+"seriesIndex": 5,
+"console": "NES",
+"releaseYear": 1992,
+"orderIndex": 2.384,
+"image": "https://images.launchbox-app.com//8aa89228-6307-4147-807b-9796b9267e87.png",
+"gen": 2
+},
+
+
+
+{
+"id": "1993-1",
+"title": "Kirby's Adventure",
+"series": "Kirby",
+"seriesIndex": 1,
+"console": "NES",
+"releaseYear": 1993,
+"orderIndex": 1.908,
+"image": "https://images.launchbox-app.com//45466fdf-6e9c-4323-9c90-6f3f842f5b86.png",
+"gen": 2
+},
+
+
+
+{
+"id": "1994-1",
+"title": "Mega Man 6",
+"series": "Mega Man",
+"seriesIndex": 6,
+"console": "NES",
+"releaseYear": 1994,
+"orderIndex": 2.397,
+"image": "https://images.launchbox-app.com//b69a0dc9-cdf1-4944-83a8-0c0c3aae2718.png",
+"gen": 2
+}
+]
