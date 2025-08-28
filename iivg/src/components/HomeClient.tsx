@@ -6,7 +6,7 @@ import type { Catalog, Game } from "@/lib/types";
 import GameCard from "@/components/GameCard";
 import ElectiveForm from "@/components/ElectiveForm";
 import AchievementModal from "@/components/AchievementModal";
-
+import Link from "next/link";
 
 export default function HomeClient({ catalog }: { catalog: Catalog }) {
   const { available, completed, dynamicExtras, bootstrap, complete } = useIIVG();
@@ -48,12 +48,12 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
 
           {/* Right-side nav */}
           <nav className="flex items-center gap-4">
-            <a
+            <Link
               href="/achievements"
               className="font-header tracking-wide uppercase text-lg underline decoration-transparent hover:decoration-inherit transition-colors hover:text-[var(--iivg-royal)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--iivg-royal)] rounded"
             >
               Achievements
-            </a>
+            </Link>
           </nav>
         </div>
       </header>

@@ -47,7 +47,9 @@ export type UserState = {
 
 export type AchievementRecord = {
   console: string;
-  label: string;      // e.g. "Kindergarten"
-  earnedAt: string;   // ISO date
+  label: string;         // e.g. "Kindergarten Diploma"
+  earnedAt: string;      // ISO date
+  imageDataUrl?: string; 
 };
+
 

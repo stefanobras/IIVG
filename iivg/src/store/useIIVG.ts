@@ -8,7 +8,8 @@ type Actions = {
   bootstrap: (catalog: Catalog) => void;
   complete: (game: Game, rating: number, catalog: Catalog) => void;
   setName: (name: string) => void;
-  dismissAchievement: () => void; // NEW
+  dismissAchievement: () => void;
+  attachImageToLastEarned: (dataUrl: string) => void; //
 };
 
 function consoleCounts(completed: Completion[], catalog: Catalog, dynamicExtras: Game[]) {
@@ -110,7 +111,27 @@ export const useIIVG = create<UserState & Actions>()((set, get) => ({
     return next;
   }),
 
-
   setName: (name) => set(() => ({ name })),
-  dismissAchievement: () => set(() => ({ lastEarned: null })), // NEW
+  dismissAchievement: () => set(() => ({ lastEarned: null })),
+
+  attachImageToLastEarned: (dataUrl) => set((s) => {
+    if (!s.lastEarned) return s;
+    const { console: con, label } = s.lastEarned;
+
+    const idx = s.earnedAchievements.findIndex(a => a.console === con && a.label === label);
+    // if already has an image, do nothing
+    if (idx >= 0 && s.earnedAchievements[idx].imageDataUrl) return s;
+
+    const earned = [...s.earnedAchievements];
+    if (idx >= 0) {
+      earned[idx] = { ...earned[idx], imageDataUrl: dataUrl };
+    } else {
+      earned.push({ ...s.lastEarned, imageDataUrl: dataUrl });
+    }
+
+    return {
+      earnedAchievements: earned,
+      lastEarned: { ...s.lastEarned, imageDataUrl: dataUrl },
+    };
+  }),
 }));

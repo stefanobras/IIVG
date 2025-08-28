@@ -2,6 +2,7 @@
 import { useEffect, useMemo, useRef } from "react";
 import { degreeIndex } from "@/lib/achievements";
 import type { AchievementRecord } from "@/lib/types";
+import { useIIVG } from "@/store/useIIVG"; 
 
 export default function AchievementModal({
   record,
@@ -12,7 +13,10 @@ export default function AchievementModal({
   userName?: string;
   onClose: () => void;
 }) {
+
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
+  const savedKeyRef = useRef<string | null>(null);
+  const { attachImageToLastEarned } = useIIVG(); 
 
   const tplPath = useMemo(() => {
     if (!record) return null;
@@ -43,17 +47,28 @@ export default function AchievementModal({
       const consoleText = record.console;
 
       // Name
-      ctx.font = "700 64px Roboto, Arial, sans-serif";
+      ctx.font = "700 48px Roboto Mono, Arial, sans-serif";
       ctx.fillStyle = "#111";
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
 
       // center-ish
-      ctx.fillText(nameText, W / 2, H * 0.48);
+      ctx.fillText(nameText, W / 2, H * 0.55);
 
       // Console line
-      ctx.font = "500 40px Roboto, Arial, sans-serif";
-      ctx.fillText(consoleText, W / 2, H * 0.62);
+      ctx.font = "700 40px Roboto Mono, Arial, sans-serif";
+      ctx.fillText(consoleText, W / 2, H * 0.68);
+
+       const key = `${record.console}__${record.label}`;
+        if (savedKeyRef.current !== key) {
+          savedKeyRef.current = key;
+          try {
+            const dataUrl = canvas.toDataURL("image/png");
+            attachImageToLastEarned(dataUrl);
+          } catch {
+            // ignore (e.g., if user closed quickly)
+          }
+        }
     };
     img.src = tplPath;
   }, [record, tplPath, userName]);
@@ -66,7 +81,7 @@ export default function AchievementModal({
       role="dialog"
       aria-modal="true"
     >
-      <div className="relative w-[min(92vw,900px)] rounded-2xl border bg-white shadow-xl">
+      <div className="relative w-[min(92vw,900px)] rounded-2xl border bg-black shadow-xl">
         {/* Close */}
         <button
           onClick={onClose}
@@ -88,8 +103,8 @@ export default function AchievementModal({
             />
           </div>
 
-          <p className="text-center text-sm text-zinc-600 px-4 pb-2">
-            You can review your educational certificates at any time by clicking on <span className="font-semibold">“Achievements”</span> above.
+          <p className="text-center text-m text-white px-4 pb-2">
+            You can review your educational certificates at any time by clicking on <span className="font-semibold">“Achievements”</span> above.<br /> 
             Keep completing courses to advance your studies!
           </p>
         </div>

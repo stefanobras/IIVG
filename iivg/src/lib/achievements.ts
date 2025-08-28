@@ -1,6 +1,7 @@
 import type { Completion, Game } from "./types";
 
-
+export const PER_LEVEL_SPAN = 29;
+export const FIRST_BASE = 1;
 
 export const DEGREE_STEPS = [
 { threshold: 3, label: "Kindergarten Diploma" },
@@ -42,7 +43,16 @@ return { console, count, highest: highest?.label };
 return result.sort((a, b) => a.console.localeCompare(b.console));
 }
 
-
 export function hasAnyAchievement(completed: Completion[]) {
 return completed.length >= DEGREE_STEPS[0].threshold;
+}
+
+export function diplomaImageNumber(label: string, consoleName: string, consoleOrder: string[]) {
+  const lvl = degreeIndex(label) ?? 1;           // 1..8
+  const base = FIRST_BASE + (lvl - 1) * PER_LEVEL_SPAN; // 1, 30, 59, ...
+  const ord = consoleOrder.findIndex(
+    c => c.toLowerCase() === consoleName.toLowerCase()
+  );
+  const consoleOffset = Math.max(0, ord); // fallback to 0 if not found
+  return base + consoleOffset;            // e.g., 1 for Atari Kindergarten, 30 for Primary, etc.
 }
