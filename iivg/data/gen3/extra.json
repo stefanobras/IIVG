@@ -1,0 +1,92 @@
+[
+{
+"id": "shinobi-2",
+"title": "The Revenge of Shinobi",
+"series": "Shinobi",
+"seriesIndex": 2,
+"console": "Sega Genesis",
+"releaseYear": 1989,
+"orderIndex": 3.364,
+"image": "https://images.launchbox-app.com//448cf6d8-25a7-4019-b507-5214fbc83ff7.png",
+"gen": 3
+},
+{
+"id": "pacman-4",
+"title": "Pac-Attack",
+"series": "Pac-Man",
+"seriesIndex": 4,
+"console": "SNES",
+"releaseYear": 1993,
+"orderIndex": 0.800,
+"image": "https://images.launchbox-app.com//178401bc-116b-46af-8c3f-8bb37c874f29.png",
+"gen": 3
+},
+{
+"id": "megaman-7",
+"title": "Mega Man 7",
+"series": "Mega Man",
+"seriesIndex": 7,
+"console": "SNES",
+"releaseYear": 1995,
+"orderIndex": 1.597,
+"image": "https://images.launchbox-app.com//665a3ef4-679f-41bf-9306-03af0a9e7f23.png",
+"gen": 3
+},
+{
+"id": "punchout-2",
+"title": "Super Punch-Out!!",
+"series": "Punch-Out!!",
+"seriesIndex": 2,
+"console": "SNES",
+"releaseYear": 1994,
+"orderIndex": 0.955,
+"image": "https://images.launchbox-app.com//409b7967-c636-472e-a78c-3f10bba3bc9e.png",
+"gen": 2
+},
+{
+"id": "contra-3",
+"title": "Contra III: The Alien Wars",
+"series": "Contra",
+"seriesIndex": 3,
+"console": "SNES",
+"releaseYear": 1992,
+"orderIndex": 4.951,
+"image": "https://images.launchbox-app.com//3906b066-bd72-4276-8ec1-e5fbc1db7dcb.png",
+"gen": 2
+},
+{
+"id": "kirby-5",
+"title": "Kirby's Dream Land 3",
+"series": "Kirby",
+"seriesIndex": 5,
+"console": "SNES",
+"releaseYear": 1997,
+"orderIndex": 1.377,
+"image": "https://images.launchbox-app.com//d1ed6bb8-8beb-4490-a0ae-738cb7158d60.png",
+"gen": 2
+},
+{
+"id": "castlevania-6",
+"title": "Super Castlevania IV",
+"series": "Castlevania",
+"seriesIndex": 6,
+"console": "SNES",
+"releaseYear": 1991,
+"orderIndex": 1.919,
+"image": "https://images.launchbox-app.com//9978f26c-706b-4ffd-ae0f-8d08ea3b4c0c.png",
+"gen": 2
+},
+{
+"id": "finalfantasy-5",
+"title": "Final Fantasy V",
+"series": "Final Fantasy",
+"seriesIndex": 5,
+"console": "SNES",
+"releaseYear": 1992,
+"orderIndex": 0.206,
+"image": "https://images.launchbox-app.com//33d29e15-5b9c-49f4-a6ad-27c573a18856.png",
+"gen": 2
+}
+
+
+]

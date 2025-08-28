@@ -1,0 +1,200 @@
+[
+{
+"id": "spaceinvaders-2",
+"title": "Space Invaders Extreme",
+"series": "Space Invaders",
+"seriesIndex": 2,
+"console": "Nintendo DS",
+"releaseYear": 2008,
+"orderIndex": 3.130,
+"image": "https://images.launchbox-app.com//3891eb4d-6b44-4393-b688-04b410c38157.png",
+"gen": 6
+},
+{
+"id": "spaceinvaders-3",
+"title": "Space Invaders Extreme 2",
+"series": "Space Invaders",
+"seriesIndex": 3,
+"console": "Nintendo DS",
+"releaseYear": 2009,
+"orderIndex": 1.528,
+"image": "https://images.launchbox-app.com//8c21ad8e-4aae-40b5-8fd4-d140469f4922.png",
+"gen": 6
+},
+{
+"id": "pacman-11",
+"title": "Pac-Pix",
+"series": "Pac-Man",
+"seriesIndex": 11,
+"console": "Nintendo DS",
+"releaseYear": 2005,
+"orderIndex": 1.366,
+"image": "https://images.launchbox-app.com//a0fb40d5-b895-4784-82c6-2ea7c3b779ad.png",
+"gen": 6
+},
+{
+"id": "pacman-13",
+"title": "Pac'n Roll",
+"series": "Pac-Man",
+"seriesIndex": 13,
+"console": "Nintendo DS",
+"releaseYear": 2005,
+"orderIndex": 1.770,
+"image": "https://images.launchbox-app.com//fd2c6dbf-b820-4c9d-b1ac-cc0997bb3505.png",
+"gen": 6
+},
+{
+"id": "pacman-16",
+"title": "Pac-Man Party",
+"series": "Pac-Man",
+"seriesIndex": 16,
+"console": "Nintendo Wii",
+"releaseYear": 2010,
+"orderIndex": 0.439,
+"image": "https://images.launchbox-app.com//ff811779-5c47-40cb-bda7-ec47183c8cbd.png",
+"gen": 6
+},
+{
+"id": "megaman-9",
+"title": "Mega Man 9",
+"series": "Mega Man",
+"seriesIndex": 9,
+"console": "Nintendo Wii",
+"releaseYear": 2008,
+"orderIndex": 1.766,
+"image": "https://images.launchbox-app.com//4ed5708f-6dfe-4a42-8df9-6b406aae3a9d.png",
+"gen": 6
+},
+{
+"id": "megaman-10",
+"title": "Mega Man 10",
+"series": "Mega Man",
+"seriesIndex": 10,
+"console": "Nintendo Wii",
+"releaseYear": 2010,
+"orderIndex": 2.703,
+"image": "https://images.launchbox-app.com//a6b793f2-6763-43bd-ab0a-7cf500345def.png",
+"gen": 6
+},
+{
+"id": "zelda-11",
+"title": "The Legend of Zelda: Phantom Hourglass",
+"series": "The Legend of Zelda",
+"seriesIndex": 11,
+"console": "Nintendo DS",
+"releaseYear": 2007,
+"orderIndex": 0.351,
+"image": "https://images.launchbox-app.com//5052bdd0-b843-45a9-b664-749c2c677bd5.png",
+"gen": 6
+},
+{
+"id": "zelda-12",
+"title": "The Legend of Zelda: Spirit Tracks",
+"series": "The Legend of Zelda",
+"seriesIndex": 12,
+"console": "Nintendo DS",
+"releaseYear": 2009,
+"orderIndex": 0.302,
+"image": "https://images.launchbox-app.com//5dcd8bc0-914c-4f1c-895f-d514c928e9c2.png",
+"gen": 6
+},
+{
+"id": "contra-7",
+"title": "Contra 4",
+"series": "Contra",
+"seriesIndex": 7,
+"console": "Nintendo DS",
+"releaseYear": 2007,
+"orderIndex": 2.150,
+"image": "https://images.launchbox-app.com//d4069bdd-2bda-408c-b56d-bf00b61d9dab.png",
+"gen": 6
+},
+{
+"id": "kirby-10",
+"title": "Kirby Squeak Squad",
+"series": "Kirby",
+"seriesIndex": 10,
+"console": "Nintendo DS",
+"releaseYear": 2006,
+"orderIndex": 0.706,
+"image": "https://images.launchbox-app.com//46358b00-cb8c-4b98-ae4a-eb4d52acc816.png",
+"gen": 6
+},
+{
+"id": "kirby-11",
+"title": "Kirby Super Star Ultra",
+"series": "Kirby",
+"seriesIndex": 11,
+"console": "Nintendo DS",
+"releaseYear": 2008,
+"orderIndex": 0.965,
+"image": "https://images.launchbox-app.com//8800a2d2-38f4-4a9c-8499-bea9c993405e.png",
+"gen": 6
+},
+{
+"id": "castlevania-19",
+"title": "Castlevania: Portrait of Ruin",
+"series": "Castlevania",
+"seriesIndex": 19,
+"console": "Nintendo DS",
+"releaseYear": 2006,
+"orderIndex": 0.642,
+"image": "https://images.launchbox-app.com//575da1de-376b-4a11-aeb5-c3d08df7adc5.png",
+"gen": 6
+},
+{
+"id": "castlevania-20",
+"title": "Castlevania: Order of Ecclesia",
+"series": "Castlevania",
+"seriesIndex": 20,
+"console": "Nintendo DS",
+"releaseYear": 2008,
+"orderIndex": 0.609,
+"image": "https://images.launchbox-app.com//d3db7c44-708c-4bdc-8b5b-32f5c7eda5ed.png",
+"gen": 6
+},
+{
+"id": "castlevania-22",
+"title": "Castlevania: Lords of Shadow",
+"series": "Castlevania",
+"seriesIndex": 22,
+"console": "PlayStation 3",
+"releaseYear": 2010,
+"orderIndex": 0.355,
+"image": "https://images.launchbox-app.com//906d81d4-a711-4c6c-ad68-93691b25481a.png",
+"gen": 6
+},
+{
+"id": "finalfantasy-13",
+"title": "Final Fantasy XIII",
+"series": "Final Fantasy",
+"seriesIndex": 13,
+"console": "PlayStation 3",
+"releaseYear": 2010,
+"orderIndex": 0.124,
+"image": "https://images.launchbox-app.com//13a26c41-7191-4272-a7e2-e0c89d270b24.png",
+"gen": 6
+},
+{
+"id": "finalfantasy-14",
+"title": "Final Fantasy XIV Online: A Realm Reborn",
+"series": "Final Fantasy",
+"seriesIndex": 14,
+"console": "PC",
+"releaseYear": 2013,
+"orderIndex": 0.080,
+"image": "https://images.launchbox-app.com//d0c0ccc2-9120-4a62-80bd-2a8ac48f7e3a.jpg",
+"gen": 6
+},
+{
+"id": "ninjagaiden-5",
+"title": "Ninja Gaiden II",
+"series": "Ninja Gaiden",
+"seriesIndex": 5,
+"console": "Xbox 360",
+"releaseYear": 2008,
+"orderIndex": 0.487,
+"image": "https://images.launchbox-app.com//9ea885fe-4fcd-4ca7-ac88-ea54f546a2d3.png",
+"gen": 6
+}
+]

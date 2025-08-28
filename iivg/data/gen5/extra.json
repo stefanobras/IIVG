@@ -1,0 +1,101 @@
+[
+{
+"id": "pitfall-6",
+"title": "Pitfall: The Lost Expedition",
+"series": "Pitfall",
+"seriesIndex": 6,
+"console": "PlayStation 2",
+"releaseYear": 2004,
+"orderIndex": 0.597,
+"image": "https://images.launchbox-app.com//f0256b4f-9384-4799-825a-57501a38bcde.png",
+"gen": 5
+},
+{
+"id": "zelda-8",
+"title": "The Legend of Zelda: Four Swords Adventures",
+"series": "The Legend of Zelda",
+"seriesIndex": 8,
+"console": "GameCube",
+"releaseYear": 2004,
+"orderIndex": 0.470,
+"image": "https://images.launchbox-app.com//722dd98c-e22c-4181-aaa8-2b6f24dde1c3.png",
+"gen": 5
+},
+{
+"id": "contra-5",
+"title": "Contra: Shattered Soldier",
+"series": "Contra",
+"seriesIndex": 5,
+"console": "PlayStation 2",
+"releaseYear": 2004,
+"orderIndex": 3.153,
+"image": "https://images.launchbox-app.com//d29a1102-a21b-4538-8a9e-bfd2c10b4f18.png",
+"gen": 5
+},
+{
+"id": "kirby-8",
+"title": "Kirby Air Ride",
+"series": "Kirby",
+"seriesIndex": 8,
+"console": "GameCube",
+"releaseYear": 2003,
+"orderIndex": 0.514,
+"image": "https://images.launchbox-app.com//0ca364f0-0d1a-4dc2-adc9-eace689e3ce5.png",
+"gen": 5
+},
+{
+"id": "castlevania-14",
+"title": "Castlevania: Harmony of Dissonance",
+"series": "Castlevania",
+"seriesIndex": 14,
+"console": "Game Boy Advance",
+"releaseYear": 2002,
+"orderIndex": 0.848,
+"image": "https://images.launchbox-app.com//e9fbf7b8-cfa6-4330-8484-fe6519494095.png",
+"gen": 5
+},
+{
+"id": "castlevania-16",
+"title": "Castlevania: Lament of Innocence",
+"series": "Castlevania",
+"seriesIndex": 16,
+"console": "PlayStation 2",
+"releaseYear": 2003,
+"orderIndex": 0.806,
+"image": "https://images.launchbox-app.com//1b0e65d4-9a5b-4957-acfc-058a47459c16.png",
+"gen": 5
+},
+{
+"id": "castlevania-18",
+"title": "Castlevania: Curse of Darkness",
+"series": "Castlevania",
+"seriesIndex": 18,
+"console": "PlayStation 2",
+"releaseYear": 2005,
+"orderIndex": 0.448,
+"image": "https://images.launchbox-app.com//75c222ad-1040-4d0b-a878-5908ec5790f6.png",
+"gen": 5
+},
+{
+"id": "finalfantasy-11",
+"title": "Final Fantasy XI",
+"series": "Final Fantasy",
+"seriesIndex": 11,
+"console": "PC",
+"releaseYear": 2003,
+"orderIndex": 0.074,
+"image": "https://images.launchbox-app.com//4dbc9b5b-fb4c-4c4c-ab01-401c8beb93b0.jpg",
+"gen": 5
+},
+{
+"id": "finalfantasy-12",
+"title": "Final Fantasy XII",
+"series": "Final Fantasy",
+"seriesIndex": 12,
+"console": "PlayStation 2",
+"releaseYear": 2003,
+"orderIndex": 0.088,
+"image": "https://images.launchbox-app.com//4ea87e6d-da85-4a6d-bfdc-e13e64efc587.png",
+"gen": 5
+}
+]

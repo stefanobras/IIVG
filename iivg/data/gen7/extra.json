@@ -1,0 +1,124 @@
+[
+{
+"id": "yars-3",
+"title": "Yars: Recharged",
+"series": "Yars",
+"seriesIndex": 3,
+"console": "PC",
+"releaseYear":  2022,
+"orderIndex": 0.8173,
+"image": "https://images.launchbox-app.com//e7417a1e-8d4e-4cc9-9a0c-80cd8920fd0b.jpg",
+"gen": 7
+},
+{
+"id": "yars-4",
+"title": "Yars Rising",
+"series": "Yars",
+"seriesIndex": 4,
+"console": "PC",
+"releaseYear":  2024,
+"orderIndex": 0.649,
+"image": "https://images.launchbox-app.com//38e9020b-cf3d-43ff-be77-6f7825b3092f.jpg",
+"gen": 7
+},
+{
+"id": "supermario-15",
+"title": "New Super Mario Bros. 2",
+"series": "Super Mario",
+"seriesIndex": 15,
+"console": "Nintendo 3DS",
+"releaseYear":  2012,
+"orderIndex": 0.810,
+"image": "https://images.launchbox-app.com//10b9d6e6-a2c7-4f6d-9815-b680c083205a.png",
+"gen": 7
+},
+{
+"id": "supermario-20",
+"title": "Super Mario Maker 2",
+"series": "Super Mario",
+"seriesIndex": 20,
+"console": "Nintendo Switch",
+"releaseYear":  2019,
+"orderIndex": 0.638,
+"image": "https://images.launchbox-app.com//e0e4901a-4137-42c1-b9b2-963c208e7d8b.png",
+"gen": 7
+},
+{
+"id": "megaman-11",
+"title": "Mega Man 11",
+"series": "Mega Man",
+"seriesIndex": 11,
+"console": "Nintendo Switch",
+"releaseYear":  2018,
+"orderIndex": 1.327,
+"image": "https://images.launchbox-app.com//7b279e9b-8d42-4e64-8e83-2d5a90f53fc4.png",
+"gen": 7
+},
+{
+"id": "zelda-15",
+"title": "The Legend of Zelda: Tri Force Heroes",
+"series": "The Legend of Zelda",
+"seriesIndex": 15,
+"console": "Nintendo 3DS",
+"releaseYear": 2015,
+"orderIndex": 0.207,
+"image": "https://images.launchbox-app.com//bc432d47-c2e5-40dd-93e2-baf5102a2725.png",
+"gen": 7
+},
+{
+"id": "contra-8",
+"title": "Contra: Operation Galuga",
+"series": "Contra",
+"seriesIndex": 8,
+"console": "PC",
+"releaseYear": 2024,
+"orderIndex": 2.202,
+"image": "https://images.launchbox-app.com//4109ff7f-f15f-4f31-a5b8-0603affa6720.jpg",
+"gen": 7
+},
+{
+"id": "kirby-14",
+"title": "Kirby: Triple Deluxe",
+"series": "Kirby",
+"seriesIndex": 14,
+"console": "Nintendo 3DS",
+"releaseYear": 2014,
+"orderIndex": 0.702,
+"image": "https://images.launchbox-app.com//747e3d8e-eb0d-4995-b616-8a5d759cc58f.png",
+"gen": 7
+},
+{
+"id": "kirby-16",
+"title": "Kirby: Star Allies",
+"series": "Kirby",
+"seriesIndex": 16,
+"console": "Nintendo Switch",
+"releaseYear":  2018,
+"orderIndex": 0.889,
+"image": "https://images.launchbox-app.com//728776c0-eb11-4deb-89ee-539280e48c9f.png",
+"gen": 7
+},
+{
+"id": "kirby-18",
+"title": "Kirby's Return to Dream Land Deluxe",
+"series": "Kirby",
+"seriesIndex": 18,
+"console": "Nintendo Switch",
+"releaseYear":  2023,
+"orderIndex": 0.693,
+"image": "https://images.launchbox-app.com//2f2f6f74-ef2d-4fc1-90cc-d1b7b9295a98.png",
+"gen": 7
+},
+{
+"id": "finalfantasy-15",
+"title": "Final Fantasy XV",
+"series": "Final Fantasy",
+"seriesIndex": 15,
+"console": "PlayStation 4",
+"releaseYear": 2016,
+"orderIndex": 0.150,
+"image": "https://images.launchbox-app.com//d51578d2-1afe-4721-9408-cd878dc440e9.jpg",
+"gen": 7
+}
+
+]

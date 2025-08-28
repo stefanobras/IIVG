@@ -1,0 +1,35 @@
+[
+{
+"id": "megaman-8",
+"title": "Mega Man 8",
+"series": "Mega Man",
+"seriesIndex": 8,
+"console": "PlayStation",
+"releaseYear": 1997,
+"orderIndex": 1.560,
+"image": "https://images.launchbox-app.com//f7aa02e0-7f41-455a-94cf-3a87444a1130.png",
+"gen": 4
+},
+{
+"id": "kirby-6",
+"title": "Kirby 64: The Crystal Shards",
+"series": "Kirby",
+"seriesIndex": 6,
+"console": "Nintendo 64",
+"releaseYear": 1997,
+"orderIndex": 1.450,
+"image": "https://images.launchbox-app.com//f4fdcb1d-25de-462c-aa50-6b7757503595.png",
+"gen": 4
+},
+{
+"id": "castlevania-11",
+"title": "Castlevania: Legacy of Darkness",
+"series": "Castlevania",
+"seriesIndex": 11,
+"console": "Nintendo 64",
+"releaseYear": 1999,
+"orderIndex": 0.748,
+"image": "https://images.launchbox-app.com//090ebb23-1a60-45a8-9431-855231bcf6bf.png",
+"gen": 4
+}
+]

@@ -3,7 +3,7 @@
 "series": "Contra",
 "games": [
     "Contra",
-    "Super Contra",
+    "Super C",
     "Contra III: The Alien Wars",
     "Contra: Hard Corps",
     "Contra: Shattered Soldier",
@@ -92,14 +92,13 @@
     "Castlevania III: Dracula's Curse",
     "Castlevania II: Belmont's Revenge",
     "Super Castlevania IV",
-    "Castlevania Chronicles",
     "Castlevania: Bloodlines",
     "Castlevania: Dracula X",
     "Castlevania: Symphony of the Night",
     "Castlevania Legends",
-    "Castlevania (1999)",
     "Castlevania: Legacy of Darkness",
     "Castlevania: Circle of the Moon",
+    "Castlevania Chronicles",
     "Castlevania: Harmony of Dissonance",
     "Castlevania: Aria of Sorrow",
     "Castlevania: Lament of Innocence",
@@ -107,6 +106,7 @@
     "Castlevania: Curse of Darkness",
     "Castlevania: Portrait of Ruin",
     "Castlevania: Order of Ecclesia",
+    "Castlevania Judgment",
     "Castlevania: Lords of Shadow",
     "Castlevania: Lords of Shadow - Mirror of Fate",
     "Castlevania: Lords of Shadow 2"
@@ -122,15 +122,18 @@
     "Kirby's Dream Land 3",
     "Kirby 64: The Crystal Shards",
     "Kirby: Nightmare in Dream Land",
+    "Kirby Air Ride",
     "Kirby & The Amazing Mirror",
     "Kirby: Squeak Squad",
     "Kirby Super Star Ultra",
+    "Kirby's Epic Yarn",
     "Kirby's Return to Dream Land",
     "Kirby: Triple Deluxe",
     "Kirby: Planet Robobot",
     "Kirby Star Allies",
     "Kirby and the Forgotten Land",
-    "Kirby's Return to Dream Land Deluxe"
+    "Kirby's Return to Dream Land Deluxe",
+    "Kirby Air Riders"
 ]
 },
 {
@@ -168,7 +171,6 @@
     "The Legend of Zelda: Majora's Mask",
     "The Legend of Zelda: Oracle of Seasons",
     "The Legend of Zelda: Oracle of Ages",
-    "Four Swords",
     "The Legend of Zelda: The Wind Waker",
     "The Legend of Zelda: Four Swords Adventures",
     "The Legend of Zelda: The Minish Cap",
@@ -216,9 +218,11 @@
     "Final Fantasy XI",
     "Final Fantasy XII",
     "Final Fantasy XIII",
-    "Final Fantasy XIV",
+    "Final Fantasy XIV Online: A Realm Reborn",
     "Final Fantasy XV",
-    "Final Fantasy XVI"
+    "Final Fantasy VII Remake",
+    "Final Fantasy XVI",
+    "Final Fantasy VII Rebirth"
 ]
 },
 {
@@ -255,7 +259,6 @@
 "series": "Shinobi",
 "games": [
     "Shinobi",
-    "Shadow Dancer",
     "The Revenge of Shinobi",
     "Shadow Dancer: The Secret of Shinobi",
     "The Cyber Shinobi",
@@ -299,6 +302,18 @@
     "Phantasy Star II",
     "Phantasy Star III: Generations of Doom",
     "Phantasy Star IV: The End of the Millennium"
+]
+},
+{
+"series": "Ninja Gaiden",
+"games": [
+    "Ninja Gaiden",
+    "Ninja Gaiden II: The Dark Sword of Chaos",
+    "Ninja Gaiden III: The Ancient Ship of Doom",
+    "Ninja Gaiden Black",
+    "Ninja Gaiden II",
+    "Ninja Gaiden 3",
+    "Ninja Gaiden 4"
 ]
 }
 ]

@@ -1,0 +1,114 @@
+[
+{
+"id": "fantasyzone-2",
+"title": "Fantasy Zone II: The Tears of Opa-Opa",
+"series": "Fantasy Zone",
+"seriesIndex": 2,
+"console": "Sega Master System",
+"releaseYear": 1987,
+"orderIndex": 4.038,
+"image": "https://images.launchbox-app.com//9217a441-916a-4025-9614-e2e09f1d1c5a.png",
+"gen": 2
+},
+{
+"id": "pitfall-3",
+"title": "Super Pitfall",
+"series": "Pitfall",
+"seriesIndex": 3,
+"console": "NES",
+"releaseYear": 1987,
+"orderIndex": 2.339,
+"image": "https://images.launchbox-app.com//9fbd79dc-b48b-41a2-8384-59f5bf68fb25.png",
+"gen": 2
+},
+{
+"id": "castlevania-2",
+"title": "Castlevania II: Simon's Quest",
+"series": "Castlevania",
+"seriesIndex": 2,
+"console": "NES",
+"releaseYear": 1988,
+"orderIndex": 1.413,
+"image": "https://images.launchbox-app.com//0a456c93-2206-4484-bbf1-3268f325feb5.png",
+"gen": 2
+},
+{
+"id": "megaman-1",
+"title": "Mega Man",
+"series": "Mega Man",
+"seriesIndex": 1,
+"console": "NES",
+"releaseYear": 1987,
+"orderIndex": 2.250,
+"image": "https://images.launchbox-app.com//d7e8a15c-160d-4ce8-9ae0-0834340c6cc6.png",
+"gen": 2
+},
+{
+"id": "zelda-2",
+"title": "Zelda II: The Adventure of Link",
+"series": "The Legend of Zelda",
+"seriesIndex": 2,
+"console": "NES",
+"releaseYear": 1988,
+"orderIndex": 0.596,
+"image": "https://images.launchbox-app.com//5c91bc95-5067-4d81-a698-62868fe8a7c9.png",
+"gen": 2
+},
+{
+"id": "contra-2",
+"title": "Super C",
+"series": "Contra",
+"seriesIndex": 2,
+"console": "NES",
+"releaseYear": 1988,
+"orderIndex": 4.588,
+"image": "https://images.launchbox-app.com//9b778b84-415a-40e3-8d40-edb59c2d513e.png",
+"gen": 2
+},
+{
+"id": "finalfantasy-2",
+"title": "Final Fantasy II",
+"series": "Final Fantasy",
+"seriesIndex": 2,
+"console": "NES",
+"releaseYear": 1988,
+"orderIndex": 0.282,
+"image": "https://images.launchbox-app.com//b0d83ed0-c29c-40dc-8e2f-09ecdc995a61.png",
+"gen": 2
+},
+{
+"id": "finalfantasy-3",
+"title": "Final Fantasy III",
+"series": "Final Fantasy",
+"seriesIndex": 2,
+"console": "NES",
+"releaseYear": 1990,
+"orderIndex": 0.386,
+"image": "https://images.launchbox-app.com//944e2b3e-c11e-4503-a170-e904d905c05d.png",
+"gen": 2
+},
+{
+"id": "ninjagaiden-2",
+"title": "Ninja Gaiden II: The Dark Sword of Chaos",
+"series": "Ninja Gaiden",
+"seriesIndex": 2,
+"console": "NES",
+"releaseYear": 1990,
+"orderIndex": 3.391,
+"image": "https://images.launchbox-app.com//cb57d0ca-8456-4b2b-a5e2-a9dac0ace7e0.png",
+"gen": 2
+},
+{
+"id": "ninjagaiden-3",
+"title": "Ninja Gaiden III: The Ancient Ship of Doom",
+"series": "Ninja Gaiden",
+"seriesIndex": 3,
+"console": "NES",
+"releaseYear": 1991,
+"orderIndex": 2.608,
+"image": "https://images.launchbox-app.com//e380653a-49cb-4765-a11f-a8fe16fa4ddb.png",
+"gen": 2
+}
+
+
+]

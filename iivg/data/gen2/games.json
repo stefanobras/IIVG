@@ -1,17 +1,17 @@
 [
 {
-"id": "1985-1",
+"id": "1985-2",
 "title": "Hang-On",
 "series": null,
 "seriesIndex": null,
 "console": "Sega Master System",
 "releaseYear": 1985,
 "orderIndex": 7.513,
-"image": "https://images.launchbox-app.com//de8f4d64-647d-442c-b6b9-2b0ad1c6a903.png",
+"image": "https://images.launchbox-app.com/5507295b-3059-475e-8454-a8f31ce754fe.png",
 "gen": 1
 },
 {
-"id": "1985-2",
+"id": "1985-3",
 "title": "Super Mario Bros.",
 "series": "Super Mario",
 "seriesIndex": 1,
@@ -22,7 +22,7 @@
 "gen": 1
 },
 {
-"id": "1985-3",
+"id": "1985-4",
 "title": "Space Harrier",
 "series": null,
 "seriesIndex": null,
@@ -36,9 +36,9 @@
 
 {
 "id": "1986-1",
-"title": "Out Run",
-"series": "Fantasy Zone",
-"seriesIndex": 1,
+"title": "OutRun",
+"series": null,
+"seriesIndex": null,
 "console": "Sega Master System",
 "releaseYear": 1986,
 "orderIndex": 6.737,
@@ -48,8 +48,8 @@
 {
 "id": "1986-2",
 "title": "Fantasy Zone",
-"series": null,
-"seriesIndex": null,
+"series": "Fantasy Zone",
+"seriesIndex": 1,
 "console": "Sega Master System",
 "releaseYear": 1986,
 "orderIndex": 6.289,
@@ -60,7 +60,7 @@
 "id": "1986-3",
 "title": "Alex Kidd in Miracle World",
 "series": "Alex Kidd",
-"seriesIndex": "Alex Kidd",
+"seriesIndex": 1,
 "console": "Sega Master System",
 "releaseYear": 1986,
 "orderIndex": 3.251,

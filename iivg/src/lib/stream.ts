@@ -1,81 +1,65 @@
+// src/lib/stream.ts
 import type { Catalog, Game, UserState } from "./types";
 
 const START_YEAR = 1978;
 
 function sortWithinYear(a: Game, b: Game) {
-  // DESC by orderIndex (bigger shows first)
-  if (a.orderIndex !== b.orderIndex) return b.orderIndex - a.orderIndex;
-  // tie-break by title
+  if (a.orderIndex !== b.orderIndex) return b.orderIndex - a.orderIndex; // DESC orderIndex
   return a.title.localeCompare(b.title);
 }
 
-function gamesForYear(gen: number, year: number, catalog: Catalog, dynamicExtras: Game[]): Game[] {
-  const fromBase  = catalog.baseGames.filter(g => g.gen === gen && g.releaseYear === year);
-  const fromExtra = dynamicExtras.filter(g => g.gen === gen && g.releaseYear === year);
-  return [...fromBase, ...fromExtra].sort(sortWithinYear);
+// YEAR pool = BASE games only (extras come via dynamicExtras)
+function gamesForYearAll(year: number, catalog: Catalog, dynamicExtras: Game[]): Game[] {
+  const fromBase = catalog.baseGames.filter(g => g.releaseYear === year);
+  const fromDyn  = dynamicExtras.filter(g => g.releaseYear === year);
+  return [...fromBase, ...fromDyn].sort(sortWithinYear);
 }
 
 export function initState(catalog: Catalog): UserState {
-  const firstGen = catalog.gens[0]?.index ?? 1;
   const firstYear = START_YEAR;
-  const initial = gamesForYear(firstGen, firstYear, catalog, []);
+  const initial = gamesForYearAll(firstYear, catalog, []);
   return {
     name: undefined,
     available: initial.map(g => g.id),
     completed: [],
-    addedYears: initial.length ? [{ gen: firstGen, year: firstYear }] : [],
-    currentGen: firstGen,
+    addedYears: initial.length ? [{ gen: 0 as any, year: firstYear }] : [],
+    currentGen: catalog.gens[0]?.index ?? 1, // kept if other code reads it
     yearCursor: firstYear + 1,
     dynamicExtras: [],
     seriesRatings: {},
+    earnedAchievements: [],
+    lastEarned: null,
   };
 }
 
-export function ensureYearWave(state: UserState, catalog: Catalog) {
-  const allKnown = [...catalog.allGames, ...state.dynamicExtras];
+export function ensureYearWave(state: UserState, catalog: Catalog, minVisible = 2) {
+  // Build index from BASE + dynamic extras only
+  const allKnown: Game[] = [...catalog.baseGames, ...state.dynamicExtras];
   const byId: Record<string, Game> = Object.fromEntries(allKnown.map(g => [g.id, g]));
+  const completedSet = new Set(state.completed.map(c => c.gameId));
 
-  while (state.available.length <= 1) {
-    const genMeta = catalog.gens.find(g => g.index === state.currentGen);
-    if (!genMeta) break;
+  const visibleCount = () => state.available.filter(id => !completedSet.has(id)).length;
 
-    // move to next gen if we passed the end of current gen
-    if (state.yearCursor > genMeta.maxYear) {
-      const nextGen = catalog.gens.find(g => g.index > state.currentGen);
-      if (!nextGen) break; // no more gens
-      state.currentGen = nextGen.index;
-      state.yearCursor = Math.max(START_YEAR, nextGen.minYear);
-      continue;
-    }
+  while (visibleCount() <= (minVisible - 1) && state.yearCursor <= catalog.maxYear) {
+    const year = state.yearCursor;
 
-    // add this year (within current gen)
-    const batch = gamesForYear(state.currentGen, state.yearCursor, catalog, state.dynamicExtras)
-      .filter(g =>
-        !state.completed.some(c => c.gameId === g.id) &&
-        !state.available.includes(g.id)
-      );
+    const batch = gamesForYearAll(year, catalog, state.dynamicExtras)
+      .filter(g => !completedSet.has(g.id) && !state.available.includes(g.id));
 
     if (batch.length > 0) {
-      state.addedYears.push({ gen: state.currentGen, year: state.yearCursor });
+      state.addedYears.push({ gen: 0 as any, year });
       state.available.push(...batch.map(g => g.id));
     }
 
     state.yearCursor += 1;
-
-    // If we didn’t add anything and haven’t passed gen maxYear, loop again (next year).
-    if (batch.length === 0 && state.yearCursor <= genMeta.maxYear) {
-      continue;
-    }
-
-    // If we added something, we’ll check loop condition again (<=1)
   }
 
-  // Defensive clean-up: remove completed from available
-  state.available = state.available.filter(id => !state.completed.some(c => c.gameId === id));
+  // Remove completed from available
+  state.available = state.available.filter(id => !completedSet.has(id));
 
-  // Stable ordering: by (releaseYear ASC) then orderIndex DESC, then title
+  // Stable global ordering: year ASC, then orderIndex DESC, then title ASC
   state.available.sort((a, b) => {
-    const ga = byId[a]; const gb = byId[b];
+    const ga = byId[a], gb = byId[b];
     if (!ga || !gb) return 0;
     if (ga.releaseYear !== gb.releaseYear) return ga.releaseYear - gb.releaseYear;
     return sortWithinYear(ga, gb);
@@ -86,42 +70,65 @@ export function finishGame(state: UserState, game: Game, rating: number, catalog
   state.completed.push({ gameId: game.id, rating, completedAt: new Date().toISOString() });
   state.available = state.available.filter(id => id !== game.id);
 
-  // inject next in the series if rating high
-  if (rating >= 8 && game.series) injectNextInSeries(state, game, catalog);
+  // Do NOT inject extras here (we gate by series average AFTER recompute in the store)
 
   ensureYearWave(state, catalog);
 }
 
-function injectNextInSeries(state: UserState, game: Game, catalog: Catalog) {
-  const titles = catalog.seriesMap[game.series || ""];
+/**
+ * Call this AFTER recomputeSeriesRatings(...) in your store.
+ * It adds the first unseen game in the series to dynamicExtras IFF the series avg >= 8.
+ */
+export function enqueueNextInSeriesIfEligible(state: UserState, catalog: Catalog, series?: string) {
+  if (!series) return;
+  const avg = state.seriesRatings[series];
+  if (avg == null || avg < 8) return;
+
+  const titles = catalog.seriesMap[series];
   if (!titles?.length) return;
 
   const completedIds = new Set(state.completed.map(c => c.gameId));
-  const candidates = titles.filter(t => t !== game.title);
+  const knownIds = new Set([
+    ...catalog.baseGames.map(g => g.id),
+    ...catalog.extraGames.map(g => g.id),
+    ...state.dynamicExtras.map(g => g.id),
+  ]);
 
+  // find first title in series user hasn't completed yet
   let next: Game | undefined;
-  for (const title of candidates) {
-    const found = catalog.byTitle[title];
-    if (found && !completedIds.has(found.id)) { next = found; break; }
+  for (const title of titles) {
+    const g = catalog.byTitle[title];
+    if (!g) continue;
+    if (completedIds.has(g.id)) continue;
+    next = g;
+    break;
   }
   if (!next) return;
 
-  const alreadyKnown =
-    catalog.allGames.find(g => g.id === next.id) ||
-    state.dynamicExtras.find(g => g.id === next.id);
+  // If it's not already known in dynamicExtras, add it
+  if (!state.dynamicExtras.find(g => g.id === next!.id) && !catalog.baseGames.find(g => g.id === next!.id) && !catalog.extraGames.find(g => g.id === next!.id)) {
+    // (If your loader already merged extras into extraGames, the above check prevents duplicates)
+    state.dynamicExtras.push(next!);
+  } else if (!state.dynamicExtras.find(g => g.id === next!.id) && !catalog.baseGames.find(g => g.id === next!.id)) {
+    // if it's in extraGames but not base/dynamic, we rely on year wave; no push needed
+    // but if you *only* want extras to appear when eligible, keep extras out of base/allGames and let dynamicExtras control it
+  }
 
-  if (!alreadyKnown) state.dynamicExtras.push(next);
-
-  // If that year has already been dealt for that gen, show now
-  const yearDealt = state.addedYears.some(y => y.gen === (next.gen ?? state.currentGen) && y.year === next.releaseYear);
-  const notVisible = !state.available.includes(next.id) && !state.completed.some(c => c.gameId === next.id);
-  if (yearDealt && notVisible) state.available.push(next.id);
+  // If that YEAR is already dealt, and it isn't visible or completed, show it now
+  const yearDealt = state.addedYears.some(y => y.year === next.releaseYear);
+  const notVisible = !state.available.includes(next.id) && !completedIds.has(next.id);
+  if (yearDealt && notVisible) {
+    state.available.push(next.id);
+    // keep ordering
+    ensureYearWave(state, catalog);
+  }
 }
 
 // --- SERIES AVERAGES ---
 
 export function recomputeSeriesRatings(state: UserState, catalog: Catalog) {
-  const allKnown = [...catalog.allGames, ...state.dynamicExtras];
+  // index from BASE + dynamic extras (extras only show when injected)
+  const allKnown = [...catalog.baseGames, ...state.dynamicExtras];
   const byId: Record<string, Game> = Object.fromEntries(allKnown.map(g => [g.id, g]));
   const agg: Record<string, { sum: number; n: number }> = {};
 
