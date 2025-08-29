@@ -1,0 +1,934 @@
+[
+{
+"id": "1993-10",
+"title": "Virtua Fighter",
+"series": "Virtua Fighter",
+"seriesIndex": 1,
+"console": "Sega Saturn",
+"releaseYear": 1993,
+"orderIndex": 9.591,
+"image": "https://images.launchbox-app.com//89e3b043-7b23-4187-a668-955ac9d480a9.png",
+"gen": 4
+},
+
+
+
+
+
+{
+"id": "1994-14",
+"title": "Virtua Cop",
+"series": "Virtua Cop",
+"seriesIndex": 1,
+"console": "Sega Saturn",
+"releaseYear": 1994,
+"orderIndex": 6.434,
+"image": "https://images.launchbox-app.com//f434b2dc-00cb-431f-a61a-72c48a3deee6.png",
+"gen": 4
+},
+{
+"id": "1994-15",
+"title": "Daytona USA",
+"series": "Daytona USA",
+"seriesIndex": 1,
+"console": "Sega Saturn",
+"releaseYear": 1994,
+"orderIndex": 4.533,
+"image": "https://images.launchbox-app.com//2f982eae-50c6-41a3-8a77-aa6e8f255016.png",
+"gen": 4
+},
+{
+"id": "1994-16",
+"title": "Virtua Fighter 2",
+"series": "Virtua Fighter",
+"seriesIndex": 2,
+"console": "Sega Saturn",
+"releaseYear": 1994,
+"orderIndex": 4.324,
+"image": "https://images.launchbox-app.com//93fd4da5-1825-495f-a366-c312f1185fa0.png",
+"gen": 4
+
+},
+
+
+
+
+
+{
+"id": "1995-10",
+"title": "Night Warriors: Darkstalkers' Revenge",
+"series": "Darkstalkers",
+"seriesIndex": 2,
+"console": "Sega Saturn",
+"releaseYear": 1995,
+"orderIndex": 7.594,
+"image": "https://images.launchbox-app.com//6ea07768-9716-427d-9f8c-be16cce10187.png",
+"gen": 4
+
+},
+{
+"id": "1995-11",
+"title": "Virtua Cop 2",
+"series": "Virtua Cop",
+"seriesIndex": 2,
+"console": "Sega Saturn",
+"releaseYear": 1995,
+"orderIndex": 6.777,
+"image": "https://images.launchbox-app.com//af4dae67-280e-4843-b6ac-98461fed25e6.png",
+"gen": 4
+
+},
+{
+"id": "1995-12",
+"title": "Sega Rally Championship",
+"series": "Sega Rally",
+"seriesIndex": 1,
+"console": "Sega Saturn",
+"releaseYear": 1995,
+"orderIndex": 4.434,
+"image": "https://images.launchbox-app.com//d4231ba6-840a-4f8a-ad1f-8c59cd92252f.png",
+"gen": 4
+
+},
+{
+"id": "1995-13",
+"title": "Panzer Dragoon",
+"series": "Panzer Dragoon",
+"seriesIndex": 1,
+"console": "Sega Saturn",
+"releaseYear": 1995,
+"orderIndex": 4.215,
+"image": "https://images.launchbox-app.com//a0b62cac-10f9-4769-a120-6f0955231e06.png",
+"gen": 4
+
+},
+
+
+
+
+
+{
+"id": "1996-5",
+"title": "Three Dirty Dwarves",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Saturn",
+"releaseYear": 1996,
+"orderIndex": 6.096,
+"image": "https://images.launchbox-app.com//dc6b4b83-0a0d-40ed-abfa-cf071886e95f.png",
+"gen": 4
+
+},
+{
+"id": "1996-6",
+"title": "Panzer Dragoon II Zwei",
+"series": "Panzer Dragoon",
+"seriesIndex": 2,
+"console": "Sega Saturn",
+"releaseYear": 1996,
+"orderIndex": 3.138,
+"image": "https://images.launchbox-app.com//85d34bb8-f164-4526-ab52-fc035f020f0a.png",
+"gen": 4
+},
+{
+"id": "1996-7",
+"title": "Nights into Dreams",
+"series": "Nights",
+"seriesIndex": 1,
+"console": "Sega Saturn",
+"releaseYear": 1996,
+"orderIndex": 1.890,
+"image": "https://images.launchbox-app.com//2dab69f2-c293-488c-a29c-970c5ae5364e.png",
+"gen": 4
+},
+{
+"id": "1996-8",
+"title": "Crash Bandicoot",
+"series": "Crash Bandicoot",
+"seriesIndex": 1,
+"console": "PlayStation",
+"releaseYear": 1996,
+"orderIndex": 1.047,
+"image": "https://images.launchbox-app.com//1f781f02-54a5-4792-acb9-e31361123526.png",
+"gen": 4
+},
+{
+"id": "1996-9",
+"title": "Mario Kart 64",
+"series": "Mario Kart",
+"seriesIndex": 2,
+"console": "Nintendo 64",
+"releaseYear": 1996,
+"orderIndex": 1.033,
+"image": "https://images.launchbox-app.com//51fe3977-634a-4f9b-af22-00020943e874.png",
+"gen": 4
+},
+{
+"id": "1996-10",
+"title": "Resident Evil",
+"series": "Resident Evil",
+"seriesIndex": 1,
+"console": "PlayStation",
+"releaseYear": 1996,
+"orderIndex": 1.006,
+"image": "https://images.launchbox-app.com//2cb4998a-691d-473c-bd46-6b3b11e0d642.png",
+"gen": 4
+},
+{
+"id": "1996-11",
+"title": "PowerSlave",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Saturn",
+"releaseYear": 1996,
+"orderIndex": 0.679,
+"image": "https://images.launchbox-app.com//cc53c749-5ba3-479b-8652-a40cb8546a58.png",
+"gen": 4
+},
+{
+"id": "1996-12",
+"title": "Super Mario 64",
+"series": "Super Mario",
+"seriesIndex": 8,
+"console": "Nintendo 64",
+"releaseYear": 1996,
+"orderIndex": 0.582,
+"image": "https://images.launchbox-app.com//72ae66ab-466a-4173-8e8d-0fb39ea1cfab.png",
+"gen": 4
+},
+{
+"id": "1996-13",
+"title": "Dragon Force",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Saturn",
+"releaseYear": 1996,
+"orderIndex": 0.203,
+"image": "https://images.launchbox-app.com//87ea93c3-9b55-4b5f-ac86-6bdfffbb7ad5.png",
+"gen": 4
+},
+
+
+
+
+
+{
+"id": "1997-2",
+"title": "The House of the Dead",
+"series": "The House of the Dead",
+"seriesIndex": 1,
+"console": "Sega Saturn",
+"releaseYear": 1997,
+"orderIndex": 6.820,
+"image": "https://images.launchbox-app.com//428a68db-7a00-4a3f-9e77-97fa49699a7a.png",
+"gen": 4
+},
+{
+"id": "1997-3",
+"title": "Star Fox 64",
+"series": "Star Fox",
+"seriesIndex": 2,
+"console": "Nintendo 64",
+"releaseYear": 1997,
+"orderIndex": 2.717,
+"image": "https://images.launchbox-app.com//2f1a6629-5c8b-4964-84d2-58da357e5f98.png",
+"gen": 4
+},
+{
+"id": "1997-4",
+"title": "Saturn Bomberman",
+"series": "Bomberman",
+"seriesIndex": 4,
+"console": "Sega Saturn",
+"releaseYear": 1997,
+"orderIndex": 1.846,
+"image": "https://images.launchbox-app.com//2900b869-2e08-47b5-ba1a-bef166c0ceb9.png",
+"gen": 4
+},
+{
+"id": "1997-5",
+"title": "Crash Bandicoot 2: Cortex Strikes Back",
+"series": "Crash Bandicoot",
+"seriesIndex": 2,
+"console": "PlayStation",
+"releaseYear": 1997,
+"orderIndex": 1.074,
+"image": "https://images.launchbox-app.com//93c933a8-c5e6-47cd-9868-d1f6ca5b11ae.png",
+"gen": 4
+},
+{
+"id": "1997-6",
+"title": "Tekken 3",
+"series": "Tekken 3",
+"seriesIndex": 3,
+"console": "PlayStation",
+"releaseYear": 1997,
+"orderIndex": 0.923,
+"image": "https://images.launchbox-app.com//e3869489-49c4-4960-bc93-81c01a352818.png",
+"gen": 4
+},
+{
+"id": "1997-7",
+"title": "Castlevania: Symphony of the Night",
+"series": "Castlevania",
+"seriesIndex": 9,
+"console": "PlayStation",
+"releaseYear": 1997,
+"orderIndex": 0.826,
+"image": "https://images.launchbox-app.com//e9e217d6-8317-4b88-b42d-909908d1145d.png",
+"gen": 4
+},
+{
+"id": "1997-8",
+"title": "GoldenEye 007",
+"series": "James Bond",
+"seriesIndex": 1,
+"console": "Nintendo 64",
+"releaseYear": 1997,
+"orderIndex": 0.769,
+"image": "https://images.launchbox-app.com//989cf647-c8de-40c8-b7f8-47b1ba219439.png",
+"gen": 4
+},
+{
+"id": "1997-9",
+"title": "Diddy Kong Racing",
+"series": null,
+"seriesIndex": null,
+"console": "Nintendo 64",
+"releaseYear": 1997,
+"orderIndex": 0.541,
+"image": "https://images.launchbox-app.com//e973dc04-4687-4b33-9135-e423334c00d3.png",
+"gen": 4
+},
+{
+"id": "1997-10",
+"title": "Steep Slope Sliders",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Saturn",
+"releaseYear": 1997,
+"orderIndex": 0.409,
+"image": "https://images.launchbox-app.com//641f2b76-e37d-4364-9ad2-404aac0dccc7.png",
+"gen": 4
+},
+{
+"id": "1997-11",
+"title": "Shining the Holy Ark",
+"series": "Shining",
+"seriesIndex": 5,
+"console": "Sega Saturn",
+"releaseYear": 1997,
+"orderIndex": 0.190,
+"image": "https://images.launchbox-app.com//c5c20aeb-d5b8-47a3-b2d2-7f0d6d0bde08.png",
+"gen": 4
+},
+{
+"id": "1997-12",
+"title": "Final Fantasy VII",
+"series": "Final Fantasy",
+"seriesIndex": 7,
+"console": "PlayStation",
+"releaseYear": 1997,
+"orderIndex": 0.190,
+"image": "https://images.launchbox-app.com//86364003-e46b-446b-a429-bd51b28eaffc.png",
+"gen": 4
+},
+{
+"id": "1997-13",
+"title": "Final Fantasy Tactics",
+"series": "Ivalice Alliance",
+"seriesIndex": 1,
+"console": "PlayStation",
+"releaseYear": 1997,
+"orderIndex": 0.158,
+"image": "https://images.launchbox-app.com//9a9d3a28-7b51-4abc-9a56-26fd6a41fff3.png",
+"gen": 4
+},
+
+
+
+
+
+{
+"id": "1998-1",
+"title": "Tetris DX",
+"series": "Tetris",
+"seriesIndex": 2,
+"console": "Game Boy Color",
+"releaseYear": 1998,
+"orderIndex": 10.145,
+"image": "https://images.launchbox-app.com//e32a58cf-5a93-40ab-9e01-55500345a0b0.png",
+"gen": 4
+},
+{
+"id": "1998-2",
+"title": "Burning Rangers",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Saturn",
+"releaseYear": 1998,
+"orderIndex": 3.123,
+"image": "https://images.launchbox-app.com//fefe6b41-6cea-490c-8399-641aa03da117.png",
+"gen": 4
+},
+{
+"id": "1998-3",
+"title": "Resident Evil 2",
+"series": "Resident Evil",
+"seriesIndex": 2,
+"console": "PlayStation",
+"releaseYear": 1998,
+"orderIndex": 1.167,
+"image": "https://images.launchbox-app.com//99900a22-362c-482e-8550-b80fe0c60959.png",
+"gen": 4
+},
+{
+"id": "1998-4",
+"title": "F-Zero X",
+"series": "F-Zero",
+"seriesIndex": 2,
+"console": "Nintendo 64",
+"releaseYear": 1998,
+"orderIndex": 1.147,
+"image": "https://images.launchbox-app.com//8134f65a-dfdf-4340-bd16-9fcb1c175c88.png",
+"gen": 4
+},
+{
+"id": "1998-5",
+"title": "Crash Bandicoot: Warped",
+"series": "Crash Bandicoot",
+"seriesIndex": 3,
+"console": "PlayStation",
+"releaseYear": 1998,
+"orderIndex": 1.054,
+"image": "https://images.launchbox-app.com//946d4df7-e397-45bc-9821-892e127182a0.png",
+"gen": 4
+},
+{
+"id": "1998-6",
+"title": "Metal Gear Solid",
+"series": "Metal Gear Solid",
+"seriesIndex": 1,
+"console": "PlayStation",
+"releaseYear": 1998,
+"orderIndex": 0.755,
+"image": "https://images.launchbox-app.com//41570f73-a665-49eb-9803-cbc196bc7b6f.png",
+"gen": 4
+},
+{
+"id": "1998-7",
+"title": "Banjo-Kazooie",
+"series": "Banjo-Kazooie",
+"seriesIndex": 1,
+"console": "Nintendo 64",
+"releaseYear": 1998,
+"orderIndex": 0.642,
+"image": "https://images.launchbox-app.com//96e9a938-d3e3-4cd4-a515-187682b69694.png",
+"gen": 4
+},
+{
+"id": "1998-8",
+"title": "Pokémon Trading Card Game",
+"series": null,
+"seriesIndex": null,
+"console": "Game Boy Color",
+"releaseYear": 1998,
+"orderIndex": 0.522,
+"image": "https://images.launchbox-app.com//81e09788-b63f-4d84-a2c0-3489bc642b23.png",
+"gen": 4
+},
+{
+"id": "1998-9",
+"title": "Panzer Dragoon Saga",
+"series": "Panzer Dragoon",
+"seriesIndex": 3,
+"console": "Game Boy Color",
+"releaseYear": 1998,
+"orderIndex": 0.432,
+"image": "https://images.launchbox-app.com//f88fe44b-5a9a-4aa6-bf1d-330bbc6fdb4c.png",
+"gen": 4
+},
+{
+"id": "1998-10",
+"title": "The Legend of Zelda: Ocarina of Time",
+"series": "The Legend of Zelda",
+"seriesIndex": 5,
+"console": "Nintendo 64",
+"releaseYear": 1998,
+"orderIndex": 0.309,
+"image": "https://images.launchbox-app.com//41c66c62-b72c-4df1-b536-b6d83aaf22ca.png",
+"gen": 4
+},
+{
+"id": "1998-11",
+"title": "Shining Force III",
+"series": "Shining",
+"seriesIndex": 6,
+"console": "Sega Saturn",
+"releaseYear": 1997,
+"orderIndex": 0.159,
+"image": "https://images.launchbox-app.com//b180299d-8947-487f-bf7a-fb3eca227113.png",
+"gen": 4
+},
+
+
+
+
+{
+"id": "1999-2",
+"title": "Pokémon Snap",
+"series": "Pokémon Snap",
+"seriesIndex": 1,
+"console": "Nintendo 64",
+"releaseYear": 1999,
+"orderIndex": 1.668,
+"image": "https://images.launchbox-app.com//af12307e-c29f-4501-acad-ac7178ba21a9.png",
+"gen": 4
+},
+{
+"id": "1999-3",
+"title": "Star Wars Episode I: Racer (GBC)",
+"series": null,
+"seriesIndex": null,
+"console": "Game Boy Color",
+"releaseYear": 1999,
+"orderIndex": 1.135,
+"image": "https://images.launchbox-app.com//09585107-0f2c-4689-b456-126a1245191d.png",
+"gen": 4
+},
+{
+"id": "1999-4",
+"title": "Silent Hill",
+"series": "Silent Hill",
+"seriesIndex": 1,
+"console": "PlayStation",
+"releaseYear": 1999,
+"orderIndex": 1.129,
+"image": "https://images.launchbox-app.com//88554228-2a91-4918-8625-d7cab963c550.png",
+"gen": 4
+},
+{
+"id": "1999-5",
+"title": "Resident Evil 3: Nemesis",
+"series": "Resident Evil",
+"seriesIndex": 3,
+"console": "PlayStation",
+"releaseYear": 1999,
+"orderIndex": 1.082,
+"image": "https://images.launchbox-app.com//2ec3edf4-156f-4cb8-a817-141fc6ce6b1e.png",
+"gen": 4
+},
+{
+"id": "1999-6",
+"title": "Super Smash Bros.",
+"series": "Super Smash Bros.",
+"seriesIndex": 1,
+"console": "Nintendo 64",
+"releaseYear": 1999,
+"orderIndex": 0.943,
+"image": "https://images.launchbox-app.com//67b33e5b-3181-47a3-9418-d5bc2f9220dd.png",
+"gen": 4
+},
+{
+"id": "1999-7",
+"title": "Spyro 2: Ripto's Rage!",
+"series": "Spyro",
+"seriesIndex": 2,
+"console": "PlayStation",
+"releaseYear": 1999,
+"orderIndex": 0.935,
+"image": "https://images.launchbox-app.com//488f0a32-5419-47d9-b349-64d2b9e9cec9.png",
+"gen": 4
+},
+{
+"id": "1999-8",
+"title": "Wario Land II",
+"series": "Wario",
+"seriesIndex": 2,
+"console": "Game Boy Color",
+"releaseYear": 1999,
+"orderIndex": 0.930,
+"image": "https://images.launchbox-app.com//dc5390c2-514d-4775-9ac7-89129d4956ee.png",
+"gen": 4
+},
+{
+"id": "1999-9",
+"title": "Crash Team Racing",
+"series": "Crash Racing",
+"seriesIndex": 1,
+"console": "PlayStation",
+"releaseYear": 1999,
+"orderIndex": 0.861,
+"image": "https://images.launchbox-app.com//9acb1c1e-76a9-4acf-b091-fe244ec986ce.png",
+"gen": 4
+},
+{
+"id": "1999-10",
+"title": "Mario Party 2",
+"series": "Mario Party",
+"seriesIndex": 2,
+"console": "Nintendo 64",
+"releaseYear": 1999,
+"orderIndex": 0.681,
+"image": "https://images.launchbox-app.com//ef109c27-69e0-4646-9f2b-9d2dca239eec.png",
+"gen": 4
+},
+{
+"id": "1999-11",
+"title": "Mario Golf (GBC)",
+"series": null,
+"seriesIndex": null,
+"console": "Game Boy Color",
+"releaseYear": 1999,
+"orderIndex": 0.493,
+"image": "https://images.launchbox-app.com//e62be3b2-a664-4c2a-8f88-65dcb6495813.png",
+"gen": 4
+},
+{
+"id": "1999-12",
+"title": "Pokémon Pinball",
+"series": "Pokémon Pinball",
+"seriesIndex": 1,
+"console": "Game Boy Color",
+"releaseYear": 1999,
+"orderIndex": 0.339,
+"image": "https://images.launchbox-app.com//3f9f43a0-be90-492c-9d6c-2914300b2d4f.png",
+"gen": 4
+},
+{
+"id": "1999-13",
+"title": "Donkey Kong 64",
+"series": "Donkey Kong",
+"seriesIndex": 10,
+"console": "Nintendo 64",
+"releaseYear": 1999,
+"orderIndex": 0.260,
+"image": "https://images.launchbox-app.com//f450ced5-c42f-45f6-a7a9-83b3fead145a.png",
+"gen": 4
+},
+{
+"id": "1999-14",
+"title": "Gran Turismo 2",
+"series": "Gran Turismo",
+"seriesIndex": 2,
+"console": "PlayStation",
+"releaseYear": 1999,
+"orderIndex": 0.163,
+"image": "https://images.launchbox-app.com//a3740a5d-069a-494a-a8a9-5bf98d7166f8.png",
+"gen": 4
+},
+{
+"id": "1999-15",
+"title": "Final Fantasy VIII",
+"series": "Final Fantasy",
+"seriesIndex": 8,
+"console": "PlayStation",
+"releaseYear": 1999,
+"orderIndex": 0.159,
+"image": "https://images.launchbox-app.com//8c290977-637a-410f-9799-df9069155134.png",
+"gen": 4
+},
+
+
+
+
+
+
+{
+"id": "2000-1",
+"title": "Pokémon Puzzle Challenge",
+"series": "Pokémon Puzzle",
+"seriesIndex": 2,
+"console": "Game Boy Color",
+"releaseYear": 2000,
+"orderIndex": 1.466,
+"image": "https://images.launchbox-app.com//a721021e-ebf5-4aa0-b27f-55eee21cda3e.png",
+"gen": 4
+},
+{
+"id": "2000-2",
+"title": "Metal Gear Solid (GBC)",
+"series": null,
+"seriesIndex": null,
+"console": "Game Boy Color",
+"releaseYear": 2000,
+"orderIndex": 1.241,
+"image": "https://images.launchbox-app.com//9eaffb35-a5bf-43c9-b772-e182c08b08be.png",
+"gen": 4
+},
+{
+"id": "2000-3",
+"title": "Spyro: Year of the Dragon",
+"series": "Spyro",
+"seriesIndex": 3,
+"console": "PlayStation",
+"releaseYear": 2000,
+"orderIndex": 0.758,
+"image": "https://images.launchbox-app.com//36139fe2-224a-452a-8a65-f1f62383f7c3.png",
+"gen": 4
+},
+{
+"id": "2000-4",
+"title": "Perfect Dark",
+"series": "Perfect Dark",
+"seriesIndex": 1,
+"console": "Nintendo 64",
+"releaseYear": 2000,
+"orderIndex": 0.730,
+"image": "https://images.launchbox-app.com//17b5d4c2-52dd-4a45-8dd6-2c85ad94bb6f.png",
+"gen": 4
+},
+{
+"id": "2000-5",
+"title": "Mario Tennis",
+"series": "Mario Tennis",
+"seriesIndex": 1,
+"console": "Nintendo 64",
+"releaseYear": 2000,
+"orderIndex": 0.657,
+"image": "https://images.launchbox-app.com//9ddda84a-7154-4927-8916-443930f86ea7.png",
+"gen": 4
+},
+{
+"id": "2000-6",
+"title": "Wario Land 3",
+"series": "Wario",
+"seriesIndex": 3,
+"console": "Game Boy Color",
+"releaseYear": 2000,
+"orderIndex": 0.555,
+"image": "https://images.launchbox-app.com//25b4812c-be20-4153-ad8b-6a5e73c866ea.png",
+"gen": 4
+},
+{
+"id": "2000-7",
+"title": "Pokémon Stadium",
+"series": "Pokémon Stadium",
+"seriesIndex": 1,
+"console": "Nintendo 64",
+"releaseYear": 2000,
+"orderIndex": 0.491,
+"image": "https://images.launchbox-app.com//2af6bf38-ed1d-4504-aec3-f21c592d2412.png",
+"gen": 4
+},
+{
+"id": "2000-8",
+"title": "Tony Hawk's Pro Skater 2",
+"series": "Tony Hawk's",
+"seriesIndex": 1,
+"console": "PlayStation",
+"releaseYear": 2000,
+"orderIndex": 0.450,
+"image": "https://images.launchbox-app.com//1f77e47e-0185-4998-840b-f6935ebfae2f.png",
+"gen": 4
+},
+{
+"id": "2000-9",
+"title": "Banjo-Tooie",
+"series": "Banjo-Kazooie",
+"seriesIndex": 2,
+"console": "Nintendo 64",
+"releaseYear": 2000,
+"orderIndex": 0.355,
+"image": "https://images.launchbox-app.com//f9f795a1-34be-4973-ad64-d6483e42801c.png",
+"gen": 4
+},
+{
+"id": "2000-10",
+"title": "The Legend of Zelda: Majora's Mask",
+"series": "The Legend of Zelda",
+"seriesIndex": 6,
+"console": "Nintendo 64",
+"releaseYear": 2000,
+"orderIndex": 0.312,
+"image": "https://images.launchbox-app.com//4830614f-1f9c-4f9a-bb21-41f0fdcc714f.png",
+"gen": 4
+},
+{
+"id": "2000-11",
+"title": "Chrono Cross",
+"series": "Chrono",
+"seriesIndex": 2,
+"console": "PlayStation",
+"releaseYear": 2000,
+"orderIndex": 0.196,
+"image": "https://images.launchbox-app.com//80508527-7a17-4e76-b344-aaf5cd97e0f8.png",
+"gen": 4
+},
+{
+"id": "2000-12",
+"title": "Final Fantasy IX",
+"series": "Final Fantasy",
+"seriesIndex": 9,
+"console": "PlayStation",
+"releaseYear": 2000,
+"orderIndex": 0.185,
+"image": "https://images.launchbox-app.com//79817064-4055-4eb5-8de5-cc9b88c6eb83.png",
+"gen": 4
+},
+{
+"id": "2000-13",
+"title": "Pokemon Gold and Silver",
+"series": "Pokemon",
+"seriesIndex": 3,
+"console": "Game Boy Color",
+"releaseYear": 2000,
+"orderIndex": 0.180,
+"image": "/images/games/goldsilver.png",
+"gen": 4
+},
+{
+"id": "2000-14",
+"title": "Dragon Warrior Monsters",
+"series": "Dragon Quest Monsters",
+"seriesIndex": 1,
+"console": "Game Boy Color",
+"releaseYear": 2000,
+"orderIndex": 0.156,
+"image": "https://images.launchbox-app.com//51393290-2ad4-4c7e-b626-0dd69bd645c5.png",
+"gen": 4
+},
+
+
+
+
+
+
+{
+"id": "2001-1",
+"title": "Mega Man Xtreme 2",
+"series": "Mega Man Xtreme",
+"seriesIndex": 2,
+"console": "Game Boy Color",
+"releaseYear": 2001,
+"orderIndex": 1.787,
+"image": "https://images.launchbox-app.com//c1874ee6-4a11-4977-b63e-a55c34933666.png",
+"gen": 4
+},
+{
+"id": "2001-2",
+"title": "Harry Potter and the Philosopher's Stone (GBC)",
+"series": null,
+"seriesIndex": null,
+"console": "Game Boy Color",
+"releaseYear": 2001,
+"orderIndex": 1.000,
+"image": "https://images.launchbox-app.com//e131914a-5329-4c26-afb3-1a7f01caded5.png",
+"gen": 4
+},
+{
+"id": "2001-3",
+"title": "Conker's Bad Fur Day",
+"series": "Conker",
+"seriesIndex": 2,
+"console": "Nintendo 64",
+"releaseYear": 2001,
+"orderIndex": 0.688,
+"image": "https://images.launchbox-app.com//b31c786f-1748-44a1-b138-494dbc194c32.png",
+"gen": 4
+},
+{
+"id": "2001-4",
+"title": "Mario Tennis (GBC)",
+"series": null,
+"seriesIndex": null,
+"console": "Game Boy Color",
+"releaseYear": 2001,
+"orderIndex": 0.456,
+"image": "https://images.launchbox-app.com//0d607f72-7e52-4be9-aae2-b05ad6822e1a.png",
+"gen": 4
+},
+{
+"id": "2001-5",
+"title": "The Legend of Zelda: Oracle of Seasons and Ages",
+"series": "The Legend of Zelda",
+"seriesIndex": 7,
+"console": "Game Boy Color",
+"releaseYear": 2001,
+"orderIndex": 0.451,
+"image": "/images/games/seasonsages.png",
+"gen": 4
+},
+{
+"id": "2001-6",
+"title": "Paper Mario",
+"series": "Paper Mario",
+"seriesIndex": 1,
+"console": "Nintendo 64",
+"releaseYear": 2001,
+"orderIndex": 0.330,
+"image": "https://images.launchbox-app.com//c7ae433d-5e91-4da5-bb75-24b84b68e69c.png",
+"gen": 4
+},
+{
+"id": "2001-7",
+"title": "Pokémon Stadium 2",
+"series": "Pokémon Stadium",
+"seriesIndex": 2,
+"console": "Nintendo 64",
+"releaseYear": 2001,
+"orderIndex": 0.298,
+"image": "https://images.launchbox-app.com//733101c2-14f9-432c-8b56-35350c948dc4.png",
+"gen": 4
+},
+{
+"id": "2001-8",
+"title": "Pokémon Crystal",
+"series": "Pokémon",
+"seriesIndex": 4,
+"console": "Game Boy Color",
+"releaseYear": 2001,
+"orderIndex": 0.204,
+"image": "/images/games/crystal.png",
+"gen": 4
+},  
+{
+"id": "2001-9",
+"title": "Dragon Warrior Monsters 2",
+"series": "Dragon Quest Monsters",
+"seriesIndex": 2,
+"console": "Game Boy Color",
+"releaseYear": 2001,
+"orderIndex": 0.134,
+"image": "/images/games/cobitara.png",
+"gen": 4
+},
+
+
+
+
+
+{
+"id": "2002-1",
+"title": "Hamtaro: Ham-Hams Unite!",
+"series": "Hamtaro",
+"seriesIndex": 1,
+"console": "Game Boy Color",
+"releaseYear": 2002,
+"orderIndex": 1.048,
+"image": "https://images.launchbox-app.com//1babf1db-8dba-4d9c-a780-659a1c4151e0.png",
+"gen": 4
+},
+{
+"id": "2002-2",
+"title": "Harry Potter and the Chamber of Secrets (GBC)",
+"series": null,
+"seriesIndex": null,
+"console": "Game Boy Color",
+"releaseYear": 2002,
+"orderIndex": 0.784,
+"image": "https://images.launchbox-app.com//a14171b1-24b6-4f51-a8b6-788cf1296138.png",
+"gen": 4
+},
+{
+"id": "2002-3",
+"title": "Dragon Ball Z: Legendary Super Warriors",
+"series": null,
+"seriesIndex": null,
+"console": "Game Boy Color",
+"releaseYear": 2002,
+"orderIndex": 0.547,
+"image": "https://images.launchbox-app.com//1babf1db-8dba-4d9c-a780-659a1c4151e0.png",
+"gen": 4
+}
+]
