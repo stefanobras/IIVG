@@ -51,17 +51,22 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
       });
   }, [available, byId]);
 
-  // clamp page start when list changes
+  // If start ever goes past the end (e.g., items removed), snap to last valid page start.
   useEffect(() => {
-    const maxStart = Math.max(0, sortedAvailable.length - PAGE_SIZE);
-    if (start > maxStart) setStart(maxStart);
+    const len = sortedAvailable.length;
+    if (len === 0) return setStart(0);
+    if (start >= len) {
+      const lastPageStart = Math.max(0, len - (len % PAGE_SIZE || PAGE_SIZE));
+      setStart(lastPageStart);
+    }
   }, [sortedAvailable.length, start]);
 
+  const len = sortedAvailable.length;
   const visibleIds = sortedAvailable.slice(start, start + PAGE_SIZE);
   const canPrev = start > 0;
-  const canNext = start + PAGE_SIZE < sortedAvailable.length;
+  const canNext = start + PAGE_SIZE < len;
 
-  // sizing tier based on how many are visible
+  // sizing tier based on how many are visible now
   const cols = visibleIds.length || 1;
   const sizeTier = cols >= 5 ? "sm" : cols >= 4 ? "md" : "lg";
 
@@ -91,7 +96,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
       <AchievementModal record={lastEarned} userName={name || "Student"} onClose={dismissAchievement} />
 
       {/* CAROUSEL */}
-      <section className="relative max-w-screen-2xl mx-auto px-6 md:px-10 py-6 md:py-8">
+      <section className="relative max-w-screen-2xl mx-auto py-6">
         {/* Left Arrow */}
         {canPrev && (
           <button
@@ -121,7 +126,14 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
           <button
             aria-label="Next"
             onClick={() =>
-              setStart((s) => Math.min(s + PAGE_SIZE, Math.max(0, sortedAvailable.length - PAGE_SIZE)))
+              setStart((s) => {
+                const next = s + PAGE_SIZE;
+                if (next >= len) {
+                  const lastPageStart = Math.max(0, len - (len % PAGE_SIZE || PAGE_SIZE));
+                  return lastPageStart; // jump to last partial/full page
+                }
+                return next;
+              })
             }
             className="
               group
@@ -141,32 +153,34 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
           </button>
         )}
 
-        {/* Cards grid — add roomy gap; each cell has inner padding to create visual margin */}
-        <div
-          className="grid gap-5 md:gap-6"
-          style={{ gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))` }}
-        >
-          {visibleIds.map((id) => {
-            const g = byId[id];
-            if (!g) return null;
-            return (
-              <div key={id} className="flex p-2 md:p-3"> {/* visual margin around each card */}
-                <GameCard
-                  game={g}
-                  size={sizeTier as any}
-                  onComplete={(rating) => {
-                    complete(g, rating, catalog);
-                    // if last item on the page vanished, shift page left when needed
-                    setStart((s) => {
-                      const nextLen = Math.max(0, sortedAvailable.length - 1);
-                      const maxStart = Math.max(0, nextLen - PAGE_SIZE);
-                      return Math.min(s, maxStart);
-                    });
-                  }}
-                />
-              </div>
-            );
-          })}
+        {/* Side gutters keep arrows away from cards */}
+        <div className="px-12 md:px-20 xl:px-28">
+          <div
+            className="grid gap-4"
+            style={{ gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))` }}
+          >
+            {visibleIds.map((id) => {
+              const g = byId[id];
+              if (!g) return null;
+              return (
+                <div key={id} className="flex">
+                  <GameCard
+                    game={g}
+                    size={sizeTier as any}
+                    onComplete={(rating) => {
+                      complete(g, rating, catalog);
+                      // After removal, snap to last valid page if we ended up past the end
+                      setStart((s) => {
+                        const nextLen = Math.max(0, len - 1);
+                        const lastStart = Math.max(0, nextLen - (nextLen % PAGE_SIZE || PAGE_SIZE));
+                        return s > lastStart ? lastStart : s;
+                      });
+                    }}
+                  />
+                </div>
+              );
+            })}
+          </div>
         </div>
       </section>
 

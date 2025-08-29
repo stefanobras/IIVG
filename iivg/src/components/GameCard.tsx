@@ -29,7 +29,7 @@ export default function GameCard({
   const btnPad = { lg: "px-4 py-2", md: "px-3.5 py-2", sm: "px-3 py-1.5", xs: "px-2.5 py-1.5 text-sm", xxs: "px-2 py-1 text-xs" }[size];
 
   return (
-    <div className="rounded-2xl border shadow-sm overflow-hidden flex flex-col w-full h-[76svh]">
+    <div className="rounded-2xl border shadow-sm overflow-hidden flex flex-col w-full h-[80svh]">
       {/* BANNER with overlay */}
       <div className={`relative ${bannerH} bg-gradient-to-br from-zinc-800 to-zinc-700`}>
         {game.image ? (
