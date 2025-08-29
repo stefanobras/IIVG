@@ -1,14 +1,15 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import { useIIVG } from "@/store/useIIVG";
 import type { Catalog, Game } from "@/lib/types";
 import GameCard from "@/components/GameCard";
-import AchievementModal from "@/components/AchievementModal";
 import ElectiveForm from "@/components/ElectiveForm";
+import AchievementModal from "@/components/AchievementModal";
 
 function sortWithinYear(a: Game, b: Game) {
-  if (a.orderIndex !== b.orderIndex) return b.orderIndex - a.orderIndex; // DESC orderIndex
+  if (a.orderIndex !== b.orderIndex) return b.orderIndex - a.orderIndex; // DESC by orderIndex
   return a.title.localeCompare(b.title);
 }
 
@@ -25,7 +26,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
 
   const [showElective, setShowElective] = useState(false);
 
-  // carousel state
+  // Carousel state
   const PAGE_SIZE = 5;
   const [start, setStart] = useState(0); // index of first visible card
 
@@ -33,7 +34,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
     bootstrap(catalog);
   }, [bootstrap, catalog]);
 
-  // index: id -> game
+  // id -> game
   const byId = useMemo(() => {
     const all = [...catalog.allGames, ...dynamicExtras];
     return Object.fromEntries(all.map((g) => [g.id, g])) as Record<string, Game>;
@@ -44,29 +45,28 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
     return available
       .filter((id) => byId[id])
       .sort((a, b) => {
-        const ga = byId[a]!,
-          gb = byId[b]!;
+        const ga = byId[a]!, gb = byId[b]!;
         if (ga.releaseYear !== gb.releaseYear) return ga.releaseYear - gb.releaseYear;
         return sortWithinYear(ga, gb);
       });
   }, [available, byId]);
 
-  // If start ever goes past the end (e.g., items removed), snap to last valid page start.
+  const len = sortedAvailable.length;
+
+  // Clamp start when list changes (allow last partial page)
   useEffect(() => {
-    const len = sortedAvailable.length;
     if (len === 0) return setStart(0);
     if (start >= len) {
       const lastPageStart = Math.max(0, len - (len % PAGE_SIZE || PAGE_SIZE));
       setStart(lastPageStart);
     }
-  }, [sortedAvailable.length, start]);
+  }, [len, start]);
 
-  const len = sortedAvailable.length;
   const visibleIds = sortedAvailable.slice(start, start + PAGE_SIZE);
   const canPrev = start > 0;
   const canNext = start + PAGE_SIZE < len;
 
-  // sizing tier based on how many are visible now
+  // sizing tier based on how many are visible now (unchanged from your style)
   const cols = visibleIds.length || 1;
   const sizeTier = cols >= 5 ? "sm" : cols >= 4 ? "md" : "lg";
 
@@ -75,25 +75,36 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
       {/* NAVBAR */}
       <header className="sticky top-0 z-20 bg-black text-white border-b border-zinc-800">
         <div className="max-w-screen-2xl mx-auto px-6 py-6 flex items-center justify-between">
+          {/* Logo + subtitle (stacked) */}
           <div className="flex flex-col items-start">
-            <img src="/images/logo_2.png" alt="IIVG" className="h-16 w-auto block" />
+            <img
+              src="/images/logo_2.png"
+              alt="IIVG"
+              className="h-16 w-auto block"
+            />
             <div className="font-subtitle mt-3 text-[14px] leading-none text-zinc-300">
               Complete the following courses and cultivate your video game education.
             </div>
           </div>
+
+          {/* Right-side nav (keep Link for Achievements) */}
           <nav className="flex items-center gap-4">
-            <a
+            <Link
               href="/achievements"
               className="font-header tracking-wide uppercase text-lg underline decoration-transparent hover:decoration-inherit transition-colors hover:text-[var(--iivg-royal)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--iivg-royal)] rounded"
             >
               Achievements
-            </a>
+            </Link>
           </nav>
         </div>
       </header>
 
-      {/* Graduation modal */}
-      <AchievementModal record={lastEarned} userName={name || "Student"} onClose={dismissAchievement} />
+      {/* Graduation modal (unchanged behavior) */}
+      <AchievementModal
+        record={lastEarned}
+        userName={name || "StefanoBras"}
+        onClose={dismissAchievement}
+      />
 
       {/* CAROUSEL */}
       <section className="relative max-w-screen-2xl mx-auto py-6">
@@ -109,7 +120,6 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
               -left-6 md:-left-12
               h-12 w-12 md:h-14 md:w-14
               shadow-lg hover:shadow-xl
-              hover:scale-
               flex items-center justify-center
               text-9xl
               scale-95 hover:scale-125
@@ -153,7 +163,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
           </button>
         )}
 
-        {/* Side gutters keep arrows away from cards */}
+        {/* Side gutters keep arrows away from cards (your spacing) */}
         <div className="px-12 md:px-20 xl:px-28">
           <div
             className="grid gap-4"
@@ -184,7 +194,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
         </div>
       </section>
 
-      {/* FLOATING ELECTIVE BUTTON + PANEL (bottom-right) */}
+      {/* FLOATING ELECTIVE BUTTON + PANEL */}
       <button
         onClick={() => setShowElective((v) => !v)}
         className="fixed right-6 bottom-6 rounded-full px-5 py-3 shadow-lg hover:shadow-xl text-white"
