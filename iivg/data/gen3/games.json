@@ -1,0 +1,711 @@
+[
+{
+"id": "1989-8",
+"title": "R-Type II",
+"series": "R-Type",
+"seriesIndex": 2,
+"console": "Game Boy",
+"releaseYear": 1991,
+"orderIndex": 9.549,
+"image": "https://images.launchbox-app.com//6c48e0ad-15fe-4920-8bf0-9144547e2f18.png",
+"gen": 3
+},
+{
+"id": "1989-9",
+"title": "Super Mario Land",
+"series": "Super Mario",
+"seriesIndex": 4,
+"console": "Game Boy",
+"releaseYear": 1989,
+"orderIndex": 6.978,
+"image": "https://images.launchbox-app.com//393eb5ac-d847-4a28-b451-a3f7624bd5c4.png",
+"gen": 3
+},
+{
+"id": "1989-10",
+"title": "Tetris",
+"series": "Tetris",
+"seriesIndex": 1,
+"console": "Game Boy",
+"releaseYear": 1989,
+"orderIndex": 1.883,
+"image": "https://images.launchbox-app.com//c767fd01-6caa-4a79-99e3-f1c5c5c6b0eb.png",
+"gen": 3
+},
+
+
+
+
+
+{
+"id": "1990-7",
+"title": "Golden Axe",
+"series": "Golden Axe",
+"seriesIndex": 1,
+"console": "Sega Genesis",
+"releaseYear": 1990,
+"orderIndex": 6.920,
+"image": "https://images.launchbox-app.com//82fa407b-576f-4e01-9475-c1f8b48c5563.png",
+"gen": 3
+},
+{
+"id": "1990-8",
+"title": "Castle of Illusion Starring Mickey Mouse",
+"series": "Illusion",
+"seriesIndex": 1,
+"console": "Sega Genesis",
+"releaseYear": 1990,
+"orderIndex": 3.545,
+"image": "https://images.launchbox-app.com//b6918e9a-cb81-4b41-b77e-bec7bc75df0e.png",
+"gen": 3
+},
+{
+"id": "1990-9",
+"title": "Gargoyle's Quest",
+"series": "Ghosts 'n Goblins",
+"seriesIndex": 3,
+"console": "Game Boy",
+"releaseYear": 1990,
+"orderIndex": 2.133,
+"image": "https://images.launchbox-app.com//04ee744a-2503-41fe-843f-47cf8a4d0efa.png",
+"gen": 3
+},
+
+
+
+
+{
+"id": "1991-2",
+"title": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 6,
+"console": "SNES",
+"releaseYear": 1991,
+"orderIndex": 8.065,
+"image": "https://images.launchbox-app.com//94712876-8264-48ea-9cbc-7ebe0582504b.png",
+"gen": 3
+},
+{
+"id": "1991-3",
+"title": "Sonic the Hedgehog",
+"series": "Sonic the Hedgehog",
+"seriesIndex": 1,
+"console": "Sega Genesis",
+"releaseYear": 1991,
+"orderIndex": 3.832,
+"image": "https://images.launchbox-app.com//526f7315-ef98-4b71-b005-00b75ca3710e.png",
+"gen": 3
+},
+{
+"id": "1991-4",
+"title": "Streets of Rage",
+"series": "Streets of Rage",
+"seriesIndex": 1,
+"console": "Sega Genesis",
+"releaseYear": 1991,
+"orderIndex": 3.696,
+"image": "https://images.launchbox-app.com//1b974401-8669-47b4-abf9-ec7f049abbc6.png",
+"gen": 3
+},
+{
+"id": "1991-5",
+"title": "Castlevania II: Belmont's Revenge",
+"series": "Castlevania",
+"seriesIndex": 5,
+"console": "Game Boy",
+"releaseYear": 1991,
+"orderIndex": 3.187,
+"image": "https://images.launchbox-app.com//027430ec-1655-4d57-a313-ee60fac18fdb.png",
+"gen": 3
+},
+{
+"id": "1991-6",
+"title": "Street Fighter II",
+"series": "Street Fighter",
+"seriesIndex": 2,
+"console": "SNES",
+"releaseYear": 1991,
+"orderIndex": 3.184,
+"image": "https://images.launchbox-app.com//10730576-2800-45f1-ad1d-eaea8af58984.png",
+"gen": 3
+},
+{
+"id": "1991-7",
+"title": "Metroid II: Return of Samus",
+"series": "Metroid",
+"seriesIndex": 2,
+"console": "Game Boy",
+"releaseYear": 1991,
+"orderIndex": 1.410,
+"image": "https://images.launchbox-app.com//9b33cec1-850c-4322-9e93-161977a455e7.png",
+"gen": 3
+},
+{
+"id": "1991-8",
+"title": "Super Mario World",
+"series": "Super Mario",
+"seriesIndex": 5,
+"console": "SNES",
+"releaseYear": 1991,
+"orderIndex": 1.402,
+"image": "https://images.launchbox-app.com//26563ff1-d24d-487b-b651-5a71fbe59a8c.png",
+"gen": 3
+},
+{
+"id": "1991-9",
+"title": "Final Fantasy Adventure",
+"series": "Mana",
+"seriesIndex": 1,
+"console": "Game Boy",
+"releaseYear": 1991,
+"orderIndex": 0.640,
+"image": "https://images.launchbox-app.com//e0c08968-374a-477c-8ba6-6d9766501359.png",
+"gen": 3
+},
+{
+"id": "1991-10",
+"title": "Final Fantasy IV",
+"series": "Final Fantasy",
+"seriesIndex": 4,
+"console": "SNES",
+"releaseYear": 1991,
+"orderIndex": 0.334,
+"image": "https://images.launchbox-app.com//9ab47c23-24bc-47a4-aa0b-49e847dbbc84.png",
+"gen": 3
+},
+
+
+
+
+{
+"id": "1992-5",
+"title": "Kirby's Dream Land",
+"series": "Kirby",
+"seriesIndex": 1,
+"console": "Game Boy",
+"releaseYear": 1992,
+"orderIndex": 8.082,
+"image": "https://images.launchbox-app.com//53fc15f3-e852-47a4-9d34-98ddab985496.png",
+"gen": 3
+},
+{
+"id": "1992-6",
+"title": "Streets of Rage 2",
+"series": "Streets of Rage",
+"seriesIndex": 2,
+"console": "Sega Genesis",
+"releaseYear": 1992,
+"orderIndex": 5.173,
+"image": "https://images.launchbox-app.com//88cf8fc2-bc9c-4fd7-8794-569218c0e104.png",
+"gen": 3
+},
+{
+"id": "1992-7",
+"title": "Teenage Mutant Ninja Turtles: The Hyperstone Heist",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 7,
+"console": "Sega Genesis",
+"releaseYear": 1992,
+"orderIndex": 4.543,
+"image": "https://images.launchbox-app.com//53fc7f48-45a6-45f4-9fec-def9ec8cb679.png",
+"gen": 3
+},
+{
+"id": "1992-8",
+"title": "Sonic the Hedgehog 2",
+"series": "Sonic the Hedgehog",
+"seriesIndex": 2,
+"console": "Sega Genesis",
+"releaseYear": 1992,
+"orderIndex": 3.248,
+"image": "https://images.launchbox-app.com//ac0523b7-4ae7-4a38-b66d-47364e5c80fc.png",
+"gen": 3
+},
+{
+"id": "1992-9",
+"title": "Super Mario Land 2: 6 Golden Coins",
+"series": "Super Mario",
+"seriesIndex": 6,
+"console": "Game Boy",
+"releaseYear": 1992,
+"orderIndex": 3.082,
+"image": "https://images.launchbox-app.com//411b2f02-7c88-4735-80ad-b7aa4ad8edf5.png",
+"gen": 3
+},
+{
+"id": "1992-10",
+"title": "Kid Icarus: Of Myths And Monsters",
+"series": "Kid Icarus",
+"seriesIndex": 2,
+"console": "Game Boy",
+"releaseYear": 1992,
+"orderIndex": 2.073,
+"image": "https://images.launchbox-app.com//0c8fda10-85d0-4601-9405-d5498154250e.png",
+"gen": 3
+},
+{
+"id": "1992-11",
+"title": "Super Mario Kart",
+"series": "Mario Kart",
+"seriesIndex": 1,
+"console": "SNES",
+"releaseYear": 1992,
+"orderIndex": 1.681,
+"image": "https://images.launchbox-app.com//7b9ac3de-6a89-4cd4-8a66-6735f992dbe5.png",
+"gen": 3
+},
+{
+"id": "1992-12",
+"title": "The Legend of Zelda: A Link to the Past",
+"series": "The Legend of Zelda",
+"seriesIndex": 3,
+"console": "SNES",
+"releaseYear": 1992,
+"orderIndex": 0.545,
+"image": "https://images.launchbox-app.com//b4d870f8-01aa-47b1-a984-fb26fecdd80f.png",
+"gen": 3
+},
+
+
+
+
+
+{
+"id": "1993-2",
+"title": "World of Illusion Starring Mickey Mouse and Donald Duck",
+"series": "Illusion",
+"seriesIndex": 2,
+"console": "Sega Genesis",
+"releaseYear": 1992,
+"orderIndex": 4.538,
+"image": "https://images.launchbox-app.com//2c4edcbb-c6fb-41c7-b0dd-8a1cc6ab059f.png",
+"gen": 3
+},
+{
+"id": "1993-3",
+"title": "Gunstar Heroes",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Genesis",
+"releaseYear": 1993,
+"orderIndex": 3.692,
+"image": "https://images.launchbox-app.com//cdf1122c-ff2a-426a-a17e-ac40b4a2ada8.png",
+"gen": 3
+},
+{
+"id": "1993-4",
+"title": "Aladdin",
+"series": "Aladdin",
+"seriesIndex": 1,
+"console": "Sega Genesis",
+"releaseYear": 1993,
+"orderIndex": 3.609,
+"image": "https://images.launchbox-app.com//d0c4bbcc-a208-4240-bde2-f2466b31a845.png",
+"gen": 3
+},
+{
+"id": "1993-5",
+"title": "Shinobi III: Return of the Ninja Master",
+"series": "Shinobi",
+"seriesIndex": 5,
+"console": "Sega Genesis",
+"releaseYear": 1993,
+"orderIndex": 2.756,
+"image": "https://images.launchbox-app.com//a149836b-fbab-45d0-9fc8-53dcc8aa68c2.png",
+"gen": 3
+},
+{
+"id": "1993-5",
+"title": "Mortal Kombat II",
+"series": "Mortal Kombat",
+"seriesIndex": 2,
+"console": "Sega Genesis",
+"releaseYear": 1993,
+"orderIndex": 2.633,
+"image": "https://images.launchbox-app.com//68d6243e-2dc8-4ca9-b55c-6591efa7a789.png",
+"gen": 3
+},
+{
+"id": "1993-6",
+"title": "The Legend of Zelda: Link's Awakening",
+"series": "The Legend of Zelda",
+"seriesIndex": 4,
+"console": "Game Boy",
+"releaseYear": 1993,
+"orderIndex": 0.512,
+"image": "https://images.launchbox-app.com//68d6243e-2dc8-4ca9-b55c-6591efa7a789.png",
+"gen": 3
+},
+{
+"id": "1993-7",
+"title": "NBA Jam",
+"series": "NBA Jam",
+"seriesIndex": 1,
+"console": "SNES",
+"releaseYear": 1993,
+"orderIndex": 0.505,
+"image": "https://images.launchbox-app.com//f5dc18fb-1320-484b-8959-7be983680316.png",
+"gen": 3
+},
+{
+"id": "1993-8",
+"title": "Secret of Mana",
+"series": "Mana",
+"seriesIndex": 2,
+"console": "SNES",
+"releaseYear": 1993,
+"orderIndex": 0.312,
+"image": "https://images.launchbox-app.com//31c1c092-aef4-453b-84ed-3539081878bc.png",
+"gen": 3
+},
+{
+"id": "1993-9",
+"title": "Shining Force",
+"series": "Shining",
+"seriesIndex": 2,
+"console": "Sega Genesis",
+"releaseYear": 1993,
+"orderIndex": 0.312,
+"image": "https://images.launchbox-app.com//8ec347e8-e19b-4559-97fb-de1613c0dcdc.png",
+"gen": 3
+},
+
+
+
+
+
+{
+"id": "1994-2",
+"title": "Contra: Hard Corps",
+"series": "Contra",
+"seriesIndex": 4,
+"console": "Sega Genesis",
+"releaseYear": 1994,
+"orderIndex": 3.417,
+"image": "https://images.launchbox-app.com//c97a2af7-1a44-4aa4-8b54-0bd8e3b2246a.png",
+"gen": 3
+},
+{
+"id": "1994-3",
+"title": "Streets of Rage 3",
+"series": "Streets of Rage",
+"seriesIndex": 3,
+"console": "Sega Genesis",
+"releaseYear": 1994,
+"orderIndex": 2.832,
+"image": "https://images.launchbox-app.com//a4a36aa7-c623-499d-8480-866c6fcf2943.png",
+"gen": 3
+},
+{
+"id": "1994-4",
+"title": "Sonic the Hedgehog 3",
+"series": "Sonic the Hedgehog",
+"seriesIndex": 3,
+"console": "Sega Genesis",
+"releaseYear": 1994,
+"orderIndex": 2.714,
+"image": "https://images.launchbox-app.com//0b22a404-6e5b-41dd-9c65-f5e24641bb2a.png",
+"gen": 3
+},
+{
+"id": "1994-5",
+"title": "Castlevania: Bloodlines",
+"series": "Castlevania",
+"seriesIndex": 7,
+"console": "Sega Genesis",
+"releaseYear": 1994,
+"orderIndex": 2.362,
+"image": "https://images.launchbox-app.com//9a835670-2d6b-431d-8ff4-ddfd45bcc63d.png",
+"gen": 3
+},
+{
+"id": "1994-6",
+"title": "Sonic & Knuckles",
+"series": "Sonic the Hedgehog",
+"seriesIndex": 4,
+"console": "Sega Genesis",
+"releaseYear": 1994,
+"orderIndex": 2.259,
+"image": "https://images.launchbox-app.com//e2816ffc-9955-486b-85c8-cb7eaa9f13ea.png",
+"gen": 3
+},
+{
+"id": "1994-7",
+"title": "Mega Man X",
+"series": "Mega Man X",
+"seriesIndex": 1,
+"console": "SNES",
+"releaseYear": 1994,
+"orderIndex": 2.118,
+"image": "https://images.launchbox-app.com//2de2829b-33ae-4ca7-b85a-2cf6469a96f3.png",
+"gen": 3
+},
+{
+"id": "1994-8",
+"title": "Donkey Kong Country",
+"series": "Donkey Kong",
+"seriesIndex": 4,
+"console": "SNES",
+"releaseYear": 1994,
+"orderIndex": 1.882,
+"image": "https://images.launchbox-app.com//d6962065-6d40-4eab-b229-863fa10d4ea0.png",
+"gen": 3
+},
+{
+"id": "1994-9",
+"title": "Wario Land: Super Mario Land 3",
+"series": "Wario",
+"seriesIndex": 1,
+"console": "Game Boy",
+"releaseYear": 1994,
+"orderIndex": 1.440,
+"image": "https://images.launchbox-app.com//c76d41d1-8e0b-4044-999c-15d9458d3a89.png",
+"gen": 3
+},
+{
+"id": "1994-10",
+"title": "Donkey Kong (GB)",
+"series": "Donkey Kong",
+"seriesIndex": 4,
+"console": "Game Boy",
+"releaseYear": 1994,
+"orderIndex": 1.212,
+"image": "https://images.launchbox-app.com//a5cdea45-5979-4ffd-9638-cc6dfa50574b.png",
+"gen": 3
+},
+{
+"id": "1994-11",
+"title": "Super Metroid",
+"series": "Metroid",
+"seriesIndex": 3,
+"console": "SNES",
+"releaseYear": 1994,
+"orderIndex": 1.130,
+"image": "https://images.launchbox-app.com//3b6d66c8-5005-48d3-b409-d874aae2bedb.png",
+"gen": 3
+},
+{
+"id": "1994-12",
+"title": "Shining Force II",
+"series": "Shining",
+"seriesIndex": 3,
+"console": "Sega Genesis",
+"releaseYear": 1994,
+"orderIndex": 0.219,
+"image": "https://images.launchbox-app.com//6a357e9f-71d1-4602-8562-1e4e5b27caab.png",
+"gen": 3
+},
+{
+"id": "1994-13",
+"title": "Final Fantasy VI",
+"series": "Final Fantasy",
+"seriesIndex": 6,
+"console": "SNES",
+"releaseYear": 1994,
+"orderIndex": 0.216,
+"image": "https://gamesdb-images.launchbox.gg/r2_2f3994f5-2b0f-4f36-aedd-41d7d81588fc.png",
+"gen": 3
+},
+
+
+
+
+{
+"id": "1995-1",
+"title": "Comix Zone",
+"series": null,
+"seriesIndex": null,
+"console": "Sega Genesis",
+"releaseYear": 1995,
+"orderIndex": 3.432,
+"image": "https://images.launchbox-app.com//687f595b-ac0d-404b-b497-f5c0179df146.png",
+"gen": 3
+},
+{
+"id": "1995-2",
+"title": "Kirby's Dream Land 2",
+"series": "Kirby",
+"seriesIndex": 3,
+"console": "Game Boy",
+"releaseYear": 1995,
+"orderIndex": 2.337,
+"image": "https://images.launchbox-app.com//9e9b72e4-71d1-47a7-8c62-bed7a89e5ac6.png",
+"gen": 3
+},
+{
+"id": "1995-3",
+"title": "Donkey Kong Land",
+"series": "Donkey Kong",
+"seriesIndex": 6,
+"console": "Game Boy",
+"releaseYear": 1995,
+"orderIndex": 2.195,
+"image": "https://images.launchbox-app.com//bab4bba1-110b-46ae-aaa0-70d1b3e8b3fc.png",
+"gen": 3
+},
+{
+"id": "1995-4",
+"title": "Donkey Kong Country 2: Diddy's Kong Quest",
+"series": "Donkey Kong",
+"seriesIndex": 7,
+"console": "SNES",
+"releaseYear": 1995,
+"orderIndex": 1.322,
+"image": "https://images.launchbox-app.com//df0bbb10-3ade-40fe-bd94-b2f5edd6a5f0.png",
+"gen": 3
+},
+{
+"id": "1995-5",
+"title": "Super Mario World 2: Yoshi's Island",
+"series": "Super Mario",
+"seriesIndex": 7,
+"console": "SNES",
+"releaseYear": 1995,
+"orderIndex": 0.841,
+"image": "https://images.launchbox-app.com//90b3d823-bb3b-44f5-b310-1ffb76323a42.png",
+"gen": 3
+},
+{
+"id": "1995-6",
+"title": "Chrono Trigger",
+"series": "Chrono",
+"seriesIndex": 1,
+"console": "SNES",
+"releaseYear": 1995,
+"orderIndex": 0.356,
+"image": "https://images.launchbox-app.com//4f139083-5b08-4ecd-8e76-8f969cc5800c.png",
+"gen": 3
+},
+{
+"id": "1995-7",
+"title": "Mario's Picross",
+"series": "Mario's Picross",
+"seriesIndex": 1,
+"console": "Game Boy",
+"releaseYear": 1995,
+"orderIndex": 0.319,
+"image": "https://images.launchbox-app.com//1c6169c5-4628-48de-ba31-a98552d706b0.png",
+"gen": 3
+},
+{
+"id": "1995-8",
+"title": "Phantasy Star IV",
+"series": "Phantasy Star",
+"seriesIndex": 4,
+"console": "Sega Genesis",
+"releaseYear": 1995,
+"orderIndex": 0.313,
+"image": "https://images.launchbox-app.com//b292bbcf-3752-472e-bb28-5873de6e0447.png",
+"gen": 3
+},
+{
+"id": "1995-9",
+"title": "EarthBound",
+"series": "Mother",
+"seriesIndex": 2,
+"console": "SNES",
+"releaseYear": 1995,
+"orderIndex": 0.288,
+"image": "https://images.launchbox-app.com//18c33563-8fc9-4204-a479-1f2e2d710abd.png",
+"gen": 3
+},
+
+
+
+
+
+
+{
+"id": "1996-1",
+"title": "Kirby Super Star",
+"series": "Kirby",
+"seriesIndex": 4,
+"console": "SNES",
+"releaseYear": 1996,
+"orderIndex": 1.560,
+"image": "https://images.launchbox-app.com//8da4ca61-b851-4f90-94b8-55abe7d71e06.png",
+"gen": 3
+},
+{
+"id": "1996-2",
+"title": "Donkey Kong Land 2",
+"series": "Donkey Kong",
+"seriesIndex": 8,
+"console": "Game Boy",
+"releaseYear": 1996,
+"orderIndex": 1.272,
+"image": "https://images.launchbox-app.com//9f16699c-b2d3-4079-9d6e-e0efd8e5122f.png",
+"gen": 3
+},
+{
+"id": "1996-3",
+"title": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+"series": "Donkey Kong",
+"seriesIndex": 9,
+"console": "SNES",
+"releaseYear": 1996,
+"orderIndex": 1.306,
+"image": "https://images.launchbox-app.com//8b61b27e-3d98-437f-a787-b9880c426d27.png",
+"gen": 3
+},
+{
+"id": "1996-4",
+"title": "Super Mario RPG: Legend of the Seven Stars",
+"series": null,
+"seriesIndex": null,
+"console": "SNES",
+"releaseYear": 1996,
+"orderIndex": 0.458,
+"image": "https://images.launchbox-app.com//0d4ab2c3-63a0-4a5e-93b8-25ea9d2ac34d.png",
+"gen": 3
+},
+
+
+
+
+
+{
+"id": "1997-1",
+"title": "Donkey Kong Land III",
+"series": "Donkey Kong",
+"seriesIndex": 10,
+"console": "Game Boy",
+"releaseYear": 1996,
+"orderIndex": 1.251,
+"image": "https://images.launchbox-app.com//ff1e4328-4977-4dfc-a8d8-9cb5ebec8713.png",
+"gen": 3
+},
+
+
+
+
+
+
+
+
+{
+"id": "1998-1",
+"title": "Pokémon Red and Blue",
+"series": "Pokémon",
+"seriesIndex": 1,
+"console": "Game Boy",
+"releaseYear": 1998,
+"orderIndex": 0.226,
+"image": "/images/games/redblue.png",
+"gen": 3
+},
+
+
+
+{
+"id": "1999-1",
+"title": "Pokémon Yellow",
+"series": "Pokémon",
+"seriesIndex": 2,
+"console": "Game Boy",
+"releaseYear": 1999,
+"orderIndex": 0.248,
+"image": "/images/games/yellow.png",
+"gen": 3
+}
+]
