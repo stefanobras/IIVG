@@ -315,7 +315,7 @@
 "gen": 3
 },
 {
-"id": "1993-5",
+"id": "1993-6",
 "title": "Mortal Kombat II",
 "series": "Mortal Kombat",
 "seriesIndex": 2,
@@ -326,18 +326,18 @@
 "gen": 3
 },
 {
-"id": "1993-6",
+"id": "1993-7",
 "title": "The Legend of Zelda: Link's Awakening",
 "series": "The Legend of Zelda",
 "seriesIndex": 4,
 "console": "Game Boy",
 "releaseYear": 1993,
 "orderIndex": 0.512,
-"image": "https://images.launchbox-app.com//68d6243e-2dc8-4ca9-b55c-6591efa7a789.png",
+"image": "https://images.launchbox-app.com//ce161ffd-f8f1-406f-b79a-5196bdc7fa78.png",
 "gen": 3
 },
 {
-"id": "1993-7",
+"id": "1993-8",
 "title": "NBA Jam",
 "series": "NBA Jam",
 "seriesIndex": 1,
@@ -348,7 +348,7 @@
 "gen": 3
 },
 {
-"id": "1993-8",
+"id": "1993-9",
 "title": "Secret of Mana",
 "series": "Mana",
 "seriesIndex": 2,
@@ -359,7 +359,7 @@
 "gen": 3
 },
 {
-"id": "1993-9",
+"id": "1993-10",
 "title": "Shining Force",
 "series": "Shining",
 "seriesIndex": 2,

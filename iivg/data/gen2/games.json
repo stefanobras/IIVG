@@ -372,7 +372,7 @@
 "console": "NES",
 "releaseYear": 1990,
 "orderIndex": 0.418,
-"image": "https://images.launchbox-app.com//174ffd17-c402-46f3-a298-da381f49bb23.png",
+"image": "https://images.launchbox-app.com//aeae48d3-abc2-4d4e-b3da-166a7b8fad5e.png",
 "gen": 2
 },
 
@@ -421,7 +421,7 @@
 "seriesIndex": 4,
 "console": "NES",
 "releaseYear": 1992,
-"orderIndex": 2.360,
+"orderIndex": 2.384,
 "image": "https://images.launchbox-app.com//765ae056-6312-46ec-be80-48f653bcaa05.png",
 "gen": 2
 },
@@ -432,7 +432,7 @@
 "seriesIndex": 5,
 "console": "NES",
 "releaseYear": 1992,
-"orderIndex": 2.384,
+"orderIndex": 2.360,
 "image": "https://images.launchbox-app.com//8aa89228-6307-4147-807b-9796b9267e87.png",
 "gen": 2
 },
