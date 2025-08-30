@@ -1,0 +1,94 @@
+[
+{
+"id": "1998-12",
+"title": "Marvel vs. Capcom: Clash of Super Heroes",
+"series": "Marvel vs. Capcom",
+"seriesIndex": 3,
+"console": "Dreamcast",
+"releaseYear": 1998,
+"orderIndex": 5.060,
+"image": "https://images.launchbox-app.com//704fb490-d33a-4234-b107-9b0c291549fa.png",
+"gen": 5
+},
+{
+"id": "1998-13",
+"title": "The House of the Dead 2",
+"series": "The House of the Dead",
+"seriesIndex": 2,
+"console": "Dreamcast",
+"releaseYear": 1998,
+"orderIndex": 4.639,
+"image": "https://images.launchbox-app.com//956ec30e-d337-429a-8e72-eae43905416e.png",
+"gen": 5
+},
+
+
+
+
+
+{
+"id": "1999-16",
+"title": "Power Stone",
+"series": "Power Stone",
+"seriesIndex": 1,
+"console": "Dreamcast",
+"releaseYear": 1999,
+"orderIndex": 2.666,
+"image": "https://images.launchbox-app.com//4941c36b-d224-4a50-b494-7379ddec655c.png",
+"gen": 5
+},
+{
+"id": "1999-17",
+"title": "Street Fighter III: 3rd Strike",
+"series": "Street Fighter",
+"seriesIndex": 3,
+"console": "Dreamcast",
+"releaseYear": 1999,
+"orderIndex": 2.586,
+"image": "https://images.launchbox-app.com//9ef552eb-d319-4723-ae66-41ee929e81be.png",
+"gen": 5
+},
+
+
+
+
+
+{
+"id": "2000-15",
+"title": "Capcom vs. SNK: Millennium Fight 2000",
+"series": "SNK vs. Capcom",
+"seriesIndex": 2,
+"console": "Dreamcast",
+"releaseYear": 2000,
+"orderIndex": 8.679,
+"image": "https://images.launchbox-app.com//80b0329d-d2fd-4943-9260-9ca8fe7d9c19.png",
+"gen": 5
+},
+{
+"id": "2000-16",
+"title": "Power Stone 2",
+"series": "Power Stone",
+"seriesIndex": 2,
+"console": "Dreamcast",
+"releaseYear": 2000,
+"orderIndex": 3.336,
+"image": "https://images.launchbox-app.com//f5204d9e-5132-4e10-abe1-273056200ed9.png",
+"gen": 5
+},
+
+
+
+
+
+{
+"id": "2003-1",
+"title": "WarioWare, Inc.: Mega Microgames!",
+"series": "WarioWare",
+"seriesIndex": 1,
+"console": "Game Boy Advance",
+"releaseYear": 2003,
+"orderIndex": 2.590,
+"image": "https://images.launchbox-app.com//fff2037f-d38d-4899-ab88-be4183ea9c19.png",
+"gen": 5
+}
+]

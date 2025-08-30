@@ -1,10 +1,11 @@
 "use client";
 import { useEffect, useMemo, useRef } from "react";
-import { degreeIndex } from "@/lib/achievements";
 import type { AchievementRecord } from "@/lib/types";
-import { useIIVG } from "@/store/useIIVG"; 
+import { degreeIndex } from "@/lib/achievements";
+import { useIIVG } from "@/store/useIIVG";
 import { diplomaImageNumber } from "@/lib/achievements";
 import { CONSOLE_ORDER } from "@/lib/consoleOrder";
+import { getDiplomaLayout, drawFittedText } from "@/lib/diplomaLayout";
 
 export default function AchievementModal({
   record,
@@ -15,68 +16,65 @@ export default function AchievementModal({
   userName?: string;
   onClose: () => void;
 }) {
-
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const savedKeyRef = useRef<string | null>(null);
-  const { attachImageToLastEarned } = useIIVG(); 
+  const { attachImageToLastEarned } = useIIVG();
 
-  const tplPath = useMemo(() => {
+  // Compute image number and path once per record
+  const imgNum = useMemo(() => {
     if (!record) return null;
-    const n = diplomaImageNumber(record.label, record.console, CONSOLE_ORDER);
-    return `/images/diplomas/diploma_${n}.png`;
+    return diplomaImageNumber(record.label, record.console, CONSOLE_ORDER);
   }, [record]);
 
+  const tplPath = useMemo(() => {
+    return imgNum ? `/images/diplomas/diploma_${imgNum}.png` : null;
+  }, [imgNum]);
+
   useEffect(() => {
-    if (!record || !tplPath || !canvasRef.current) return;
+    if (!record || !tplPath || !canvasRef.current || !imgNum) return;
 
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    // Choose a reasonable output size (fits most templates)
-    const W = 1200, H = 800;
-    canvas.width = W; canvas.height = H;
+    // Draw at 1200x800; the <canvas> scales responsively via CSS
+    const W = 1200,
+      H = 800;
+    canvas.width = W;
+    canvas.height = H;
+
+    const layout = getDiplomaLayout(imgNum);
+    const level = degreeIndex(record.label) ?? 1; // 1 = Kindergarten
+    const showConsole = level === 1 && !!layout.consoleBox;
 
     const img = new Image();
-    img.crossOrigin = "anonymous";
+    // same-origin; no crossOrigin needed (avoids tainting issues)
     img.onload = () => {
-      // Draw template
       ctx.clearRect(0, 0, W, H);
       ctx.drawImage(img, 0, 0, W, H);
 
-      // Text styles (tweak positions later as you like)
       const nameText = userName || "Student";
-      const consoleText = record.console;
+      drawFittedText(ctx, nameText, layout.nameBox);
 
-      // Name
-      ctx.font = "700 48px Roboto Mono, Arial, sans-serif";
-      ctx.fillStyle = "#111";
-      ctx.textAlign = "center";
-      ctx.textBaseline = "middle";
-
-      // center-ish
-      ctx.fillText(nameText, W / 2, H * 0.55);
-
-      // Console line
-      const lvl = degreeIndex(record.label) ?? 1; // 1 = Kindergarten, 2 = Primary, ...
-      if (lvl === 1) {
-        ctx.font = "700 40px Roboto Mono, Arial, sans-serif";
-        ctx.fillText(consoleText, W / 2, H * 0.68);
+      if (showConsole) {
+        const consoleText = record.console;
+        drawFittedText(ctx, consoleText, layout.consoleBox!);
       }
 
-       const key = `${record.console}__${record.label}`;
-        if (savedKeyRef.current !== key) {
-          savedKeyRef.current = key;
-          try {
-            const dataUrl = canvas.toDataURL("image/png");
-            attachImageToLastEarned(dataUrl);
-          } catch {
-            // ignore (e.g., if user closed quickly)
-          }
+      // Save the final rendered PNG once per console+label combo
+      const key = `${record.console}__${record.label}`;
+      if (savedKeyRef.current !== key) {
+        savedKeyRef.current = key;
+        try {
+          const dataUrl = canvas.toDataURL("image/png");
+          attachImageToLastEarned(dataUrl);
+        } catch {
+          // ignore (e.g., if user closes quickly)
         }
+      }
     };
     img.src = tplPath;
-  }, [record, tplPath, userName]);
+  }, [record, tplPath, imgNum, userName, attachImageToLastEarned]);
 
   if (!record) return null;
 
@@ -102,14 +100,13 @@ export default function AchievementModal({
           </div>
 
           <div className="flex items-center justify-center">
-            <canvas
-              ref={canvasRef}
-              className="w-full h-auto rounded-lg border"
-            />
+            <canvas ref={canvasRef} className="w-full h-auto rounded-lg border" />
           </div>
 
           <p className="text-center text-m text-white px-4 pb-2">
-            You can review your educational certificates at any time by clicking on <span className="font-semibold">“Achievements”</span> above.<br /> 
+            You can review your educational certificates at any time by clicking on{" "}
+            <span className="font-semibold">“Achievements”</span> above.
+            <br />
             Keep completing courses to advance your studies!
           </p>
         </div>
