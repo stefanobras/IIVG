@@ -7,6 +7,7 @@ import type { Catalog, Game } from "@/lib/types";
 import GameCard from "@/components/GameCard";
 import ElectiveForm from "@/components/ElectiveForm";
 import AchievementModal from "@/components/AchievementModal";
+import AuthButtons from "@/components/AuthButtons";
 
 function sortWithinYear(a: Game, b: Game) {
   if (a.orderIndex !== b.orderIndex) return b.orderIndex - a.orderIndex; // DESC by orderIndex
@@ -95,6 +96,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
             >
               Achievements
             </Link>
+             <AuthButtons />
           </nav>
         </div>
       </header>

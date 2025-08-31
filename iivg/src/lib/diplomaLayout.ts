@@ -64,7 +64,6 @@ export const DIPLOMA_LAYOUTS: Record<number, Partial<DiplomaLayout>> = {
   const base = DIPLOMA_LAYOUTS[88] || {};
   for (let n = 88; n <= 112; n++) {
     DIPLOMA_LAYOUTS[n] = {
-      // clone so later tweaks to one number won't affect the others
       nameBox: base.nameBox ? { ...base.nameBox } : undefined,
       consoleBox: base.consoleBox ? { ...base.consoleBox } : undefined,
     };
