@@ -1,9 +1,9 @@
+// src/components/AchievementModal.tsx
 "use client";
 import { useEffect, useMemo, useRef } from "react";
 import type { AchievementRecord } from "@/lib/types";
-import { degreeIndex } from "@/lib/achievements";
+import { degreeIndex, diplomaImageNumber } from "@/lib/achievements";
 import { useIIVG } from "@/store/useIIVG";
-import { diplomaImageNumber } from "@/lib/achievements";
 import { CONSOLE_ORDER } from "@/lib/consoleOrder";
 import { getDiplomaLayout, drawFittedText } from "@/lib/diplomaLayout";
 
@@ -20,7 +20,7 @@ export default function AchievementModal({
   const savedKeyRef = useRef<string | null>(null);
   const { attachImageToLastEarned } = useIIVG();
 
-  // Compute image number and path once per record
+  // Which template image to use
   const imgNum = useMemo(() => {
     if (!record) return null;
     return diplomaImageNumber(record.label, record.console, CONSOLE_ORDER);
@@ -37,19 +37,17 @@ export default function AchievementModal({
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    // Draw at 1200x800; the <canvas> scales responsively via CSS
-    const W = 1200,
-      H = 800;
-    canvas.width = W;
-    canvas.height = H;
+    // Draw at 1200x800; canvas scales via CSS
+    const W = 1200, H = 800;
+    canvas.width = W; canvas.height = H;
 
     const layout = getDiplomaLayout(imgNum);
     const level = degreeIndex(record.label) ?? 1; // 1 = Kindergarten
     const showConsole = level === 1 && !!layout.consoleBox;
 
     const img = new Image();
-    // same-origin; no crossOrigin needed (avoids tainting issues)
-    img.onload = () => {
+    // same origin: no crossOrigin to avoid tainting
+    img.onload = async () => {
       ctx.clearRect(0, 0, W, H);
       ctx.drawImage(img, 0, 0, W, H);
 
@@ -57,19 +55,26 @@ export default function AchievementModal({
       drawFittedText(ctx, nameText, layout.nameBox);
 
       if (showConsole) {
-        const consoleText = record.console;
-        drawFittedText(ctx, consoleText, layout.consoleBox!);
+        drawFittedText(ctx, record.console, layout.consoleBox!);
       }
 
-      // Save the final rendered PNG once per console+label combo
+      // Save final rendered PNG once per console+label combo
       const key = `${record.console}__${record.label}`;
       if (savedKeyRef.current !== key) {
         savedKeyRef.current = key;
         try {
           const dataUrl = canvas.toDataURL("image/png");
           attachImageToLastEarned(dataUrl);
+
+          // Upload to Supabase Storage + save URL in DB (fire-and-forget)
+          try {
+            const { uploadDiplomaAndSaveURL } = await import("@/lib/supabase/upload");
+            await uploadDiplomaAndSaveURL(record, dataUrl);
+          } catch {
+            // ignore upload errors; UI already shows the local render
+          }
         } catch {
-          // ignore (e.g., if user closes quickly)
+          // ignore
         }
       }
     };
@@ -85,7 +90,6 @@ export default function AchievementModal({
       aria-modal="true"
     >
       <div className="relative w-[min(92vw,900px)] rounded-2xl border bg-black shadow-xl">
-        {/* Close */}
         <button
           onClick={onClose}
           className="absolute right-3 top-3 rounded-full border px-2.5 py-1.5 text-sm hover:bg-zinc-100"

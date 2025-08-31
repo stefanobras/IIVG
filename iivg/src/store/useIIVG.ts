@@ -108,6 +108,16 @@ export const useIIVG = create<UserState & Actions>()((set, get) => ({
       next.lastEarned = rec;
     }
 
+    try {
+      void fetch("/api/complete", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ gameId: game.id, rating }),
+      });
+    } catch {
+      // ignore network errors; local state already updated
+    }
+
     return next;
   }),
 
