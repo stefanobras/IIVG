@@ -9,7 +9,8 @@ type Actions = {
   complete: (game: Game, rating: number, catalog: Catalog) => void;
   setName: (name: string) => void;
   dismissAchievement: () => void;
-  attachImageToLastEarned: (dataUrl: string) => void; //
+  attachImageToLastEarned: (dataUrl: string) => void;
+  hydrateFromRemote: (rows: Completion[], catalog: Catalog) => void;
 };
 
 function consoleCounts(completed: Completion[], catalog: Catalog, dynamicExtras: Game[]) {
@@ -144,4 +145,28 @@ export const useIIVG = create<UserState & Actions>()((set, get) => ({
       lastEarned: { ...s.lastEarned, imageDataUrl: dataUrl },
     };
   }),
+
+  hydrateFromRemote: (rows, catalog) => {
+  set((prev) => {
+    // de-dup against any local completions
+    const have = new Set(prev.completed.map((c) => c.gameId));
+    const incoming = rows.filter((r) => !have.has(r.gameId));
+    if (incoming.length === 0) return prev;
+
+    const next = { ...prev };
+    next.completed = [...next.completed, ...incoming];
+
+    // remove completed from available
+    const doneIds = new Set(next.completed.map((c) => c.gameId));
+    next.available = next.available.filter((id) => !doneIds.has(id));
+
+    // recompute series averages and rebuild what's visible
+    recomputeSeriesRatings(next, catalog);
+    ensureYearWave(next, catalog);
+
+    // do NOT set lastEarned here (we don't want the modal popping on refresh)
+    return next;
+  });
+},
+
 }));

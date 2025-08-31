@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { createClient as createSupabaseBrowserClient } from "@supabase/supabase-js";
 import { useIIVG } from "@/store/useIIVG";
 import type { Catalog, Game } from "@/lib/types";
 import GameCard from "@/components/GameCard";
@@ -17,12 +18,14 @@ function sortWithinYear(a: Game, b: Game) {
 export default function HomeClient({ catalog }: { catalog: Catalog }) {
   const {
     available,
+    completed,
     dynamicExtras,
     bootstrap,
     complete,
     lastEarned,
     dismissAchievement,
     name,
+    hydrateFromRemote,
   } = useIIVG();
 
   const [showElective, setShowElective] = useState(false);
@@ -31,9 +34,40 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
   const PAGE_SIZE = 5;
   const [start, setStart] = useState(0); // index of first visible card
 
+  // Gate UI so we don't flash "Space Invaders" before remote completions apply
+  const [hydrating, setHydrating] = useState(true);
+
+  // 1) Local bootstrap (year waves)
   useEffect(() => {
     bootstrap(catalog);
   }, [bootstrap, catalog]);
+
+  // Hydrate from Supabase through your server route
+  useEffect(() => {
+    let cancelled = false;
+
+    (async () => {
+      try {
+        const res = await fetch("/api/completions", {
+          cache: "no-store",
+          credentials: "include",   // 👈 ensures auth cookies are sent
+        });
+        if (!res.ok) return;
+        const json = await res.json();
+
+        if (!cancelled && Array.isArray(json.completions) && json.completions.length) {
+          hydrateFromRemote(json.completions, catalog);
+        }
+      } catch {
+        // ignore; UI still works with local state
+      } finally {
+        if (!cancelled) setHydrating(false);
+      }
+    })();
+
+    return () => { cancelled = true; };
+  }, [catalog, hydrateFromRemote]);
+
 
   // id -> game
   const byId = useMemo(() => {
@@ -41,16 +75,23 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
     return Object.fromEntries(all.map((g) => [g.id, g])) as Record<string, Game>;
   }, [catalog.allGames, dynamicExtras]);
 
+  // Guard: never show already-completed ids (even if slipped into `available`)
+  const completedSet = useMemo(
+    () => new Set(completed.map((c) => c.gameId)),
+    [completed]
+  );
+
   // stable ordering: year ASC, then orderIndex DESC, then title ASC
   const sortedAvailable = useMemo(() => {
     return available
-      .filter((id) => byId[id])
+      .filter((id) => byId[id] && !completedSet.has(id))
       .sort((a, b) => {
-        const ga = byId[a]!, gb = byId[b]!;
+        const ga = byId[a]!,
+          gb = byId[b]!;
         if (ga.releaseYear !== gb.releaseYear) return ga.releaseYear - gb.releaseYear;
         return sortWithinYear(ga, gb);
       });
-  }, [available, byId]);
+  }, [available, byId, completedSet]);
 
   const len = sortedAvailable.length;
 
@@ -67,28 +108,52 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
   const canPrev = start > 0;
   const canNext = start + PAGE_SIZE < len;
 
-  // sizing tier based on how many are visible now (unchanged from your style)
+  // sizing tier based on how many are visible now (your style)
   const cols = visibleIds.length || 1;
   const sizeTier = cols >= 5 ? "sm" : cols >= 4 ? "md" : "lg";
+
+  // While hydrating, show a tiny gate so we don’t flash pre-hydration cards
+  if (hydrating) {
+    return (
+      <main className="min-h-screen">
+        <header className="sticky top-0 z-20 bg-black text-white border-b border-zinc-800">
+          <div className="max-w-screen-2xl mx-auto px-6 py-6 flex items-center justify-between">
+            <div className="flex flex-col items-start">
+              <img src="/images/logo_2.png" alt="IIVG" className="h-16 w-auto block" />
+              <div className="font-subtitle mt-3 text-[14px] leading-none text-zinc-300">
+                Complete the following courses and cultivate your video game education.
+              </div>
+            </div>
+            <nav className="flex items-center gap-4">
+              <Link
+                href="/achievements"
+                className="font-header tracking-wide uppercase text-lg underline decoration-transparent hover:decoration-inherit transition-colors hover:text-[var(--iivg-royal)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--iivg-royal)] rounded"
+              >
+                Achievements
+              </Link>
+              <AuthButtons />
+            </nav>
+          </div>
+        </header>
+
+        <section className="max-w-screen-2xl mx-auto py-16 px-6">
+          <div className="text-center text-zinc-500">Loading your courses…</div>
+        </section>
+      </main>
+    );
+  }
 
   return (
     <main className="min-h-screen">
       {/* NAVBAR */}
       <header className="sticky top-0 z-20 bg-black text-white border-b border-zinc-800">
         <div className="max-w-screen-2xl mx-auto px-6 py-6 flex items-center justify-between">
-          {/* Logo + subtitle (stacked) */}
           <div className="flex flex-col items-start">
-            <img
-              src="/images/logo_2.png"
-              alt="IIVG"
-              className="h-16 w-auto block"
-            />
+            <img src="/images/logo_2.png" alt="IIVG" className="h-16 w-auto block" />
             <div className="font-subtitle mt-3 text-[14px] leading-none text-zinc-300">
               Complete the following courses and cultivate your video game education.
             </div>
           </div>
-
-          {/* Right-side nav (keep Link for Achievements) */}
           <nav className="flex items-center gap-4">
             <Link
               href="/achievements"
@@ -96,12 +161,12 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
             >
               Achievements
             </Link>
-             <AuthButtons />
+            <AuthButtons />
           </nav>
         </div>
       </header>
 
-      {/* Graduation modal (unchanged behavior) */}
+      {/* Graduation modal */}
       <AchievementModal
         record={lastEarned}
         userName={name || "Stefano Brascetta"}
@@ -165,11 +230,11 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
           </button>
         )}
 
-        {/* Side gutters keep arrows away from cards (your spacing) */}
+        {/* Side gutters keep arrows away from cards */}
         <div className="px-12 md:px-20 xl:px-28">
           <div
             className="grid gap-4"
-            style={{ gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))` }}
+            style={{ gridTemplateColumns: `repeat(${visibleIds.length || 1}, minmax(0, 1fr))` }}
           >
             {visibleIds.map((id) => {
               const g = byId[id];
@@ -178,7 +243,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
                 <div key={id} className="flex">
                   <GameCard
                     game={g}
-                    size={sizeTier as any}
+                    size={(visibleIds.length >= 5 ? "sm" : visibleIds.length >= 4 ? "md" : "lg") as any}
                     onComplete={(rating) => {
                       complete(g, rating, catalog);
                       // After removal, snap to last valid page if we ended up past the end
