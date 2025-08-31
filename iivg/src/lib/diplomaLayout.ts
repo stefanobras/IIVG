@@ -46,13 +46,30 @@ export const DIPLOMA_LAYOUTS: Record<number, Partial<DiplomaLayout>> = {
   30: {
     nameBox: { x: 610, y: 440, w: 820, h: 90 }, // primary #1 tweak
   },
+  31: {
+    nameBox: { x: 600, y: 480, w: 820, h: 90 }, // primary #1 tweak
+  },
   32: {
     nameBox: { x: 610, y: 450, w: 820, h: 90 }, // primary #1 tweak
   },
   59: {
-    nameBox: { x: 590, y: 510, w: 780, h: 90 },
+    nameBox: { x: 590, y: 500, w: 780, h: 90 },
   },
+  88: {
+    nameBox: { x: 600, y: 340, w: 780, h: 90 },
+  }
 };
+
+{
+  const base = DIPLOMA_LAYOUTS[88] || {};
+  for (let n = 88; n <= 112; n++) {
+    DIPLOMA_LAYOUTS[n] = {
+      // clone so later tweaks to one number won't affect the others
+      nameBox: base.nameBox ? { ...base.nameBox } : undefined,
+      consoleBox: base.consoleBox ? { ...base.consoleBox } : undefined,
+    };
+  }
+}
 
 function mergeBox(base: TextBox, patch?: Partial<TextBox>): TextBox {
   return patch ? { ...base, ...patch } : base;

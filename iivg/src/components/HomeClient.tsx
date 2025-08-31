@@ -102,7 +102,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
       {/* Graduation modal (unchanged behavior) */}
       <AchievementModal
         record={lastEarned}
-        userName={name || "StefanoBras"}
+        userName={name || "Stefano Brascetta"}
         onClose={dismissAchievement}
       />
 
