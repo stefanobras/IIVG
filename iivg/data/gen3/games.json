@@ -1,17 +1,6 @@
 [
 {
 "id": "1989-8",
-"title": "R-Type II",
-"series": "R-Type",
-"seriesIndex": 2,
-"console": "Game Boy",
-"releaseYear": 1991,
-"orderIndex": 9.549,
-"image": "https://images.launchbox-app.com//6c48e0ad-15fe-4920-8bf0-9144547e2f18.png",
-"gen": 3
-},
-{
-"id": "1989-9",
 "title": "Super Mario Land",
 "series": "Super Mario",
 "seriesIndex": 4,
@@ -19,6 +8,17 @@
 "releaseYear": 1989,
 "orderIndex": 6.978,
 "image": "https://images.launchbox-app.com//393eb5ac-d847-4a28-b451-a3f7624bd5c4.png",
+"gen": 3
+},
+{
+"id": "1989-9",
+"title": "Alleyway",
+"series": null,
+"seriesIndex": null,
+"console": "Game Boy",
+"releaseYear": 1989,
+"orderIndex": 2.466,
+"image": "https://images.launchbox-app.com//bc93d403-e221-4ba3-b174-893d7991cdd3.png",
 "gen": 3
 },
 {
@@ -411,7 +411,7 @@
 "id": "1994-5",
 "title": "Castlevania: Bloodlines",
 "series": "Castlevania",
-"seriesIndex": 7,
+"seriesIndex": 8,
 "console": "Sega Genesis",
 "releaseYear": 1994,
 "orderIndex": 2.362,

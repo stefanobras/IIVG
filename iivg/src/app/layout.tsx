@@ -29,13 +29,19 @@ const iivgHeader = localFont({
 
 // Body: custom font
 const iivgBody = localFont({
-  src: [{ path: "/fonts/NeueHaasGrotText-55Roman-Trial.otf", weight: "400", style: "normal" }],
+  src: [{ path: "./fonts/NeueHaasGrotText-55Roman-Trial.otf", weight: "400", style: "normal" }],
   variable: "--font-iivg-body",
+});
+
+const oldEnglish = localFont({
+  src: [{ path: "./fonts/OldEnglishRegular.ttf", weight: "700", style: "normal" }],
+  variable: "--font-old-english",
+  display: "swap",
 });
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${robotoMono.variable} ${robotoSerif.variable} ${iivgHeader.variable} ${iivgBody.variable}`}>
+    <html lang="en" className={`${robotoMono.variable} ${robotoSerif.variable} ${iivgHeader.variable} ${iivgBody.variable} ${oldEnglish.variable}`}>
       <body>{children}</body>
     </html>
   );

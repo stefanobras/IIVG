@@ -1,7 +1,7 @@
 // src/lib/stream.ts
 import type { Catalog, Game, UserState } from "./types";
 
-const START_YEAR = 1978;
+const START_YEAR = 1977;
 
 function sortWithinYear(a: Game, b: Game) {
   if (a.orderIndex !== b.orderIndex) return b.orderIndex - a.orderIndex; // DESC orderIndex

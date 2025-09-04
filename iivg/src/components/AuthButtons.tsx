@@ -45,14 +45,13 @@ export default function AuthButtons() {
         href="/login"
         className="rounded-md border px-3 py-1.5 hover:bg-white hover:text-black transition"
       >
-        Sign in
+        Log In / Sign Up
       </Link>
     );
   }
 
   return (
     <div className="flex items-center gap-3">
-      <span className="text-sm opacity-80">{profile.email}</span>
       <button
         className="rounded-md border px-3 py-1.5 hover:bg-white hover:text-black transition"
         onClick={async () => {

@@ -344,6 +344,17 @@
 },
 {
 "id": "1990-4",
+"title": "Super Mario Bros. 3",
+"series": "Super Mario",
+"seriesIndex": 3,
+"console": "NES",
+"releaseYear": 1990,
+"orderIndex": 1.793,
+"image": "https://images.launchbox-app.com//174ffd17-c402-46f3-a298-da381f49bb23.png",
+"gen": 2
+},
+{
+"id": "1990-5",
 "title": "Castlevania III: Dracula's Curse",
 "series": "Castlevania",
 "seriesIndex": 4,
@@ -351,17 +362,6 @@
 "releaseYear": 1990,
 "orderIndex": 1.644,
 "image": "https://images.launchbox-app.com//ac727c49-c0ef-4298-aa18-7ed6d658cd74.png",
-"gen": 2
-},
-{
-"id": "1990-5",
-"title": "Super Mario Bros. 3",
-"series": "Super Mario",
-"seriesIndex": 3,
-"console": "NES",
-"releaseYear": 1990,
-"orderIndex": 0.498,
-"image": "https://images.launchbox-app.com//174ffd17-c402-46f3-a298-da381f49bb23.png",
 "gen": 2
 },
 {

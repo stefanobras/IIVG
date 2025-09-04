@@ -21,6 +21,17 @@
 "image": "https://images.launchbox-app.com//956ec30e-d337-429a-8e72-eae43905416e.png",
 "gen": 5
 },
+{
+"id": "1998-14",
+"title": "Soulcalibur",
+"series": "Soulcalibur",
+"seriesIndex": 2,
+"console": "Dreamcast",
+"releaseYear": 1998,
+"orderIndex": 1.747,
+"image": "https://images.launchbox-app.com//13ac674d-9ad1-4a4c-82e8-d2b26cf372c9.png",
+"gen": 5
+},
 
 
 
@@ -46,6 +57,50 @@
 "releaseYear": 1999,
 "orderIndex": 2.586,
 "image": "https://images.launchbox-app.com//9ef552eb-d319-4723-ae66-41ee929e81be.png",
+"gen": 5
+},
+{
+"id": "1999-18",
+"title": "Crazy Taxi",
+"series": "Crazy Taxi",
+"seriesIndex": 1,
+"console": "Dreamcast",
+"releaseYear": 1999,
+"orderIndex": 1.791,
+"image": "https://images.launchbox-app.com//1e7c8f1d-643a-4382-84e8-490b7daf2d37.png",
+"gen": 5
+},
+{
+"id": "1999-19",
+"title": "Ready 2 Rumble Boxing",
+"series": "Ready 2 Rumble",
+"seriesIndex": 1,
+"console": "Dreamcast",
+"releaseYear": 1999,
+"orderIndex": 0.707,
+"image": "https://images.launchbox-app.com//a90e206f-55ee-4ee6-93b7-3f0cdbb61230.png",
+"gen": 5
+},
+{
+"id": "1999-20",
+"title": "Sonic Adventure",
+"series": "Sonic the Hedgehog",
+"seriesIndex": 5,
+"console": "Dreamcast",
+"releaseYear": 1999,
+"orderIndex": 0.640,
+"image": "https://images.launchbox-app.com//c0e96869-5b01-433b-bc3d-6a0ff7dd0aa9.png",
+"gen": 5
+},
+{
+"id": "1999-21",
+"title": "Virtua Tennis",
+"series": "Virtua Tennis",
+"seriesIndex": 1,
+"console": "Dreamcast",
+"releaseYear": 1999,
+"orderIndex": 0.637,
+"image": "https://images.launchbox-app.com//a59134a8-143b-41c3-9960-1832ad101f05.png",
 "gen": 5
 },
 
@@ -75,7 +130,402 @@
 "image": "https://images.launchbox-app.com//f5204d9e-5132-4e10-abe1-273056200ed9.png",
 "gen": 5
 },
+{
+"id": "2000-17",
+"title": "Dead or Alive 2",
+"series": "Dead or Alive",
+"seriesIndex": 2,
+"console": "Dreamcast",
+"releaseYear": 2000,
+"orderIndex": 1.950,
+"image": "https://images.launchbox-app.com//bf472ea3-f0f9-41cd-a35e-5204a6b1f521.png",
+"gen": 5
+},
+{
+"id": "2000-18",
+"title": "Jet Set Radio",
+"series": "Jet Set Radio",
+"seriesIndex": 1,
+"console": "Dreamcast",
+"releaseYear": 2000,
+"orderIndex": 0.884,
+"image": "https://images.launchbox-app.com//9719119a-f95e-4e0b-8a8c-a0e6a770cefd.png",
+"gen": 5
+},
+{
+"id": "2000-19",
+"title": "Marvel vs. Capcom 2: New Age of Heroes",
+"series": "Marvel vs. Capcom",
+"seriesIndex": 4,
+"console": "Dreamcast",
+"releaseYear": 2000,
+"orderIndex": 0.849,
+"image": "https://images.launchbox-app.com//a82f2220-0500-4769-8bc2-2622879a1ace.png",
+"gen": 5
+},
+{
+"id": "2000-20",
+"title": "Resident Evil - Code: Veronica",
+"series": "Resident Evil",
+"seriesIndex": 4,
+"console": "Dreamcast",
+"releaseYear": 2000,
+"orderIndex": 0.595,
+"image": "https://images.launchbox-app.com//c1ee6cc9-d13b-4c88-b080-145a73c827ee.png",
+"gen": 5
+},
+{
+"id": "2000-21",
+"title": "Shenmue",
+"series": "Shenmue",
+"seriesIndex": 1,
+"console": "Dreamcast",
+"releaseYear": 2000,
+"orderIndex": 0.372,
+"image": "https://images.launchbox-app.com//95be5a0a-ac01-43f1-9416-fb82d938dd1e.png",
+"gen": 5
+},
+{
+"id": "2000-22",
+"title": "Grandia II",
+"series": "Grandia",
+"seriesIndex": 2,
+"console": "Dreamcast",
+"releaseYear": 2000,
+"orderIndex": 0.203,
+"image": "https://images.launchbox-app.com//abf05991-381a-445a-b403-ca1b36bda08b.png",
+"gen": 5
+},
+{
+"id": "2000-23",
+"title": "Skies of Arcadia",
+"series": null,
+"seriesIndex": null,
+"console": "Dreamcast",
+"releaseYear": 2000,
+"orderIndex": 0.153,
+"image": "https://images.launchbox-app.com//d400b032-bab2-42d8-88a4-efe01741daca.png",
+"gen": 5
+},
 
+
+
+
+
+ 
+{
+"id": "2001-10",
+"title": "Dead or Alive 3",
+"series": "Dead or Alive",
+"seriesIndex": 3,
+"console": "Xbox",
+"releaseYear": 2001,
+"orderIndex": 1.369,
+"image": "https://images.launchbox-app.com//153b206c-3925-4436-84fb-5e7fc69647bd.png",
+"gen": 5
+},
+{
+"id": "2001-11",
+"title": "Mario Kart: Super Circuit",
+"series": "Mario Kart",
+"seriesIndex": 3,
+"console": "Game Boy Advance",
+"releaseYear": 2001,
+"orderIndex": 1.309,
+"image": "https://images.launchbox-app.com//683cfb5c-43ba-4445-b18c-9b588800394a.png",
+"gen": 5
+},
+{
+"id": "2001-12",
+"title": "Wario Land 4",
+"series": "Wario",
+"seriesIndex": 4,
+"console": "Game Boy Advance",
+"releaseYear": 2001,
+"orderIndex": 1.152,
+"image": "https://images.launchbox-app.com//d803616c-6057-4809-ac63-1b23e2a73ec2.png",
+"gen": 5
+},
+{
+"id": "2001-13",
+"title": "Luigi's Mansion",
+"series": "Luigi's Mansion",
+"seriesIndex": 1,
+"console": "GameCube",
+"releaseYear": 2001,
+"orderIndex": 1.145,
+"image": "https://images.launchbox-app.com//63e19fe1-bd1e-4a92-8a4d-c63a60cc60d2.png",
+"gen": 5
+},
+{
+"id": "2001-14",
+"title": "Silent Hill 2",
+"series": "Silent Hill",
+"seriesIndex": 2,
+"console": "PlayStation 2",
+"releaseYear": 2001,
+"orderIndex": 1.145,
+"image": "https://images.launchbox-app.com//f8dbb6c7-fb1e-4043-a8d1-ee0d8ba0dbb2.png",
+"gen": 5
+},
+{
+"id": "2001-15",
+"title": "Pikmin",
+"series": "Pikmin",
+"seriesIndex": 1,
+"console": "GameCube",
+"releaseYear": 2001,
+"orderIndex": 0.978,
+"image": "https://images.launchbox-app.com//c1a95e24-862f-4164-8246-6f19cbacc74f.png",
+"gen": 5
+},
+{
+"id": "2001-16",
+"title": "Star Wars Rogue Squadron II: Rogue Leader",
+"series": "Star Wars: Rogue Squadron",
+"seriesIndex": 2,
+"console": "GameCube",
+"releaseYear": 2001,
+"orderIndex": 0.958,
+"image": "https://images.launchbox-app.com//83987564-2bcb-4073-96b9-2a8a602c53da.png",
+"gen": 5
+},
+{
+"id": "2001-17",
+"title": "Halo: Combat Evolved",
+"series": "Halo",
+"seriesIndex": 1,
+"console": "Xbox",
+"releaseYear": 2001,
+"orderIndex": 0.811,
+"image": "https://images.launchbox-app.com//0d920e32-b115-407a-9e7b-f991c702c862.png",
+"gen": 5
+},
+{
+"id": "2001-18",
+"title": "Metal Gear Solid 2: Sons of Liberty",
+"series": "Metal Gear",
+"seriesIndex": 2,
+"console": "PlayStation 2",
+"releaseYear": 2001,
+"orderIndex": 0.631,
+"image": "https://images.launchbox-app.com//db92eebd-c1ce-49cb-948a-3d6a05955b7b.png",
+"gen": 5
+},
+{
+"id": "2001-19",
+"title": "Sonic Adventure 2",
+"series": "Sonic the Hedgehog",
+"seriesIndex": 6,
+"console": "Dreamcast",
+"releaseYear": 2001,
+"orderIndex": 0.582,
+"image": "https://images.launchbox-app.com//2db5f2a5-469f-4c2b-a07f-042c5442be3e.png",
+"gen": 5
+},
+{
+"id": "2001-20",
+"title": "Advance Wars",
+"series": "Wars",
+"seriesIndex": 1,
+"console": "Game Boy Advance",
+"releaseYear": 2001,
+"orderIndex": 0.442,
+"image": "https://images.launchbox-app.com//ce0cf5d3-a633-459f-9e31-b1a84956442d.png",
+"gen": 5
+},
+{
+"id": "2001-21",
+"title": "Golden Sun",
+"series": "Golden Sun",
+"seriesIndex": 1,
+"console": "Game Boy Advance",
+"releaseYear": 2001,
+"orderIndex": 0.331,
+"image": "https://images.launchbox-app.com//e13251ee-18f3-4181-9ddd-ccc4ce605999.png",
+"gen": 5
+},
+{
+"id": "2001-22",
+"title": "Shenmue II",
+"series": "Shenmue",
+"seriesIndex": 2,
+"console": "Dreamcast",
+"releaseYear": 2001,
+"orderIndex": 0.290,
+"image": "https://images.launchbox-app.com//4ab9a663-1725-4173-8f85-8928e4044be3.png",
+"gen": 5
+},
+{
+"id": "2001-23",
+"title": "Super Smash Bros. Melee",
+"series": "Super Smash Bros.",
+"seriesIndex": 2,
+"console": "GameCube",
+"releaseYear": 2001,
+"orderIndex": 0.173,
+"image": "https://images.launchbox-app.com//bc1471f7-0124-4b38-a88f-e650f73156af.png",
+"gen": 5
+},
+{
+"id": "2001-24",
+"title": "Final Fantasy X",
+"series": "Final Fantasy",
+"seriesIndex": 10,
+"console": "PlayStation 2",
+"releaseYear": 2001,
+"orderIndex": 0.136,
+"image": "https://images.launchbox-app.com//d01e7fe7-dd26-48d3-b88d-4a476ec24c66.png",
+"gen": 5
+},
+{
+"id": "2001-25",
+"title": "Fuzion Frenzy",
+"series": null,
+"seriesIndex": null,
+"console": "Xbox",
+"releaseYear": 2001,
+"orderIndex": 0.102,
+"image": "https://images.launchbox-app.com//c563824e-fbd8-45b3-8737-5ed242ce4a17.png",
+"gen": 5
+},
+
+
+
+
+
+{
+"id": "2002-4",
+"title": "Sonic Advance",
+"series": "Sonic the Hedgehog",
+"seriesIndex": 7,
+"console": "Game Boy Advance",
+"releaseYear": 2002,
+"orderIndex": 2.862,
+"image": "https://images.launchbox-app.com//236a42ab-7be7-4947-b797-ae4a9b53f58a.png",
+"gen": 5
+},
+{
+"id": "2002-5",
+"title": "Kirby: Nightmare in Dream Land",
+"series": "Kirby",
+"seriesIndex": 7,
+"console": "Game Boy Advance",
+"releaseYear": 2002,
+"orderIndex": 2.164,
+"image": "https://images.launchbox-app.com//4459e401-1dfc-447b-b651-a9b5ae3380d5.png",
+"gen": 5
+},
+{
+"id": "2002-6",
+"title": "Soulcalibur II",
+"series": "Soulcalibur",
+"seriesIndex": 3,
+"console": "GameCube",
+"releaseYear": 2002,
+"orderIndex": 0.723,
+"image": "https://images.launchbox-app.com//e2ac6ddc-31cd-4079-beb0-3d98be927b66.png",
+"gen": 5
+},
+{
+"id": "2002-7",
+"title": "Resident Evil (2002)",
+"series": "Resident Evil",
+"seriesIndex": 5,
+"console": "GameCube",
+"releaseYear": 2002,
+"orderIndex": 0.680,
+"image": "https://images.launchbox-app.com//f4348b99-b224-4313-8ef6-e1e3b9d2fa96.png",
+"gen": 5
+},
+{
+"id": "2002-8",
+"title": "Tom Clancy's Splinter Cell",
+"series": "Tom Clancy's Splinter Cell",
+"seriesIndex": 1,
+"console": "Xbox",
+"releaseYear": 2002,
+"orderIndex": 0.579,
+"image": "https://images.launchbox-app.com//93c934da-1d50-4350-88ed-97edf726d903.png",
+"gen": 5
+},
+{
+"id": "2002-9",
+"title": "Metroid Prime",
+"series": "Metroid",
+"seriesIndex": 5,
+"console": "GameCube",
+"releaseYear": 2002,
+"orderIndex": 0.577,
+"image": "https://images.launchbox-app.com//3af26b0c-27ba-47df-9b05-42a30bc3f533.png",
+"gen": 5
+},
+{
+"id": "2002-10",
+"title": "Jet Set Radio Future",
+"series": "Jet Set Radio",
+"seriesIndex": 2,
+"console": "Xbox",
+"releaseYear": 2002,
+"orderIndex": 0.554,
+"image": "https://images.launchbox-app.com//21711c5f-ce0f-44a2-8d08-fac14ce180ef.png",
+"gen": 5
+},
+{
+"id": "2002-11",
+"title": "Eternal Darkness: Sanity's Requiem",
+"series": null,
+"seriesIndex": null,
+"console": "GameCube",
+"releaseYear": 2002,
+"orderIndex": 0.513,
+"image": "https://images.launchbox-app.com//67808c70-cfc4-4a40-a1d5-142b2747d213.png",
+"gen": 5
+},
+{
+"id": "2002-12",
+"title": "Super Mario Sunshine",
+"series": "Super Mario",
+"seriesIndex": 9,
+"console": "GameCube",
+"releaseYear": 2002,
+"orderIndex": 0.419,
+"image": "https://images.launchbox-app.com//68ba6164-3fcd-4b93-be4d-5608aac01118.png",
+"gen": 5
+},
+{
+"id": "2002-13",
+"title": "Grand Theft Auto: Vice City",
+"series": "Grand Theft Auto",
+"seriesIndex": 4,
+"console": "PlayStation 2",
+"releaseYear": 2002,
+"orderIndex": 0.374,
+"image": "https://images.launchbox-app.com//d537c7c1-ce45-41bc-804c-c4ae5d7b24e3.png",
+"gen": 5
+},
+{
+"id": "2002-14",
+"title": "Kingdom Hearts",
+"series": "Kingdom Hearts",
+"seriesIndex": 1,
+"console": "PlayStation 2",
+"releaseYear": 2002,
+"orderIndex": 0.227,
+"image": "https://images.launchbox-app.com//366d35f7-25e8-4928-a3d1-4af25448ab0d.png",
+"gen": 5
+},
+{
+"id": "2002-15",
+"title": "Animal Crossing",
+"series": "Animal Crossing",
+"seriesIndex": 1,
+"console": "GameCube",
+"releaseYear": 2002,
+"orderIndex": 0.066,
+"image": "https://images.launchbox-app.com//c26b615f-5234-40b6-936f-a50fec3a623f.png",
+"gen": 5
+},
 
 
 
@@ -89,6 +539,605 @@
 "releaseYear": 2003,
 "orderIndex": 2.590,
 "image": "https://images.launchbox-app.com//fff2037f-d38d-4899-ab88-be4183ea9c19.png",
+"gen": 5
+},
+{
+"id": "2003-2",
+"title": "Castlevania: Aria of Sorrow",
+"series": "Castlevania",
+"seriesIndex": 15,
+"console": "Game Boy Advance",
+"releaseYear": 2003,
+"orderIndex": 1.040,
+"image": "https://images.launchbox-app.com//edd7855a-4d79-46d2-acdb-15f0e90669a7.png",
+"gen": 5
+},
+{
+"id": "2003-3",
+"title": "Crimson Skies: High Road to Revenge",
+"series": "Crimson Skies",
+"seriesIndex": 2,
+"console": "Xbox",
+"releaseYear": 2003,
+"orderIndex": 0.830,
+"image": "https://images.launchbox-app.com//ea0d6daa-d4a1-4fa8-96ee-e2c7f6742f28.png",
+"gen": 5
+},
+{
+"id": "2003-4",
+"title": "Mario Kart: Double Dash!!",
+"series": "Mario Kart",
+"seriesIndex": 4,
+"console": "GameCube",
+"releaseYear": 2003,
+"orderIndex": 0.663,
+"image": "https://images.launchbox-app.com//e234aa6b-4099-401f-bdbf-460e436c23ad.png",
+"gen": 5
+},
+{
+"id": "2003-5",
+"title": "Mario & Luigi: Superstar Saga",
+"series": "Mario & Luigi",
+"seriesIndex": 1,
+"console": "Game Boy Advance",
+"releaseYear": 2003,
+"orderIndex": 0.399,
+"image": "https://images.launchbox-app.com//2d62b6ba-971f-43f4-9daa-1aa112616722.png",
+"gen": 5
+},
+{
+"id": "2003-6",
+"title": "The Legend of Zelda: The Wind Waker",
+"series": "The Legend of Zelda",
+"seriesIndex": 8,
+"console": "GameCube",
+"releaseYear": 2003,
+"orderIndex": 0.399,
+"image": "https://images.launchbox-app.com//6549e045-bd01-4982-9308-c9f3a1acc4d6.png",
+"gen": 5
+},
+{
+"id": "2003-7",
+"title": "Fire Emblem: The Blazing Blade",
+"series": "Fire Emblem",
+"seriesIndex": 1,
+"console": "Game Boy Advance",
+"releaseYear": 2003,
+"orderIndex": 0.259,
+"image": "https://images.launchbox-app.com//76397093-0faa-4ac4-9d2e-e7a1a64430f2.png",
+"gen": 5
+},
+{
+"id": "2003-8",
+"title": "Star Wars: Knights of the Old Republic",
+"series": "Star Wars: Knights of the Old Republic",
+"seriesIndex": 1,
+"console": "Xbox",
+"releaseYear": 2003,
+"orderIndex": 0.244,
+"image": "https://images.launchbox-app.com//70c52c22-d223-4792-bf2d-54ba2ee3c0f2.png",
+"gen": 5
+},
+{
+"id": "2003-9",
+"title": "Golden Sun: The Lost Age",
+"series": "Golden Sun",
+"seriesIndex": 2,
+"console": "Game Boy Advance",
+"releaseYear": 2003,
+"orderIndex": 0.213,
+"image": "https://images.launchbox-app.com//e63cb89e-c5c2-450f-8c17-5c775b9f18ee.png",
+"gen": 5
+},
+{
+"id": "2003-10",
+"title": "Pokémon Ruby and Sapphire",
+"series": "Pokémon",
+"seriesIndex": 5,
+"console": "Game Boy Advance",
+"releaseYear": 2003,
+"orderIndex": 0.150,
+"image": "/images/games/rubysapphire.png",
+"gen": 5
+},
+{
+"id": "2003-11",
+"title": "Tales of Symphonia",
+"series": "Tales",
+"seriesIndex": 4,
+"console": "GameCube",
+"releaseYear": 2003,
+"orderIndex": 0.133,
+"image": "https://images.launchbox-app.com//1be75aab-c217-4cca-8e8a-d2a8d2adb5b5.png",
+"gen": 5
+},
+{
+"id": "2003-11",
+"title": "Final Fantasy Tactics Advance",
+"series": "Ivalice Alliance",
+"seriesIndex": 2,
+"console": "Game Boy Advance",
+"releaseYear": 2003,
+"orderIndex": 0.122,
+"image": "https://images.launchbox-app.com//01ed0239-fb63-408e-8461-15be39e736b8.png",
+"gen": 5
+},
+
+
+
+
+
+{
+"id": "2004-1",
+"title": "Metroid: Zero Mission",
+"series": "Metroid",
+"seriesIndex": 6,
+"console": "Game Boy Advance",
+"releaseYear": 2004,
+"orderIndex": 1.699,
+"image": "https://images.launchbox-app.com//7b944571-2b60-4531-b663-d36181c1ddd4.png",
+"gen": 5
+},
+{
+"id": "2004-2",
+"title": "Kirby & the Amazing Mirror",
+"series": "Kirby",
+"seriesIndex": 9,
+"console": "Game Boy Advance",
+"releaseYear": 2004,
+"orderIndex": 0.926,
+"image": "https://images.launchbox-app.com//df8d1b21-b989-440b-8a79-28288fc05a08.png",
+"gen": 5
+},
+{
+"id": "2004-3",
+"title": "Need for Speed: Underground 2",
+"series": "Need for Speed",
+"seriesIndex": 8,
+"console": "PlayStation 2",
+"releaseYear": 2004,
+"orderIndex": 0.876,
+"image": "https://images.launchbox-app.com//e8863014-242e-44cf-80bc-9607e1ac460a.png",
+"gen": 5
+},
+{
+"id": "2004-4",
+"title": "Halo 2",
+"series": "Halo",
+"seriesIndex": 2,
+"console": "Xbox",
+"releaseYear": 2004,
+"orderIndex": 0.827,
+"image": "https://images.launchbox-app.com//cc57029e-d210-46ac-b678-fa62f0afb0d1.png",
+"gen": 5
+},
+{
+"id": "2004-5",
+"title": "Metal Gear Solid: The Twin Snakes",
+"series": "Metal Gear",
+"seriesIndex": 3,
+"console": "GameCube",
+"releaseYear": 2004,
+"orderIndex": 0.764,
+"image": "https://images.launchbox-app.com//41958192-8449-42a9-8e6f-d7576bebcd9c.png",
+"gen": 5
+},
+{
+"id": "2004-6",
+"title": "Tom Clancy's Splinter Cell: Pandora Tomorrow",
+"series": "Tom Clancy's Splinter Cell",
+"seriesIndex": 2,
+"console": "Xbox",
+"releaseYear": 2004,
+"orderIndex": 0.606,
+"image": "https://images.launchbox-app.com//d12f1005-4d50-422a-8c25-c90608326cd8.png",
+"gen": 5
+},
+{
+"id": "2004-7",
+"title": "Metal Gear Solid 3: Snake Eater",
+"series": "Metal Gear",
+"seriesIndex": 4,
+"console": "PlayStation 2",
+"releaseYear": 2004,
+"orderIndex": 0.549,
+"image": "https://images.launchbox-app.com//3bc4200f-00bc-44db-8a73-09ff0d45584e.png",
+"gen": 5
+},
+{
+"id": "2004-8",
+"title": "Pikmin 2",
+"series": "Pikmin",
+"seriesIndex": 2,
+"console": "GameCube",
+"releaseYear": 2004,
+"orderIndex": 0.461,
+"image": "https://images.launchbox-app.com//a988faa6-450a-48ed-9bdf-b75ac502c7fd.png",
+"gen": 5
+},
+{
+"id": "2004-9",
+"title": "The Legend of Zelda: The Minish Cap",
+"series": "The Legend of Zelda",
+"seriesIndex": 10,
+"console": "Game Boy Advance",
+"releaseYear": 2004,
+"orderIndex": 0.452,
+"image": "https://images.launchbox-app.com//8020fb2e-dc83-46d8-b726-611f14eea800.png",
+"gen": 5
+},
+{
+"id": "2004-10",
+"title": "Fable",
+"series": "Fable",
+"seriesIndex": 1,
+"console": "Xbox",
+"releaseYear": 2004,
+"orderIndex": 0.444,
+"image": "https://images.launchbox-app.com//19bd67a2-9c54-4273-b98c-efbbff543c48.png",
+"gen": 5
+},
+{
+"id": "2004-11",
+"title": "Metroid Prime 2: Echoes",
+"series": "Metroid",
+"seriesIndex": 7,
+"console": "GameCube",
+"releaseYear": 2004,
+"orderIndex": 0.435,
+"image": "https://images.launchbox-app.com//4eec41a9-b449-44db-a7d2-c92886ae5a26.png",
+"gen": 5
+},
+{
+"id": "2004-12",
+"title": "Ninja Gaiden Black",
+"series": "Ninja Gaiden",
+"seriesIndex": 4,
+"console": "Xbox",
+"releaseYear": 2004,
+"orderIndex": 0.435,
+"image": "https://images.launchbox-app.com//8ab14cf9-e477-4f2c-810a-ab61b85e9cf4.png",
+"gen": 5
+},
+{
+"id": "2004-13",
+"title": "The Chronicles of Riddick: Escape from Butcher Bay",
+"series": "The Chronicles of Riddick",
+"seriesIndex": 1,
+"console": "Xbox",
+"releaseYear": 2004,
+"orderIndex": 0.333,
+"image": "https://images.launchbox-app.com//8e5e1c22-e046-4492-bc85-ccfc97bdbf9f.png",
+"gen": 5
+},
+{
+"id": "2004-14",
+"title": "Paper Mario: The Thousand-Year Door",
+"series": "Paper Mario",
+"seriesIndex": 2,
+"console": "GameCube",
+"releaseYear": 2004,
+"orderIndex": 0.243,
+"image": "https://images.launchbox-app.com//a62e1cba-1ae9-4f1a-9638-292f19db92d2.png",
+"gen": 5
+},
+{
+"id": "2004-15",
+"title": "Grand Theft Auto: San Andreas",
+"series": "Grand Theft Auto",
+"seriesIndex": 5,
+"console": "PlayStation 2",
+"releaseYear": 2004,
+"orderIndex": 0.215,
+"image": "https://images.launchbox-app.com//54377eb1-fa31-4278-bb1e-56ca552e0b08.png",
+"gen": 5
+},
+{
+"id": "2004-16",
+"title": "Star Wars Knights of the Old Republic II: The Sith Lords",
+"series": "Star Wars: Knights of the Old Republic",
+"seriesIndex": 2,
+"console": "Xbox",
+"releaseYear": 2004,
+"orderIndex": 0.203,
+"image": "https://images.launchbox-app.com//dad60687-1e6f-4ffe-b9f1-3b975f7258d0.png",
+"gen": 5
+},
+{
+"id": "2004-17",
+"title": "Pokémon FireRed and LeafGreen",
+"series": "Pokémon",
+"seriesIndex": 6,
+"console": "Game Boy Advance",
+"releaseYear": 2004,
+"orderIndex": 0.203,
+"image": "/images/games/fireredleafgreen.png",
+"gen": 5
+},
+
+
+
+
+
+
+{
+"id": "2005-1",
+"title": "Oddworld: Stranger's Wrath",
+"series": "Oddworld",
+"seriesIndex": 4,
+"console": "Xbox",
+"releaseYear": 2005,
+"orderIndex": 1.393,
+"image": "https://images.launchbox-app.com//b2399c9b-3f75-484a-9a20-04d13116f2d6.png",
+"gen": 5
+},
+{
+"id": "2005-2",
+"title": "Resident Evil 4",
+"series": "Resident Evil",
+"seriesIndex": 7,
+"console": "GameCube",
+"releaseYear": 2005,
+"orderIndex": 0.950,
+"image": "https://images.launchbox-app.com//60a8afcf-43fc-4c4e-baa6-96c5f455e8a0.png",
+"gen": 5
+},
+{
+"id": "2005-3",
+"title": "God of War",
+"series": "God of War",
+"seriesIndex": 1,
+"console": "PlayStation 2",
+"releaseYear": 2005,
+"orderIndex": 0.897,
+"image": "https://images.launchbox-app.com//40c20611-a1e5-48ba-8784-7b11e216d842.png",
+"gen": 5
+},
+{
+"id": "2005-4",
+"title": "Shadow of the Colossus",
+"series": "Ico",
+"seriesIndex": 2,
+"console": "PlayStation 2",
+"releaseYear": 2005,
+"orderIndex": 0.861,
+"image": "https://images.launchbox-app.com//e860c221-81d6-4da6-af43-ecf29ae98de2.png",
+"gen": 5
+},
+{
+"id": "2005-5",
+"title": "Star Wars Republic Commando",
+"series": null,
+"seriesIndex": null,
+"console": "Xbox",
+"releaseYear": 2005,
+"orderIndex": 0.824,
+"image": "https://images.launchbox-app.com//37cef507-627a-43c1-a415-4f0c3b5a9b01.png",
+"gen": 5
+},
+{
+"id": "2005-6",
+"title": "Conker: Live & Reloaded",
+"series": "Conker",
+"seriesIndex": 3,
+"console": "Xbox",
+"releaseYear": 2005,
+"orderIndex": 0.775,
+"image": "https://images.launchbox-app.com//f601477e-500b-4044-bd5d-eb21a2f3b2b7.png",
+"gen": 5
+},
+{
+"id": "2005-7",
+"title": "Star Wars: Battlefront II",
+"series": "Star Wars: Battlefront",
+"seriesIndex": 2,
+"console": "PlayStation 2",
+"releaseYear": 2005,
+"orderIndex": 0.652,
+"image": "https://images.launchbox-app.com//445f7bd7-f1e8-4fb8-a0e8-0790103e7079.png",
+"gen": 5
+},
+{
+"id": "2005-8",
+"title": "Devil May Cry 3: Dante's Awakening",
+"series": "Devil May Cry",
+"seriesIndex": 3,
+"console": "PlayStation 2",
+"releaseYear": 2005,
+"orderIndex": 0.616,
+"image": "https://images.launchbox-app.com//c7626f7f-69ae-4ae5-9fe9-0126230150ac.png",
+"gen": 5
+},
+{
+"id": "2005-9",
+"title": "Forza Motorsport",
+"series": "Forza",
+"seriesIndex": 1,
+"console": "Xbox",
+"releaseYear": 2005,
+"orderIndex": 0.615,
+"image": "https://images.launchbox-app.com//729b2f0f-b6cd-4a45-b7e1-1d6b562eb19a.png",
+"gen": 5
+},
+{
+"id": "2005-10",
+"title": "Tom Clancy's Splinter Cell: Chaos Theory",
+"series": "Tom Clancy's Splinter Cell",
+"seriesIndex": 3,
+"console": "Xbox",
+"releaseYear": 2005,
+"orderIndex": 0.565,
+"image": "https://images.launchbox-app.com//60a7485e-1c32-45c9-afcc-de515f46d2a7.png",
+"gen": 5
+},
+{
+"id": "2005-11",
+"title": "Psychonauts",
+"series": "Psychonauts",
+"seriesIndex": 1,
+"console": "Xbox",
+"releaseYear": 2005,
+"orderIndex": 0.542,
+"image": "https://images.launchbox-app.com//a0aeef79-97e2-4237-9c6b-5eaa54cf9b08.png",
+"gen": 5
+},
+{
+"id": "2005-12",
+"title": "Need for Speed: Most Wanted",
+"series": "Need for Speed",
+"seriesIndex": 9,
+"console": "PlayStation 2",
+"releaseYear": 2005,
+"orderIndex": 0.364,
+"image": "https://images.launchbox-app.com//c0b6fca6-d86c-4a7b-9391-ba9727ba238c.png",
+"gen": 5
+},
+{
+"id": "2005-13",
+"title": "Jade Empire",
+"series": null,
+"seriesIndex": null,
+"console": "Xbox",
+"releaseYear": 2005,
+"orderIndex": 0.342,
+"image": "https://images.launchbox-app.com//8847bef1-8d5c-4a1b-8392-e7d75bea11f4.png",
+"gen": 5
+},
+{
+"id": "2005-14",
+"title": "Fire Emblem: The Sacred Stones",
+"series": "Fire Emblem",
+"seriesIndex": 2,
+"console": "Game Boy Advance",
+"releaseYear": 2004,
+"orderIndex": 0.271,
+"image": "https://images.launchbox-app.com//3bcecf3e-1ba6-4a92-a7b3-726b964599e1.png",
+"gen": 5
+},
+{
+"id": "2005-15",
+"title": "Fire Emblem: Path of Radiance",
+"series": "Fire Emblem",
+"seriesIndex": 3,
+"console": "GameCube",
+"releaseYear": 2004,
+"orderIndex": 0.226,
+"image": "https://images.launchbox-app.com//a5d810df-c7c0-4759-99fd-08b71323a369.png",
+"gen": 5
+},
+{
+"id": "2005-16",
+"title": "Pokémon Emerald",
+"series": "Pokémon",
+"seriesIndex": 7,
+"console": "Game Boy Advance",
+"releaseYear": 2005,
+"orderIndex": 0.167,
+"image": "/images/games/emerald.png",
+"gen": 5
+},
+
+
+
+
+
+{
+"id": "2006-1",
+"title": "Bully",
+"series": null,
+"seriesIndex": 1,
+"console": "PlayStation 2",
+"releaseYear": 2006,
+"orderIndex": 0.421,
+"image": "https://images.launchbox-app.com//e05b0b7a-1b27-47ea-b068-b2ed835d05a4.png",
+"gen": 5
+},
+{
+"id": "2006-2",
+"title": "Kingdom Hearts II",
+"series": "Kingdom Hearts",
+"seriesIndex": 3,
+"console": "PlayStation 2",
+"releaseYear": 2006,
+"orderIndex": 0.221,
+"image": "https://images.launchbox-app.com//cd72b7cb-2712-4eba-92c5-f737212817e3.png",
+"gen": 5
+},
+{
+"id": "2006-3",
+"title": "Ōkami",
+"series": "Ōkami",
+"seriesIndex": 1,
+"console": "PlayStation 2",
+"releaseYear": 2006,
+"orderIndex": 0.212,
+"image": "https://images.launchbox-app.com//dd095a3d-5814-469b-beac-8263b582ee87.png",
+"gen": 5
+},
+{
+"id": "2006-4",
+"title": "The Legend of Zelda: Twilight Princess",
+"series": "The Legend of Zelda",
+"seriesIndex": 11,
+"console": "GameCube",
+"releaseYear": 2006,
+"orderIndex": 0.202,
+"image": "https://images.launchbox-app.com//a6b372e5-d59b-4381-b23c-2c63fd88b364.png",
+"gen": 5
+},
+
+
+
+
+
+
+{
+"id": "2007-1",
+"title": "God of War II",
+"series": "God of War",
+"seriesIndex": 2,
+"console": "PlayStation 2",
+"releaseYear": 2007,
+"orderIndex": 0.704,
+"image": "https://images.launchbox-app.com//bd7e8288-1e2f-4d88-8c6e-495e41cdb8d2.png",
+"gen": 5
+},
+{
+"id": "2007-2",
+"title": "Guitar Hero III: Legends of Rock",
+"series": "Guitar Hero",
+"seriesIndex": 3,
+"console": "PlayStation 2",
+"releaseYear": 2007,
+"orderIndex": 0.626,
+"image": "https://images.launchbox-app.com//69fc9413-2c44-4914-86c4-e0f9e64345ce.png",
+"gen": 5
+},
+{
+"id": "2007-3",
+"title": "Dragon Ball Z: Budokai Tenkaichi 3",
+"series": "Dragon Ball Z: Budokai Tenkaichi",
+"seriesIndex": 3,
+"console": "PlayStation 2",
+"releaseYear": 2007,
+"orderIndex": 0.390,
+"image": "https://images.launchbox-app.com//969fd42e-f9df-4458-ab2a-fbb1deea0b0b.png",
+"gen": 5
+},
+
+
+
+
+
+{
+"id": "2008-1",
+"title": "Persona 4",
+"series": "Persona",
+"seriesIndex": 5,
+"console": "PlayStation 2",
+"releaseYear": 2008,
+"orderIndex": 0.107,
+"image": "https://images.launchbox-app.com//7649f53b-87e6-41f1-b278-e0c7abb87a26.png",
 "gen": 5
 }
 ]

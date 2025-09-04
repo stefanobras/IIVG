@@ -36,7 +36,7 @@ export default function GameCard({
           <img
             src={game.image}
             alt={game.title}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-scale-down"
             loading="lazy"
             onError={(e) => {
               e.currentTarget.src = "/images/placeholder.jpg";
@@ -65,7 +65,7 @@ export default function GameCard({
               className="m-auto w-[min(92%,28rem)] max-h-[90%] overflow-auto rounded-xl border border-white/10 bg-black/70 text-white backdrop-blur-md p-3 sm:p-4"
             >
               <div className="font-game-title text-base sm:text-lg mb-2">Rate this game</div>
-
+              
               {/* Controls: stack on tight widths */}
               <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr,auto] items-center gap-2 sm:gap-3 min-w-0">
                 <label className="text-xs sm:text-sm">Rating</label>

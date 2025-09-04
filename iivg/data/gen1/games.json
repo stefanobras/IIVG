@@ -1,5 +1,21 @@
 [
 {
+"id": "1977-1",
+"title": "Combat",
+"series": null,
+"seriesIndex": null,
+"console": "Atari 2600",
+"releaseYear": 1977,
+"orderIndex": 14.109,
+"image": "https://images.launchbox-app.com//6db151a2-bd89-4a00-ba65-953a888196db.png",
+"gen": 1
+},
+
+
+
+
+
+{
 "id": "1978-1",
 "title": "Space Invaders",
 "series": "Space Invaders",
@@ -112,6 +128,17 @@
 },
 {
 "id": "1982-2",
+"title": "Joust",
+"series": null,
+"seriesIndex": null,
+"console": "Atari 2600",
+"releaseYear": 1982,
+"orderIndex": 13.613,
+"image": "https://images.launchbox-app.com//297c1358-c3e0-43f5-86d5-a48c5e9eee76.png",
+"gen": 1
+},
+{
+"id": "1982-3",
 "title": "Moon Patrol",
 "series": null,
 "seriesIndex": null,
@@ -122,7 +149,7 @@
 "gen": 1
 },
 {
-"id": "1982-3",
+"id": "1982-4",
 "title": "Yars' Revenge",
 "series": "Yars",
 "seriesIndex": 1,
@@ -133,7 +160,7 @@
 "gen": 1
 },
 {
-"id": "1982-4",
+"id": "1982-5",
 "title": "BurgerTime",
 "series": null,
 "seriesIndex": null,
@@ -144,7 +171,7 @@
 "gen": 1
 },
 {
-"id": "1982-5",
+"id": "1982-6",
 "title": "Pitfall!",
 "series": "Pitfall",
 "seriesIndex": 1,
@@ -155,7 +182,7 @@
 "gen": 1
 },
 {
-"id": "1982-6",
+"id": "1982-7",
 "title": "Ms. Pac-Man",
 "series": "Pac-Man",
 "seriesIndex": 2,
@@ -181,28 +208,6 @@
 },
 {
 "id": "1983-2",
-"title": "Keystone Kapers",
-"series": null,
-"seriesIndex": null,
-"console": "Atari 2600",
-"releaseYear": 1983,
-"orderIndex": 21.170,
-"image": "https://images.launchbox-app.com//4292af79-d78e-4ac4-be90-e0b8ef7ee960.png",
-"gen": 1
-},
-{
-"id": "1983-3",
-"title": "The Activision Decathlon",
-"series": null,
-"seriesIndex": null,
-"console": "Atari 2600",
-"releaseYear": 1983,
-"orderIndex": 18.935,
-"image": "https://images.launchbox-app.com//431e8813-618a-4ebf-b083-949796f4ffb5.png",
-"gen": 1
-},
-{
-"id": "1983-4",
 "title": "Star Wars: The Arcade Game",
 "series": null,
 "seriesIndex": null,

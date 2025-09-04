@@ -53,7 +53,7 @@ export function loadCatalog(dataRoot = path.join(process.cwd(), "data")): Catalo
 
   const allGames = [...baseGames, ...extraGames];
   const years = allGames.map(g => g.releaseYear);
-  const minYear = years.length ? Math.min(...years) : 1979;
+  const minYear = years.length ? Math.min(...years) : 1977;
   const maxYear = years.length ? Math.max(...years) : 1979;
 
   gensMeta.sort((a, b) => a.index - b.index);

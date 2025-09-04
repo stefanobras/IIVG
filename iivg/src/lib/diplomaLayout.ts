@@ -40,8 +40,10 @@ const fallback: DiplomaLayout = {
 export const DIPLOMA_LAYOUTS: Record<number, Partial<DiplomaLayout>> = {
   // examples — add/adjust as you discover issues:
   1: {
-    nameBox: { x: 600, y: 440, w: 860, h: 96 }, // kindergarten #1 tweak
-    // consoleBox: { ... } // (inherit default if not set)
+    nameBox: { x: 600, y: 440, w: 860, h: 96, 
+      font: 'font-old-english',
+     }, // kindergarten #1 tweak
+    
   },
   30: {
     nameBox: { x: 610, y: 440, w: 820, h: 90 }, // primary #1 tweak
@@ -57,7 +59,13 @@ export const DIPLOMA_LAYOUTS: Record<number, Partial<DiplomaLayout>> = {
   },
   88: {
     nameBox: { x: 600, y: 340, w: 780, h: 90 },
-  }
+  },
+  117: {
+    nameBox: {
+      x: 600, y: 440, w: 780, h: 30,
+      font: "700 48px OldEnglish, Roboto Mono, serif",
+    },
+  },
 };
 
 {
@@ -65,7 +73,15 @@ export const DIPLOMA_LAYOUTS: Record<number, Partial<DiplomaLayout>> = {
   for (let n = 88; n <= 112; n++) {
     DIPLOMA_LAYOUTS[n] = {
       nameBox: base.nameBox ? { ...base.nameBox } : undefined,
-      consoleBox: base.consoleBox ? { ...base.consoleBox } : undefined,
+     };
+  }
+}
+
+{
+  const base = DIPLOMA_LAYOUTS[117] || {};
+  for (let n = 117; n <= 141; n++) {
+    DIPLOMA_LAYOUTS[n] = {
+      nameBox: base.nameBox ? { ...base.nameBox } : undefined,
     };
   }
 }
