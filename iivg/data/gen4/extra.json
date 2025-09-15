@@ -22,14 +22,74 @@
 "gen": 4
 },
 {
-"id": "castlevania-11",
+"id": "castlevania-8",
 "title": "Castlevania: Legacy of Darkness",
 "series": "Castlevania",
-"seriesIndex": 12,
+"seriesIndex": 8,
 "console": "Nintendo 64",
 "releaseYear": 1999,
 "orderIndex": 0.748,
 "image": "https://images.launchbox-app.com//090ebb23-1a60-45a8-9431-855231bcf6bf.png",
+"gen": 4
+},
+{
+"id": "castlevania-9",
+"title": "Castlevania Chronicles",
+"series": "Castlevania",
+"seriesIndex": 9,
+"console": "PlayStation",
+"releaseYear": 2001,
+"orderIndex": 1.780,
+"image": "https://images.launchbox-app.com//11438936-1666-482d-8b0f-6b2cefd8bc6d.png",
+"gen": 4
+},
+
+
+{
+"id": "pacman-7",
+"title": "Pac-Man World",
+"series": "Pac-Man",
+"seriesIndex": 7,
+"console": "PlayStation",
+"releaseYear": 1999,
+"orderIndex": 0.928,
+"image": "https://images.launchbox-app.com//6765b8f4-0726-4792-bed8-edabc1f333a3.png",
+"gen": 4
+},
+
+{
+"id": "spaceinvaders-3",
+"title": "Space Invaders (1999)",
+"series": "Space Invaders",
+"seriesIndex": 3,
+"console": "PlayStation",
+"releaseYear": 1999,
+"orderIndex": 6.138,
+"image": "https://images.launchbox-app.com//7367067b-b150-43d9-a5ed-15d3da02b279.png",
+"gen": 4
+},
+
+{
+"id": "pitfall-5",
+"title": "Pitfall 3D: Beyond the Jungle",
+"series": "Pitfall",
+"seriesIndex": 5,
+"console": "PlayStation",
+"releaseYear": 1998,
+"orderIndex": 1.088,
+"image": "https://images.launchbox-app.com//8a9b9a95-e1e7-4bce-825c-0ec1b4176d9b.png",
+"gen": 4
+},
+
+{
+"id": "shinobi-5",
+"title": "Shinobi Legions",
+"series": "Shinobi",
+"seriesIndex": 5,
+"console": "Sega Saturn",
+"releaseYear": 1995,
+"orderIndex": 2.423,
+"image": "https://images.launchbox-app.com//cb78b00f-abb8-42ad-b4d0-97964ee2d3a9.png",
 "gen": 4
 }
 ]

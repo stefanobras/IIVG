@@ -11,6 +11,17 @@
 "gen": 3
 },
 {
+"id": "shinobi-3",
+"title": "Shadow Dancer: The Secret of Shinobi",
+"series": "Shinobi",
+"seriesIndex": 3,
+"console": "Sega Genesis",
+"releaseYear": 1990,
+"orderIndex": 4.038,
+"image": "https://images.launchbox-app.com//d66b2648-3190-4ebe-a2c7-c270a875db8c.png",
+"gen": 3
+},
+{
 "id": "pacman-4",
 "title": "Pac-Attack",
 "series": "Pac-Man",
@@ -19,6 +30,28 @@
 "releaseYear": 1993,
 "orderIndex": 0.800,
 "image": "https://images.launchbox-app.com//178401bc-116b-46af-8c3f-8bb37c874f29.png",
+"gen": 3
+},
+{
+"id": "pacman-5",
+"title": "Pac-Man 2: The New Adventures",
+"series": "Pac-Man",
+"seriesIndex": 5,
+"console": "SNES",
+"releaseYear": 1994,
+"orderIndex": 2.441,
+"image": "https://images.launchbox-app.com//a5f1dbcd-a2ff-4e6a-b308-32aecd6b726f.png",
+"gen": 3
+},
+{
+"id": "pacman-6",
+"title": "Pac-In-Time",
+"series": "Pac-Man",
+"seriesIndex": 6,
+"console": "SNES",
+"releaseYear": 1995,
+"orderIndex": 0.994,
+"image": "https://images.launchbox-app.com//87eb9517-84a1-4713-9fea-33f79ee37701.png",
 "gen": 3
 },
 {
@@ -41,7 +74,7 @@
 "releaseYear": 1994,
 "orderIndex": 0.955,
 "image": "https://images.launchbox-app.com//409b7967-c636-472e-a78c-3f10bba3bc9e.png",
-"gen": 2
+"gen": 3
 },
 {
 "id": "contra-3",
@@ -52,7 +85,7 @@
 "releaseYear": 1992,
 "orderIndex": 4.951,
 "image": "https://images.launchbox-app.com//3906b066-bd72-4276-8ec1-e5fbc1db7dcb.png",
-"gen": 2
+"gen": 3
 },
 {
 "id": "kirby-5",
@@ -63,18 +96,51 @@
 "releaseYear": 1997,
 "orderIndex": 1.377,
 "image": "https://images.launchbox-app.com//d1ed6bb8-8beb-4490-a0ae-738cb7158d60.png",
-"gen": 2
+"gen": 3
 },
 {
-"id": "castlevania-6",
+"id": "castlevania-4",
 "title": "Super Castlevania IV",
 "series": "Castlevania",
-"seriesIndex": 6,
+"seriesIndex": 4,
 "console": "SNES",
 "releaseYear": 1991,
 "orderIndex": 1.919,
 "image": "https://images.launchbox-app.com//9978f26c-706b-4ffd-ae0f-8d08ea3b4c0c.png",
-"gen": 2
+"gen": 3
+},
+{
+"id": "castlevania-01",
+"title": "Castlevania: The Adventure",
+"series": "Castlevania",
+"seriesIndex": 0,
+"console": "Game Boy",
+"releaseYear": 1989,
+"orderIndex": 3.531,
+"image": "https://images.launchbox-app.com//d69ed182-d4a3-477b-96bb-d035aa2adf23.png",
+"gen": 3
+},
+{
+"id": "castlevania-6",
+"title": "Castlevania: Dracula X",
+"series": "Castlevania",
+"seriesIndex": 6,
+"console": "SNES",
+"releaseYear": 1995,
+"orderIndex": 2.157,
+"image": "https://images.launchbox-app.com//a09bfab5-f4bc-49c1-bf38-228f71e8f1c2.png",
+"gen": 3
+},
+{
+"id": "castlevania-03",
+"title": "Castlevania Legends",
+"series": "Castlevania",
+"seriesIndex": 0,
+"console": "Game Boy",
+"releaseYear": 1998,
+"orderIndex": 2.938,
+"image": "https://images.launchbox-app.com//464c35a2-9c25-49f1-a64e-37255b43e8ea.png",
+"gen": 4
 },
 {
 "id": "finalfantasy-5",
@@ -85,8 +151,159 @@
 "releaseYear": 1992,
 "orderIndex": 0.206,
 "image": "https://images.launchbox-app.com//33d29e15-5b9c-49f4-a6ad-27c573a18856.png",
-"gen": 2
+"gen": 3
+},
+
+
+{
+"id": "spaceinvaders-2",
+"title": "Space Invaders 91",
+"series": "Space Invaders",
+"seriesIndex": 2,
+"console": "Sega Genesis",
+"releaseYear": 1991,
+"orderIndex": 11.673,
+"image": "https://images.launchbox-app.com//b7f1cf95-9e28-4b98-acf9-8d47b1609f49.png",
+"gen": 3
+},
+
+{
+"id": "pitfall-4",
+"title": "Pitfall: The Mayan Adventure",
+"series": "Pitfall",
+"seriesIndex": 4,
+"console": "SNES",
+"releaseYear": 1994,
+"orderIndex": 1.569,
+"image": "https://images.launchbox-app.com//ed8948c2-de61-45a8-a036-25287ac217fa.png",
+"gen": 3
+},
+
+{
+"id": "tmnt-01",
+"title": "Teenage Mutant Ninja Turtles: Fall of the Foot Clan",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 0,
+"console": "Game Boy",
+"releaseYear": 1990,
+"orderIndex": 9.457,
+"image": "https://images.launchbox-app.com//501f67fb-4dfb-4c42-854f-df1f530a0c0b.png",
+"gen": 3
+},
+{
+"id": "tmnt-02",
+"title": "Teenage Mutant Ninja Turtles II: Back from the Sewers",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 0,
+"console": "Game Boy",
+"releaseYear": 1991,
+"orderIndex": 6.029,
+"image": "https://images.launchbox-app.com//a8c4c647-e4c5-41a7-a4e2-4cacedb42dee.png",
+"gen": 3
+},
+{
+"id": "tmnt-03",
+"title": "Teenage Mutant Ninja Turtles III: Radical Rescue",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 0,
+"console": "Game Boy",
+"releaseYear": 1993,
+"orderIndex": 2.115,
+"image": "https://images.launchbox-app.com//8ff9ec69-89ab-4b00-abe1-ccd3216fc5c2.png",
+"gen": 3
+},
+{
+"id": "tmnt-6",
+"title": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 6,
+"console": "SNES",
+"releaseYear": 1993,
+"orderIndex": 6.494,
+"image": "https://images.launchbox-app.com//367e7333-3093-4ead-af6b-29707aa1ff05.png",
+"gen": 3
+},
+
+{
+"id": "fantasyzone-3",
+"title": "Super Fantasy Zone",
+"series": "Fantasy Zone",
+"seriesIndex": 3,
+"console": "Sega Genesis",
+"releaseYear": 1993,
+"orderIndex": 6.054,
+"image": "https://images.launchbox-app.com//f3ca0976-d7c3-4d2b-b859-d2f9df2106fa.png",
+"gen": 3
+},
+
+{
+"id": "phantasystar-2",
+"title": "Phantasy Star II",
+"series": "Phantasy Star",
+"seriesIndex": 2,
+"console": "Sega Genesis",
+"releaseYear": 1990,
+"orderIndex": 0.206,
+"image": "https://images.launchbox-app.com//3d7dc778-b237-427b-a17b-aa85a9e3951d.png",
+"gen": 3
+},
+{
+"id": "phantasystar-3",
+"title": "Phantasy Star III: Generations of Doom",
+"series": "Phantasy Star",
+"seriesIndex": 3,
+"console": "Sega Genesis",
+"releaseYear": 1991,
+"orderIndex": 0.310,
+"image": "https://images.launchbox-app.com//032a4959-cfa1-4c77-82d0-7670740ec1d9.png",
+"gen": 3
+},
+{
+"id": "wonderboy-4",
+"title": "Wonder Boy in Monster World",
+"series": "Wonder Boy",
+"seriesIndex": 4,
+"console": "Sega Genesis",
+"releaseYear": 1992,
+"orderIndex": 0.883,
+"image": "https://images.launchbox-app.com//9016e804-91fc-4a40-a6fb-5561b8f4da94.png",
+"gen": 3
+},
+
+{
+"id": "ys-3",
+"title": "Ys III: Wanderers from Ys",
+"series": "Ys",
+"seriesIndex": 3,
+"console": "SNES",
+"releaseYear": 1992,
+"orderIndex": 1.000,
+"image": "https://images.launchbox-app.com//7ca49ebe-9ee3-4be1-a8d0-df9047f3b269.png",
+"gen": 3
+},
+{
+"id": "ys-4",
+"title": "Ys IV: Mask of the Sun",
+"series": "Ys",
+"seriesIndex": 4,
+"console": "SNES",
+"releaseYear": 1993,
+"orderIndex": 0.757,
+"image": "https://images.launchbox-app.com//53f53076-3832-40ff-8b85-2a4a8c555855.png",
+"gen": 3
+},
+{
+"id": "ys-5",
+"title": "Ys V: Lost Kefin, Kingdom of Sand",
+"series": "Ys",
+"seriesIndex": 5,
+"console": "SNES",
+"releaseYear": 1995,
+"orderIndex": 0.810,
+"image": "https://images.launchbox-app.com//5064b6dc-5c3f-4727-a2d1-ee4faba29a47.png",
+"gen": 3
 }
+
 
 
 ]

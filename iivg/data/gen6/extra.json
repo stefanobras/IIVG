@@ -1,9 +1,9 @@
 [
 {
-"id": "spaceinvaders-2",
+"id": "spaceinvaders-7",
 "title": "Space Invaders Extreme",
 "series": "Space Invaders",
-"seriesIndex": 2,
+"seriesIndex": 7,
 "console": "Nintendo DS",
 "releaseYear": 2008,
 "orderIndex": 3.130,
@@ -11,10 +11,10 @@
 "gen": 6
 },
 {
-"id": "spaceinvaders-3",
+"id": "spaceinvaders-8",
 "title": "Space Invaders Extreme 2",
 "series": "Space Invaders",
-"seriesIndex": 3,
+"seriesIndex": 8,
 "console": "Nintendo DS",
 "releaseYear": 2009,
 "orderIndex": 1.528,
@@ -80,7 +80,7 @@
 "id": "zelda-11",
 "title": "The Legend of Zelda: Phantom Hourglass",
 "series": "The Legend of Zelda",
-"seriesIndex": 11,
+"seriesIndex": 0,
 "console": "Nintendo DS",
 "releaseYear": 2007,
 "orderIndex": 0.351,
@@ -91,7 +91,7 @@
 "id": "zelda-12",
 "title": "The Legend of Zelda: Spirit Tracks",
 "series": "The Legend of Zelda",
-"seriesIndex": 12,
+"seriesIndex": 0,
 "console": "Nintendo DS",
 "releaseYear": 2009,
 "orderIndex": 0.302,
@@ -113,7 +113,7 @@
 "id": "kirby-10",
 "title": "Kirby Squeak Squad",
 "series": "Kirby",
-"seriesIndex": 10,
+"seriesIndex": 0,
 "console": "Nintendo DS",
 "releaseYear": 2006,
 "orderIndex": 0.706,
@@ -124,7 +124,7 @@
 "id": "kirby-11",
 "title": "Kirby Super Star Ultra",
 "series": "Kirby",
-"seriesIndex": 11,
+"seriesIndex": 0,
 "console": "Nintendo DS",
 "releaseYear": 2008,
 "orderIndex": 0.965,
@@ -132,10 +132,10 @@
 "gen": 6
 },
 {
-"id": "castlevania-19",
+"id": "castlevania-08",
 "title": "Castlevania: Portrait of Ruin",
 "series": "Castlevania",
-"seriesIndex": 19,
+"seriesIndex": 0,
 "console": "Nintendo DS",
 "releaseYear": 2006,
 "orderIndex": 0.642,
@@ -143,10 +143,10 @@
 "gen": 6
 },
 {
-"id": "castlevania-20",
+"id": "castlevania-010",
 "title": "Castlevania: Order of Ecclesia",
 "series": "Castlevania",
-"seriesIndex": 20,
+"seriesIndex": 0,
 "console": "Nintendo DS",
 "releaseYear": 2008,
 "orderIndex": 0.609,
@@ -154,14 +154,36 @@
 "gen": 6
 },
 {
-"id": "castlevania-22",
+"id": "castlevania-12",
 "title": "Castlevania: Lords of Shadow",
 "series": "Castlevania",
-"seriesIndex": 22,
+"seriesIndex": 12,
 "console": "PlayStation 3",
 "releaseYear": 2010,
 "orderIndex": 0.355,
 "image": "https://images.launchbox-app.com//906d81d4-a711-4c6c-ad68-93691b25481a.png",
+"gen": 6
+},
+{
+"id": "castlevania-13",
+"title": "Castlevania: Lords of Shadow 2",
+"series": "Castlevania",
+"seriesIndex": 13,
+"console": "PlayStation 3",
+"releaseYear": 2014,
+"orderIndex": 0.395,
+"image": "https://images.launchbox-app.com//85e76c73-66a8-488f-8ea5-b7d943c94d1b.png",
+"gen": 6
+},
+{
+"id": "castlevania-011",
+"title": "Castlevania Judgment",
+"series": "Castlevania",
+"seriesIndex": 0,
+"console": "Nintendo Wii",
+"releaseYear": 2014,
+"orderIndex": 1.185,
+"image": "https://images.launchbox-app.com//7c6bccf2-ce64-4934-ac31-6dcfcfd923b7.png",
 "gen": 6
 },
 {
@@ -176,14 +198,36 @@
 "gen": 6
 },
 {
+"id": "finalfantasy-03",
+"title": "Final Fantasy XIII-2",
+"series": "Final Fantasy",
+"seriesIndex": 0,
+"console": "PlayStation 3",
+"releaseYear": 2012,
+"orderIndex": 0.169,
+"image": "https://images.launchbox-app.com//80ae2eb9-8d5b-4eaa-84a2-7d0338fbc9b0.png",
+"gen": 6
+},
+{
+"id": "finalfantasy-04",
+"title": "Lightning Returns: Final Fantasy XIII",
+"series": "Final Fantasy",
+"seriesIndex": 0,
+"console": "PlayStation 3",
+"releaseYear": 2013,
+"orderIndex": 0.142,
+"image": "https://images.launchbox-app.com//df00d480-12b2-462c-9fb8-801ca5c1f902.png",
+"gen": 6
+},
+{
 "id": "finalfantasy-14",
 "title": "Final Fantasy XIV Online: A Realm Reborn",
 "series": "Final Fantasy",
 "seriesIndex": 14,
-"console": "PC",
+"console": "PlayStation 3",
 "releaseYear": 2013,
 "orderIndex": 0.080,
-"image": "https://images.launchbox-app.com//d0c0ccc2-9120-4a62-80bd-2a8ac48f7e3a.jpg",
+"image": "https://images.launchbox-app.com//b80bfe14-d43b-46bc-9cde-e933179560a4.png",
 "gen": 6
 },
 {
@@ -196,5 +240,146 @@
 "orderIndex": 0.487,
 "image": "https://images.launchbox-app.com//9ea885fe-4fcd-4ca7-ac88-ea54f546a2d3.png",
 "gen": 6
+},
+{
+"id": "ninjagaiden-6",
+"title": "Ninja Gaiden 3",
+"series": "Ninja Gaiden",
+"seriesIndex": 6,
+"console": "Xbox 360",
+"releaseYear": 2012,
+"orderIndex": 0.752,
+"image": "https://images.launchbox-app.com//8eab9af7-7490-4b02-a87c-d9063497f9b5.png",
+"gen": 6
+},
+
+
+{
+"id": "pacman-13",
+"title": "Pac-Man Party",
+"series": "Pac-Man",
+"seriesIndex": 13,
+"console": "Nintendo Wii",
+"releaseYear": 2010,
+"orderIndex": 0.439,
+"image": "https://images.launchbox-app.com//ff811779-5c47-40cb-bda7-ec47183c8cbd.png",
+"gen": 4
+},
+
+{
+"id": "spaceinvaders-5",
+"title": "Space Invaders Revolution",
+"series": "Space Invaders",
+"seriesIndex": 5,
+"console": "Nintendo DS",
+"releaseYear": 2005,
+"orderIndex": 0.401,
+"image": "https://images.launchbox-app.com//38c65e8e-1a11-4efd-b5c1-e0a1493086a9.png",
+"gen": 6
+},
+{
+"id": "spaceinvaders-6",
+"title": "Space Invaders Evolution",
+"series": "Space Invaders",
+"seriesIndex": 6,
+"console": "PlayStation Portable",
+"releaseYear": 2006,
+"orderIndex": 0.401,
+"image": "https://images.launchbox-app.com//2aa47857-7314-4c11-9281-27c87cd50b03.png",
+"gen": 6
+},
+
+{
+"id": "yars-2",
+"title": "Yar's Revenge (2011)",
+"series": "Yars",
+"seriesIndex": 2,
+"console": "PC",
+"releaseYear": 2011,
+"orderIndex": 2.995,
+"image": "https://images.launchbox-app.com//31399a24-45f8-4775-a2b5-d615435f2cb5.jpg",
+"gen": 6
+},
+
+{
+"id": "tmnt-11",
+"title": "TMNT (2007)",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 11,
+"console": "Xbox 360",
+"releaseYear": 2007,
+"orderIndex": 1.156,
+"image": "https://images.launchbox-app.com//2931a307-97cc-42ee-a5ae-4450a0dfd13b.png",
+"gen": 6
+},
+{
+"id": "tmnt-12",
+"title": "Teenage Mutant Ninja Turtles: Smash-Up",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 12,
+"console": "Nintendo Wii",
+"releaseYear": 2007,
+"orderIndex": 4.106,
+"image": "https://images.launchbox-app.com//19e4d5cf-7a10-45ad-835b-43d065cb874a.png",
+"gen": 6
+},
+{
+"id": "tmnt-13",
+"title": "Teenage Mutant Ninja Turtles (2013)",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 13,
+"console": "Xbox 360",
+"releaseYear": 2013,
+"orderIndex": 1.304,
+"image": "https://images.launchbox-app.com//14c48cdf-78c8-4887-8d40-01e05ec1ae10.jpg",
+"gen": 6
+},
+{
+"id": "tmnt-14",
+"title": "Teenage Mutant Ninja Turtles: Danger of the Ooze",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 14,
+"console": "PlayStation 3",
+"releaseYear": 2014,
+"orderIndex": 1.227,
+"image": "https://images.launchbox-app.com//35a1e08b-5da2-426a-a1fb-dce3076440ee.png",
+"gen": 6
+},
+
+{
+"id": "ducktales-3",
+"title": "DuckTales: Remastered",
+"series": "DuckTales",
+"seriesIndex": 3,
+"console": "PlayStation 3",
+"releaseYear": 1993,
+"orderIndex": 1.562,
+"image": "https://images.launchbox-app.com//e10e9977-9b42-4b92-82d7-5bb65e26e148.png",
+"gen": 6
+},
+
+{
+"id": "ys-7",
+"title": "Ys Origin",
+"series": "Ys",
+"seriesIndex": 7,
+"console": "PC",
+"releaseYear": 2006,
+"orderIndex": 0.425,
+"image": "https://images.launchbox-app.com//18dda969-acef-4a49-b3ee-cd00ffe9336f.jpg",
+"gen": 6
+},
+{
+"id": "ys-8",
+"title": "Ys Seven",
+"series": "Ys",
+"seriesIndex": 8,
+"console": "PlayStation Portable",
+"releaseYear": 2010,
+"orderIndex": 0.253,
+"image": "https://images.launchbox-app.com//74181a8f-f279-4573-ad27-85dfbfc29266.png",
+"gen": 6
 }
+
+
 ]

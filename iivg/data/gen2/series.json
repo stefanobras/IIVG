@@ -17,20 +17,15 @@
 "games": [
     "Teenage Mutant Ninja Turtles",
     "Teenage Mutant Ninja Turtles II: The Arcade Game",
-    "Teenage Mutant Ninja Turtles: Fall of the Foot Clan",
     "Teenage Mutant Ninja Turtles III: The Manhattan Project",
-    "Teenage Mutant Ninja Turtles II: Back from the Sewers",
     "Teenage Mutant Ninja Turtles IV: Turtles in Time",
     "Teenage Mutant Ninja Turtles: The Hyperstone Heist",
-    "Teenage Mutant Ninja Turtles III: Radical Rescue",
     "Teenage Mutant Ninja Turtles: Tournament Fighters",
     "Teenage Mutant Ninja Turtles (2003)",
-    "Teenage Mutant Ninja Turtles (GBA)",
     "Teenage Mutant Ninja Turtles 2: Battle Nexus",
     "Teenage Mutant Ninja Turtles 3: Mutant Nightmare",
     "TMNT: Mutant Melee",
     "TMNT",
-    "TMNT (GBA)",
     "Teenage Mutant Ninja Turtles: Smash-Up",
     "Teenage Mutant Ninja Turtles (2013)",
     "Teenage Mutant Ninja Turtles: Danger of the Ooze",
@@ -38,6 +33,13 @@
     "Teenage Mutant Ninja Turtles: Shredder's Revenge",
     "Teenage Mutant Ninja Turtles: Splintered Fate",
     "Teenage Mutant Ninja Turtles: Mutants Unleashed"
+],
+"spinoffs":[
+    "Teenage Mutant Ninja Turtles: Fall of the Foot Clan",
+    "Teenage Mutant Ninja Turtles II: Back from the Sewers",
+    "Teenage Mutant Ninja Turtles III: Radical Rescue",
+    "Teenage Mutant Ninja Turtles (GBA)",
+    "TMNT (GBA)"
 ]
 },
 {
@@ -46,23 +48,22 @@
     "Super Mario Bros.",
     "Super Mario Bros. 2",
     "Super Mario Bros. 3",
-    "Super Mario Land",
     "Super Mario World",
-    "Super Mario Land 2: 6 Golden Coins",
-    "Super Mario World 2: Yoshi's Island",
     "Super Mario 64",
     "Super Mario Sunshine",
-    "New Super Mario Bros.",
     "Super Mario Galaxy",
     "New Super Mario Bros. Wii",
     "Super Mario Galaxy 2",
-    "Super Mario 3D Land",
-    "New Super Mario Bros. 2",
     "New Super Mario Bros. U",
     "Super Mario 3D World",
-    "Super Mario Maker",
-    "Super Mario Odyssey",
-    "Super Mario Maker 2",
+    "Super Mario Odyssey"
+],
+"spinoffs": [
+    "Super Mario Land",
+    "Super Mario Land 2: 6 Golden Coins",
+    "New Super Mario Bros.",
+    "Super Mario 3D Land",
+    "New Super Mario Bros. 2",
     "Bowser's Fury",
     "Super Mario Bros. Wonder"
 ]
@@ -88,29 +89,31 @@
 "games": [
     "Castlevania",
     "Castlevania II: Simon's Quest",
-    "Castlevania: The Adventure",
     "Castlevania III: Dracula's Curse",
-    "Castlevania II: Belmont's Revenge",
     "Super Castlevania IV",
-    "Castlevania: The Dracula X Chronicles",
     "Castlevania: Bloodlines",
     "Castlevania: Dracula X",
     "Castlevania: Symphony of the Night",
-    "Castlevania Legends",
     "Castlevania: Legacy of Darkness",
-    "Castlevania: Circle of the Moon",
     "Castlevania Chronicles",
+    "Castlevania: Lament of Innocence",
+    "Castlevania: Curse of Darkness",
+    "Castlevania: Lords of Shadow",
+    "Castlevania: Lords of Shadow 2"
+],
+"spinoffs":[
+    "Castlevania: The Adventure",
+    "Castlevania II: Belmont's Revenge",
+    "Castlevania Legends",
+    "Castlevania: Circle of the Moon",
     "Castlevania: Harmony of Dissonance",
     "Castlevania: Aria of Sorrow",
-    "Castlevania: Lament of Innocence",
     "Castlevania: Dawn of Sorrow",
-    "Castlevania: Curse of Darkness",
     "Castlevania: Portrait of Ruin",
+    "Castlevania: The Dracula X Chronicles",
     "Castlevania: Order of Ecclesia",
     "Castlevania Judgment",
-    "Castlevania: Lords of Shadow",
-    "Castlevania: Lords of Shadow - Mirror of Fate",
-    "Castlevania: Lords of Shadow 2"
+    "Castlevania: Lords of Shadow - Mirror of Fate"
 ]
 },
 {
@@ -123,17 +126,19 @@
     "Kirby's Dream Land 3",
     "Kirby 64: The Crystal Shards",
     "Kirby: Nightmare in Dream Land",
+    "Kirby's Epic Yarn",
+    "Kirby's Return to Dream Land",
+    "Kirby Star Allies",
+    "Kirby and the Forgotten Land",
+    "Kirby's Return to Dream Land Deluxe"
+],
+"spinoffs":[
     "Kirby Air Ride",
     "Kirby & The Amazing Mirror",
     "Kirby: Squeak Squad",
     "Kirby Super Star Ultra",
-    "Kirby's Epic Yarn",
-    "Kirby's Return to Dream Land",
     "Kirby: Triple Deluxe",
     "Kirby: Planet Robobot",
-    "Kirby Star Allies",
-    "Kirby and the Forgotten Land",
-    "Kirby's Return to Dream Land Deluxe",
     "Kirby Air Riders"
 ]
 },
@@ -170,20 +175,22 @@
     "The Legend of Zelda: A Link to the Past",
     "The Legend of Zelda: Ocarina of Time",
     "The Legend of Zelda: Majora's Mask",
-    "The Legend of Zelda: Oracle of Seasons",
-    "The Legend of Zelda: Oracle of Ages",
     "The Legend of Zelda: The Wind Waker",
+    "The Legend of Zelda: Twilight Princess",
+    "The Legend of Zelda: Skyward Sword",
+    "The Legend of Zelda: Breath of the Wild",
+    "The Legend of Zelda: Tears of the Kingdom"
+],
+"spinoffs":[
+    "The Legend of Zelda: Link's Awakening",
+    "The Legend of Zelda: Oracle of Seasons and Ages",
     "The Legend of Zelda: Four Swords Adventures",
     "The Legend of Zelda: The Minish Cap",
-    "The Legend of Zelda: Twilight Princess",
     "The Legend of Zelda: Phantom Hourglass",
     "The Legend of Zelda: Spirit Tracks",
-    "The Legend of Zelda: Skyward Sword",
     "The Legend of Zelda: A Link Between Worlds",
     "The Legend of Zelda: Tri Force Heroes",
-    "The Legend of Zelda: Breath of the Wild",
     "The Legend of Zelda: Link's Awakening (2019)",
-    "The Legend of Zelda: Tears of the Kingdom",
     "The Legend of Zelda: Echoes of Wisdom"
 ]
 },
@@ -224,6 +231,12 @@
     "Final Fantasy VII Remake",
     "Final Fantasy XVI",
     "Final Fantasy VII Rebirth"
+],
+"spinoffs": [
+    "Final Fantasy X-2",
+    "Crisis Core: Final Fantasy VII",
+    "Final Fantasy XIII-2",
+    "Lightning Returns: Final Fantasy XIII"
 ]
 },
 {
@@ -262,7 +275,6 @@
     "Shinobi",
     "The Revenge of Shinobi",
     "Shadow Dancer: The Secret of Shinobi",
-    "The Cyber Shinobi",
     "Shinobi III: Return of the Ninja Master",
     "Shinobi Legions",
     "Shinobi (2002)",
@@ -277,7 +289,8 @@
     "Wonder Boy",
     "Wonder Boy in Monster Land",
     "Wonder Boy III: The Dragon's Trap",
-    "Wonder Boy in Monster World"
+    "Wonder Boy in Monster World",
+    "Monster Boy and the Cursed Kingdom"
 ]
 },
 {
@@ -289,7 +302,7 @@
     "Ys IV: Mask of the Sun",
     "Ys V: Lost Kefin, Kingdom of Sand",
     "Ys VI: The Ark of Napishtim",
-    "Ys: The Oath in Felghana",
+    "Ys Origin",
     "Ys Seven",
     "Ys VIII: Lacrimosa of Dana",
     "Ys IX: Monstrum Nox",
@@ -310,6 +323,18 @@
 "games": [
     "Ninja Gaiden",
     "Ninja Gaiden II: The Dark Sword of Chaos",
+    "Ninja Gaiden III: The Ancient Ship of Doom",
+    "Ninja Gaiden Black",
+    "Ninja Gaiden II",
+    "Ninja Gaiden 3",
+    "Ninja Gaiden 4"
+]
+},
+{
+"series": "DuckTales",
+"games": [
+    "DuckTales",
+    "DuckTales 2",
     "Ninja Gaiden III: The Ancient Ship of Doom",
     "Ninja Gaiden Black",
     "Ninja Gaiden II",

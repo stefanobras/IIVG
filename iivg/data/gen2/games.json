@@ -8,7 +8,7 @@
 "releaseYear": 1985,
 "orderIndex": 7.513,
 "image": "https://images.launchbox-app.com/5507295b-3059-475e-8454-a8f31ce754fe.png",
-"gen": 1
+"gen": 2
 },
 {
 "id": "1985-3",
@@ -19,7 +19,7 @@
 "releaseYear": 1985,
 "orderIndex": 4.168,
 "image": "https://images.launchbox-app.com//713ad66d-6083-4e89-b1e9-b895c87dffbd.png",
-"gen": 1
+"gen": 2
 },
 {
 "id": "1985-4",
@@ -30,7 +30,7 @@
 "releaseYear": 1985,
 "orderIndex": 6.544,
 "image": "https://gamesdb-images.launchbox.gg/r2_26bc168b-e555-43e8-adbd-21666256215a.png",
-"gen": 1
+"gen": 2
 },
 
 
@@ -43,7 +43,7 @@
 "releaseYear": 1986,
 "orderIndex": 6.737,
 "image": "https://images.launchbox-app.com//e1650cc2-7935-4890-8ffc-6f7bcc3e0dc8.png",
-"gen": 1
+"gen": 2
 },
 {
 "id": "1986-2",
@@ -54,7 +54,7 @@
 "releaseYear": 1986,
 "orderIndex": 6.289,
 "image": "https://images.launchbox-app.com//ea3136c5-a60f-4668-96f9-2c8b760df8e1.png",
-"gen": 1
+"gen": 2
 },
 {
 "id": "1986-3",
@@ -65,7 +65,7 @@
 "releaseYear": 1986,
 "orderIndex": 3.251,
 "image": "https://images.launchbox-app.com//e6a33c2a-a096-4f20-99bd-0c80f7013d0b.png",
-"gen": 1
+"gen": 2
 },
 {
 "id": "1986-4",
@@ -76,7 +76,7 @@
 "releaseYear": 1986,
 "orderIndex": 2.061,
 "image": "https://images.launchbox-app.com//c95b1d5e-c478-4846-9045-133d78aee293.png",
-"gen": 1
+"gen": 2
 },
 
 
@@ -90,7 +90,7 @@
 "releaseYear": 1987,
 "orderIndex": 6.400,
 "image": "https://images.launchbox-app.com//e88e75b7-5da9-4461-8bb3-4ddc7e82df84.png",
-"gen": 1
+"gen": 2
 },
 {
 "id": "1987-2",
@@ -101,7 +101,7 @@
 "releaseYear": 1987,
 "orderIndex": 6.073,
 "image": "https://images.launchbox-app.com//2bfda23f-65fa-45ea-8bb6-91eb1a64fe03.png",
-"gen": 1
+"gen": 2
 },
 {
 "id": "1987-3",
@@ -112,7 +112,7 @@
 "releaseYear": 1987,
 "orderIndex": 6.072,
 "image": "https://images.launchbox-app.com//2d401a8f-afa7-41ae-a1c1-91b6d5e89d8a.png",
-"gen": 1
+"gen": 2
 },
 {
 "id": "1987-4",
@@ -123,7 +123,7 @@
 "releaseYear": 1987,
 "orderIndex": 4.306,
 "image": "https://images.launchbox-app.com//a5a6de15-395f-4ec1-ae5e-0367318c7412.png",
-"gen": 1
+"gen": 2
 },
 {
 "id": "1987-5",
@@ -134,7 +134,7 @@
 "releaseYear": 1987,
 "orderIndex": 2.463,
 "image": "https://images.launchbox-app.com//ed029744-eff6-49f0-9f6c-361be31209b8.png",
-"gen": 1
+"gen": 2
 },
 {
 "id": "1987-6",
@@ -145,7 +145,7 @@
 "releaseYear": 1987,
 "orderIndex": 1.687,
 "image": "https://images.launchbox-app.com//128d493f-d0c0-4307-9bee-eca70a57a088.png",
-"gen": 1
+"gen": 2
 },
 {
 "id": "1987-7",
@@ -156,7 +156,7 @@
 "releaseYear": 1987,
 "orderIndex": 1.092,
 "image": "https://images.launchbox-app.com//9d168c50-dad2-4b0f-9f28-83182f1b9677.png",
-"gen": 1
+"gen": 2
 },
 {
 "id": "1987-8",
@@ -167,7 +167,7 @@
 "releaseYear": 1987,
 "orderIndex": 0.936,
 "image": "https://images.launchbox-app.com//6a64b2a8-f946-4a55-bf85-e13282d4b4af.png",
-"gen": 1
+"gen": 2
 },
 
 
@@ -212,7 +212,7 @@
 "seriesIndex": 1,
 "console": "Sega Master System",
 "releaseYear": 1988,
-"orderIndex": 1.350,
+"orderIndex": 0.377,
 "image": "https://images.launchbox-app.com//46a52174-67ed-4a71-b3d5-d8a469346544.png",
 "gen": 2
 },
@@ -233,8 +233,8 @@
 {
 "id": "1989-2",
 "title": "DuckTales",
-"series": null,
-"seriesIndex": null,
+"series": "DuckTales",
+"seriesIndex": 1,
 "console": "NES",
 "releaseYear": 1989,
 "orderIndex": 4.808,
@@ -289,7 +289,7 @@
 "id": "1989-7",
 "title": "Ys: The Vanished Omens",
 "series": "Ys",
-"seriesIndex": 3,
+"seriesIndex": 1,
 "console": "Sega Master System",
 "releaseYear": 1989,
 "orderIndex": 0.808,
@@ -357,7 +357,7 @@
 "id": "1990-5",
 "title": "Castlevania III: Dracula's Curse",
 "series": "Castlevania",
-"seriesIndex": 4,
+"seriesIndex": 3,
 "console": "NES",
 "releaseYear": 1990,
 "orderIndex": 1.644,
@@ -443,7 +443,7 @@
 "id": "1993-1",
 "title": "Kirby's Adventure",
 "series": "Kirby",
-"seriesIndex": 1,
+"seriesIndex": 2,
 "console": "NES",
 "releaseYear": 1993,
 "orderIndex": 1.908,

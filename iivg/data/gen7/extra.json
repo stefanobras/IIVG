@@ -1,27 +1,5 @@
 [
 {
-"id": "yars-3",
-"title": "Yars: Recharged",
-"series": "Yars",
-"seriesIndex": 3,
-"console": "PC",
-"releaseYear":  2022,
-"orderIndex": 0.8173,
-"image": "https://images.launchbox-app.com//e7417a1e-8d4e-4cc9-9a0c-80cd8920fd0b.jpg",
-"gen": 7
-},
-{
-"id": "yars-4",
-"title": "Yars Rising",
-"series": "Yars",
-"seriesIndex": 4,
-"console": "PC",
-"releaseYear":  2024,
-"orderIndex": 0.649,
-"image": "https://images.launchbox-app.com//38e9020b-cf3d-43ff-be77-6f7825b3092f.jpg",
-"gen": 7
-},
-{
 "id": "supermario-15",
 "title": "New Super Mario Bros. 2",
 "series": "Super Mario",
@@ -58,7 +36,7 @@
 "id": "zelda-15",
 "title": "The Legend of Zelda: Tri Force Heroes",
 "series": "The Legend of Zelda",
-"seriesIndex": 15,
+"seriesIndex": 0,
 "console": "Nintendo 3DS",
 "releaseYear": 2015,
 "orderIndex": 0.207,
@@ -66,21 +44,10 @@
 "gen": 7
 },
 {
-"id": "contra-8",
-"title": "Contra: Operation Galuga",
-"series": "Contra",
-"seriesIndex": 8,
-"console": "PC",
-"releaseYear": 2024,
-"orderIndex": 2.202,
-"image": "https://images.launchbox-app.com//4109ff7f-f15f-4f31-a5b8-0603affa6720.jpg",
-"gen": 7
-},
-{
 "id": "kirby-14",
 "title": "Kirby: Triple Deluxe",
 "series": "Kirby",
-"seriesIndex": 14,
+"seriesIndex": 0,
 "console": "Nintendo 3DS",
 "releaseYear": 2014,
 "orderIndex": 0.702,
@@ -91,7 +58,7 @@
 "id": "kirby-16",
 "title": "Kirby: Star Allies",
 "series": "Kirby",
-"seriesIndex": 16,
+"seriesIndex": 10,
 "console": "Nintendo Switch",
 "releaseYear":  2018,
 "orderIndex": 0.889,
@@ -102,7 +69,7 @@
 "id": "kirby-18",
 "title": "Kirby's Return to Dream Land Deluxe",
 "series": "Kirby",
-"seriesIndex": 18,
+"seriesIndex": 12,
 "console": "Nintendo Switch",
 "releaseYear":  2023,
 "orderIndex": 0.693,
@@ -118,6 +85,132 @@
 "releaseYear": 2016,
 "orderIndex": 0.150,
 "image": "https://images.launchbox-app.com//d51578d2-1afe-4721-9408-cd878dc440e9.jpg",
+"gen": 7
+},
+{
+"id": "castlevania-012",
+"title": "Castlevania: Lords of Shadow - Mirror of Fate",
+"series": "Castlevania",
+"seriesIndex": 0,
+"console": "Nintendo 3DS",
+"releaseYear": 2013,
+"orderIndex": 0.606,
+"image": "https://images.launchbox-app.com//a422cbaa-2583-4a2f-93b7-4b50755cb110.png",
+"gen": 7
+},
+
+{
+"id": "pacman-14",
+"title": "Pac-Man and the Ghostly Adventures",
+"series": "Pac-Man",
+"seriesIndex": 14,
+"console": "Nintendo Wii U",
+"releaseYear": 2013,
+"orderIndex": 0.871,
+"image": "https://images.launchbox-app.com//2d974cb6-4f04-4df4-85c6-617132848fb8.png",
+"gen": 7
+},
+{
+"id": "pacman-15",
+"title": "Pac-Man and the Ghostly Adventures 2",
+"series": "Pac-Man",
+"seriesIndex": 15,
+"console": "Nintendo Wii U",
+"releaseYear": 2014,
+"orderIndex": 0.714,
+"image": "https://images.launchbox-app.com//21937fc5-6708-4c77-af53-f3bbf455530e.png",
+"gen": 7
+},
+
+{
+"id": "tmnt-15",
+"title": "Teenage Mutant Ninja Turtles: Mutants in Manhattan",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 15,
+"console": "PlayStation 4",
+"releaseYear": 2016,
+"orderIndex": 1.153,
+"image": "https://images.launchbox-app.com//ec370963-cbe4-420c-9502-511bf54e68a7.jpg",
+"gen": 7
+},
+{
+"id": "tmnt-16",
+"title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 16,
+"console": "Nintendo Switch",
+"releaseYear": 2022,
+"orderIndex": 2.265,
+"image": "https://images.launchbox-app.com//22c6d4ee-e532-4370-81d9-5aeadb68d619.png",
+"gen": 7
+},
+{
+"id": "tmnt-17",
+"title": "Teenage Mutant Ninja Turtles: Splintered Fate",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 17,
+"console": "Nintendo Switch",
+"releaseYear": 2023,
+"orderIndex": 0.481,
+"image": "https://images.launchbox-app.com//61c1d225-3637-426d-91d3-16db2a486ff0.png",
+"gen": 7
+},
+
+{
+"id": "shinobi-8",
+"title": "Shinobi (2011)",
+"series": "Shinobi",
+"seriesIndex": 8,
+"console": "Nintendo 3DS",
+"releaseYear": 2011,
+"orderIndex": 0.729,
+"image": "https://images.launchbox-app.com//366b0307-4a5a-47d2-af1a-fd8ca39c6a88.png",
+"gen": 7
+},
+{
+"id": "shinobi-9",
+"title": "Shinobi: Art of Vengeance",
+"series": "Shinobi",
+"seriesIndex": 9,
+"console": "Nintendo Switch",
+"releaseYear": 2025,
+"orderIndex": 0.568,
+"image": "https://gamesdb-images.launchbox.gg/r2_d4c68e91-fac7-4a6b-8be2-ca0e9c09cd5b.png",
+"gen": 7
+},
+
+{
+"id": "wonderboy-5",
+"title": "Monster Boy and the Cursed Kingdom",
+"series": "Wonder Boy",
+"seriesIndex": 5,
+"console": "Nintendo Switch",
+"releaseYear": 2018,
+"orderIndex": 0.336,
+"image": "https://images.launchbox-app.com//449ae3fb-827c-4019-87f8-29c31764d0ec.png",
+"gen": 7
+},
+
+{
+"id": "ys-9",
+"title": "Ys VIII: Lacrimosa of Dana",
+"series": "Ys",
+"seriesIndex": 9,
+"console": "PlayStation 4",
+"releaseYear": 2016,
+"orderIndex": 0.155,
+"image": "https://images.launchbox-app.com//6da3ec01-57c2-4b79-950f-ca2cacd4e4d8.jpg",
+"gen": 7
+},
+{
+"id": "ys-10",
+"title": "Ys IX: Monstrum Nox",
+"series": "Ys",
+"seriesIndex": 10,
+"console": "PlayStation 4",
+"releaseYear": 2021,
+"orderIndex": 0.182,
+"image": "https://images.launchbox-app.com//0a3444fc-3d47-488f-bbc4-f6aedccdb7ef.jpg",
 "gen": 7
 }
 

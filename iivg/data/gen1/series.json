@@ -1,31 +1,5 @@
 [
 {
-"series": "Centipede",
-"games": [
-    "Centipede",
-    "Centipede (1998)",
-    "Centipede: Infestation"
-]
-},
-{
-"series": "Yars",
-"games": [
-    "Yars' Revenge",
-    "Yar's Revenge (2011)",
-    "Yars: Recharged",
-    "Yars Rising"
-]
-},
-{
-"series": "Missile Command",
-"games": [
-    "Missile Command",
-    "Missile Command 3D",
-    "Missile Command (1999)",
-    "Missile Command (2007)"
-]
-},
-{
 "series": "Pac-Man",
 "games": [
     "Pac-Man",
@@ -38,26 +12,34 @@
     "Pac-Man Fever",
     "Pac-Man World 2",
     "Pac-Man Vs.",
-    "Pac-Pix",
-    "Pac-Man Pinball Advance",
-    "Pac 'n Roll",
     "Pac-Man World 3",
     "Pac-Man World Rally",
     "Pac-Man Party",
     "Pac-Man and the Ghostly Adventures",
     "Pac-Man and the Ghostly Adventures 2",
-    "Pac-Man 256",
-    "Pac-Man 99",
     "Shadow Labyrinth"
 ]
 },
 {
-"series": "Defender",
+"series": "Space Invaders",
 "games": [
-    "Defender",
-    "Stargate",
-    "Defender 2000",
-    "Defender (2002"
+    "Space Invaders",
+    "Space Invaders 91",
+    "Space Invaders (1999)",
+    "Space Invaders (2002)",
+    "Space Invaders Revolution",
+    "Space Invaders Evolution",
+    "Space Invaders Extreme",
+    "Space Invaders Extreme 2"
+]
+},
+{
+"series": "Yars",
+"games": [
+    "Yars' Revenge",
+    "Yar's Revenge (2011)",
+    "Yars: Recharged",
+    "Yars Rising"
 ]
 },
 {
@@ -71,6 +53,33 @@
     "Pitfall: The Lost Expedition"
 ]
 },
+
+{
+"series": "Centipede",
+"games": [
+    "Centipede",
+    "Centipede (1998)",
+    "Centipede: Infestation"
+]
+},
+{
+"series": "Missile Command",
+"games": [
+    "Missile Command",
+    "Missile Command 3D",
+    "Missile Command (1999)",
+    "Missile Command (2007)"
+]
+},
+{
+"series": "Defender",
+"games": [
+    "Defender",
+    "Stargate",
+    "Defender 2000",
+    "Defender (2002)"
+]
+},
 {
 "series": "Frogger",
 "games": [
@@ -82,14 +91,6 @@
     "Frogger Beyond",
     "Frogger's Adventures: The Rescue",
     "Frogger: Ancient Shadow"
-]
-},
-{
-"series": "Space Invaders",
-"games": [
-    "Space Invaders",
-    "Space Invaders Extreme",
-    "Space Invaders Extreme 2"
 ]
 },
 {

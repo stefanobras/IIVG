@@ -1,0 +1,1168 @@
+[
+{
+"id": "2011-17",
+"title": "Super Mario 3D Land",
+"series": "Super Mario",
+"seriesIndex": 0,
+"console": "Nintendo 3DS",
+"releaseYear": 2011,
+"orderIndex": 0.674,
+"image": "https://images.launchbox-app.com//ce912885-6bf7-416f-aa1a-3e11e91a4597.png",
+"gen": 7
+},
+{
+"id": "2011-18",
+"title": "Mario Kart 7",
+"series": "Mario Kart",
+"seriesIndex": 7,
+"console": "Nintendo 3DS",
+"releaseYear": 2011,
+"orderIndex": 0.471,
+"image": "https://images.launchbox-app.com//abd84eb2-6420-40ce-b1a8-a43376827583.png",
+"gen": 7
+},
+
+
+
+
+
+{
+"id": "2012-9",
+"title": "New Super Mario Bros. U",
+"series": "Super Mario",
+"seriesIndex": 10,
+"console": "Nintendo Wii U",
+"releaseYear": 2012,
+"orderIndex": 0.535,
+"image": "https://images.launchbox-app.com//5c40c672-3d24-4fed-a232-3011679a0cbf.png",
+"gen": 7
+},
+{
+"id": "2012-10",
+"title": "Kid Icarus: Uprising",
+"series": "Kid Icarus",
+"seriesIndex": 3,
+"console": "Nintendo 3DS",
+"releaseYear": 2012,
+"orderIndex": 0.456,
+"image": "https://images.launchbox-app.com//921c3b3f-5eaf-4687-83df-5e1dee70443d.png",
+"gen": 7
+},
+{
+"id": "2012-11",
+"title": "Nintendo Land",
+"series": null,
+"seriesIndex": null,
+"console": "Nintendo Wii U",
+"releaseYear": 2012,
+"orderIndex": 0.373,
+"image": "https://images.launchbox-app.com//fa537145-4110-43ff-a1a1-ae90e8891f78.png",
+"gen": 7
+},
+{
+"id": "2012-12",
+"title": "Zero Escape: Virtue's Last Reward",
+"series": "Zero Escape",
+"seriesIndex": 2,
+"console": "Nintendo 3DS",
+"releaseYear": 2012,
+"orderIndex": 0.221,
+"image": "https://gamesdb-images.launchbox.gg/r2_0f542ce6-cbda-4dbd-b6a5-e43068ccf241.png",
+"gen": 7
+},
+
+
+
+
+
+{
+"id": "2013-4",
+"title": "New Super Luigi U",
+"series": null,
+"seriesIndex": null,
+"console": "Nintendo Wii U",
+"releaseYear": 2013,
+"orderIndex": 1.062,
+"image": "https://images.launchbox-app.com//9dec6330-449a-427a-bc60-6c9b5faa4596.png",
+"gen": 7
+},
+{
+"id": "2013-5",
+"title": "Ryse: Son of Rome",
+"series": null,
+"seriesIndex": null,
+"console": "Xbox One",
+"releaseYear": 2013,
+"orderIndex": 1.001,
+"image": "https://images.launchbox-app.com//a67a82cd-2633-4308-9fa8-0de76001d480.jpg",
+"gen": 7
+},
+{
+"id": "2013-6",
+"title": "Peggle 2",
+"series": "Peggle",
+"seriesIndex": 4,
+"console": "Xbox One",
+"releaseYear": 2013,
+"orderIndex": 0.725,
+"image": "https://images.launchbox-app.com//8554ae73-e112-4998-9613-c3104f642014.jpg",
+"gen": 7
+},
+{
+"id": "2013-7",
+"title": "Pikmin 3",
+"series": "Pikmin",
+"seriesIndex": 3,
+"console": "Nintendo Wii U",
+"releaseYear": 2013,
+"orderIndex": 0.523,
+"image": "https://images.launchbox-app.com//240da7d6-1f6f-4acf-827c-78d9b99df7d4.png",
+"gen": 7
+},
+{
+"id": "2013-8",
+"title": "Super Mario 3D World",
+"series": "Super Mario",
+"seriesIndex": 11,
+"console": "Nintendo Wii U",
+"releaseYear": 2013,
+"orderIndex": 0.491,
+"image": "https://images.launchbox-app.com//696d4152-f13a-46ae-96fc-3c6661df2efd.png",
+"gen": 7
+},
+{
+"id": "2013-9",
+"title": "Luigi's Mansion: Dark Moon",
+"series": "Luigi's Mansion",
+"seriesIndex": 2,
+"console": "Nintendo 3DS",
+"releaseYear": 2013,
+"orderIndex": 0.468,
+"image": "https://images.launchbox-app.com//ce5d5165-1cd5-4c1d-a639-e6570f1a26b8.png",
+"gen": 7
+},
+{
+"id": "2013-10",
+"title": "The Legend of Zelda: A Link Between Worlds",
+"series": "The Legend of Zelda",
+"seriesIndex": 0,
+"console": "Nintendo 3DS",
+"releaseYear": 2013,
+"orderIndex": 0.456,
+"image": "https://images.launchbox-app.com//51e6ab9d-67ad-4811-8e25-24337efe8011.png",
+"gen": 7
+},
+{
+"id": "2013-11",
+"title": "Dead Rising 3",
+"series": "Dead Rising",
+"seriesIndex": 3,
+"console": "Xbox One",
+"releaseYear": 2013,
+"orderIndex": 0.361,
+"image": "https://images.launchbox-app.com//b26a59df-f09b-4eff-a211-921d649654a1.jpg",
+"gen": 7
+},
+{
+"id": "2013-12",
+"title": "The Wonderful 101",
+"series": null,
+"seriesIndex": null,
+"console": "Nintendo Wii U",
+"releaseYear": 2013,
+"orderIndex": 0.337,
+"image": "https://images.launchbox-app.com//55eb70dc-e3e7-40f5-993f-eb92f11f9723.png",
+"gen": 7
+},
+{
+"id": "2013-13",
+"title": "Lego City Undercover",
+"series": null,
+"seriesIndex": null,
+"console": "Nintendo Wii U",
+"releaseYear": 2013,
+"orderIndex": 0.306,
+"image": "https://images.launchbox-app.com//6acdef37-032e-4e90-a565-68d6f07afa09.png",
+"gen": 7
+},
+{
+"id": "2013-14",
+"title": "Grand Theft Auto V",
+"series": "Grand Theft Auto",
+"seriesIndex": 7,
+"console": "PlayStation 4",
+"releaseYear": 2013,
+"orderIndex": 0.202,
+"image": "https://images.launchbox-app.com//3612d4ff-0f98-4810-bb20-79f13605e3c8.png",
+"gen": 7
+},
+{
+"id": "2013-15",
+"title": "Fire Emblem Awakening",
+"series": "Fire Emblem",
+"seriesIndex": 7,
+"console": "Nintendo 3DS",
+"releaseYear": 2013,
+"orderIndex": 0.194,
+"image": "https://images.launchbox-app.com//f7a77a4c-47b5-4822-9be0-8b3fdea7a710.png",
+"gen": 7
+},
+{
+"id": "2013-16",
+"title": "Pokémon X and Y",
+"series": "Pokémon",
+"seriesIndex": 13,
+"console": "Nintendo 3DS",
+"releaseYear": 2013,
+"orderIndex": 0.141,
+"image": "/image/games/xy.png",
+"gen": 7
+},
+{
+"id": "2013-17",
+"title": "Shin Megami Tensei IV",
+"series": "Megami Tensei",
+"seriesIndex": 7,
+"console": "Nintendo 3DS",
+"releaseYear": 2013,
+"orderIndex": 0.135,
+"image": "https://images.launchbox-app.com//bba71f4a-7257-421b-aed6-31699e27e5b9.png",
+"gen": 7
+},
+{
+"id": "2013-18",
+"title": "Forza Motorsport 5",
+"series": "Forza",
+"seriesIndex": 6,
+"console": "Xbox One",
+"releaseYear": 2013,
+"orderIndex": 0.096,
+"image": "https://images.launchbox-app.com//34697f1d-c8a7-43bf-9337-59a0cd4765f7.jpg",
+"gen": 7
+},
+{
+"id": "2013-19",
+"title": "Animal Crossing: New Leaf",
+"series": "Animal Crossing",
+"seriesIndex": 4,
+"console": "Nintendo 3DS",
+"releaseYear": 2013,
+"orderIndex": 0.051,
+"image": "https://images.launchbox-app.com//3d17b244-3afc-404c-aaac-965d455e68f5.png",
+"gen": 7
+},
+
+
+
+
+
+{
+"id": "2014-1",
+"title": "Bayonetta 2",
+"series": "Bayonetta",
+"seriesIndex": 2,
+"console": "Nintendo Wii U",
+"releaseYear": 2014,
+"orderIndex": 0.796,
+"image": "https://images.launchbox-app.com//cc7b4f1e-1208-4bad-8a64-8c2d32773560.png",
+"gen": 7
+},
+{
+"id": "2014-2",
+"title": "Captain Toad: Treasure Tracker",
+"series": null,
+"seriesIndex": null,
+"console": "Nintendo Wii U",
+"releaseYear": 2014,
+"orderIndex": 0.693,
+"image": "https://images.launchbox-app.com//1d20ea57-a92b-4837-80f5-98fd9dc67331.png",
+"gen": 7
+},
+{
+"id": "2014-3",
+"title": "Donkey Kong Country: Tropical Freeze",
+"series": "Donkey Kong",
+"seriesIndex": 12,
+"console": "Nintendo Wii U",
+"releaseYear": 2014,
+"orderIndex": 0.572,
+"image": "https://images.launchbox-app.com//9bad8380-1e9b-49ec-9dad-5544bfb7c940.png",
+"gen": 7
+},
+{
+"id": "2014-4",
+"title": "Sunset Overdrive",
+"series": null,
+"seriesIndex": null,
+"console": "Xbox One",
+"releaseYear": 2014,
+"orderIndex": 0.528,
+"image": "https://images.launchbox-app.com//42c89d5d-e324-4ff7-b75e-a5fc424a975d.jpg",
+"gen": 7
+},
+{
+"id": "2014-5",
+"title": "Skylanders: Trap Team",
+"series": "Skylanders",
+"seriesIndex": 4,
+"console": "Nintendo Wii U",
+"releaseYear": 2014,
+"orderIndex": 0.476,
+"image": "https://images.launchbox-app.com//e762c117-70bd-405f-b4ee-b210b9920416.png",
+"gen": 7
+},
+{
+"id": "2014-6",
+"title": "Forza Horizon 2",
+"series": "Forza",
+"seriesIndex": 7,
+"console": "Xbox One",
+"releaseYear": 2014,
+"orderIndex": 0.292,
+"image": "https://images.launchbox-app.com//2d73a5d3-ae5a-4963-ae76-2d98c42ba81b.png",
+"gen": 7
+},
+{
+"id": "2014-7",
+"title": "Hyrule Warriors",
+"series": "Hyrule Warriors",
+"seriesIndex": 1,
+"console": "Nintendo Wii U",
+"releaseYear": 2014,
+"orderIndex": 0.274,
+"image": "https://images.launchbox-app.com//4e64aa33-73c3-440d-9a96-6e7ee8a5d511.png",
+"gen": 7
+},
+{
+"id": "2014-8",
+"title": "Super Smash Bros. for Nintendo 3DS",
+"series": "Super Smash Bros.",
+"seriesIndex": 4,
+"console": "Nintendo 3DS",
+"releaseYear": 2014,
+"orderIndex": 0.208,
+"image": "https://images.launchbox-app.com//a73ef3bb-104c-4361-8538-59e3506c0759.png",
+"gen": 7
+},
+{
+"id": "2014-9",
+"title": "Super Smash Bros. for Wii U",
+"series": "Super Smash Bros.",
+"seriesIndex": 4,
+"console": "Nintendo Wii U",
+"releaseYear": 2014,
+"orderIndex": 0.193,
+"image": "https://images.launchbox-app.com//fcc96d55-e571-46ed-86c6-226830944c0d.png",
+"gen": 7
+},
+{
+"id": "2014-10",
+"title": "Pokémon Omega Ruby and Alpha Sapphire",
+"series": "Pokémon",
+"seriesIndex": 14,
+"console": "Nintendo 3DS",
+"releaseYear": 2014,
+"orderIndex": 0.193,
+"image": "/image/games/omegaalpha.png",
+"gen": 7
+},
+{
+"id": "2014-11",
+"title": "Fantasy Life",
+"series": "Fantasy Life",
+"seriesIndex": 1,
+"console": "Nintendo 3DS",
+"releaseYear": 2014,
+"orderIndex": 0.125,
+"image": "https://images.launchbox-app.com//3dd3e5de-acd2-4daf-9452-b955f08104d5.png",
+"gen": 7
+},
+{
+"id": "2014-12",
+"title": "Tomodachi Life",
+"series": "Tomodachi",
+"seriesIndex": 1,
+"console": "Nintendo 3DS",
+"releaseYear": 2014,
+"orderIndex": 0.086,
+"image": "https://images.launchbox-app.com//cb1d3e7f-1be8-4a67-92b1-1beaecaf1311.png",
+"gen": 7
+},
+
+
+
+
+
+{
+"id": "2015-1",
+"title": "Splatoon",
+"series": "Splatoon",
+"seriesIndex": 1,
+"console": "Nintendo Wii U",
+"releaseYear": 2015,
+"orderIndex": 0.911,
+"image": "https://images.launchbox-app.com//daf6e829-b3b5-4be2-8b02-495fed9a0135.png",
+"gen": 7
+},
+{
+"id": "2015-2",
+"title": "Halo 5: Guardians",
+"series": "Halo",
+"seriesIndex": 7,
+"console": "Xbox One",
+"releaseYear": 2015,
+"orderIndex": 0.761,
+"image": "https://images.launchbox-app.com//4329d840-5f87-4c4a-b584-769663386335.jpg",
+"gen": 7
+},
+{
+"id": "2015-3",
+"title": "Yoshi's Woolly World",
+"series": "Yoshi",
+"seriesIndex": 7,
+"console": "Nintendo Wii U",
+"releaseYear": 2015,
+"orderIndex": 0.446,
+"image": "https://images.launchbox-app.com//4c21591d-e5df-4d12-a590-a6a1dff8e791.png",
+"gen": 7
+},
+{
+"id": "2015-4",
+"title": "Super Mario Maker",
+"series": "Super Mario Maker",
+"seriesIndex": 1,
+"console": "Nintendo Wii U",
+"releaseYear": 2015,
+"orderIndex": 0.379,
+"image": "https://images.launchbox-app.com//4212aee6-1f83-4e6f-8031-f8bf42d2ba3c.png",
+"gen": 7
+},
+{
+"id": "2015-5",
+"title": "Batman: Arkham Knight",
+"series": "Batman: Arkham",
+"seriesIndex": 4,
+"console": "PlayStation 4",
+"releaseYear": 2015,
+"orderIndex": 0.281,
+"image": "https://images.launchbox-app.com//75d0cfcc-40e0-4f90-87ff-276ac5bcb8b6.jpg",
+"gen": 7
+},
+{
+"id": "2015-6",
+"title": "Bloodborne",
+"series": "Souls",
+"seriesIndex": 4,
+"console": "PlayStation 4",
+"releaseYear": 2015,
+"orderIndex": 0.201,
+"image": "https://images.launchbox-app.com//fbfd56b1-80ee-483d-be29-74b5a2782f59.png",
+"gen": 7
+},
+{
+"id": "2015-7",
+"title": "Forza Motorsport 6",
+"series": "Forza",
+"seriesIndex": 8,
+"console": "Xbox One",
+"releaseYear": 2015,
+"orderIndex": 0.133,
+"image": "https://images.launchbox-app.com//9a5c4e2b-080a-4651-b323-23700138570a.png",
+"gen": 7
+},
+{
+"id": "2015-8",
+"title": "The Witcher 3: Wild Hunt",
+"series": "The Witcher",
+"seriesIndex": 3,
+"console": "PlayStation 4",
+"releaseYear": 2015,
+"orderIndex": 0.091,
+"image": "https://images.launchbox-app.com//4d8fd6a5-1618-41e3-ba2d-b51966fbb9d4.jpg",
+"gen": 7
+},
+{
+"id": "2015-9",
+"title": "Xenoblade Chronicles X",
+"series": "Xenoblade Chronicles",
+"seriesIndex": 2,
+"console": "Nintendo Wii U",
+"releaseYear": 2015,
+"orderIndex": 0.068,
+"image": "https://images.launchbox-app.com//952cb022-db2f-49d3-9001-e3cc715490fb.png",
+"gen": 7
+},
+{
+"id": "2015-10",
+"title": "Monster Hunter 4 Ultimate",
+"series": "Monster Hunter",
+"seriesIndex": 4,
+"console": "Nintendo 3DS",
+"releaseYear": 2015,
+"orderIndex": 0.058,
+"image": "https://images.launchbox-app.com//d17ec680-6934-44d6-9022-4e3caa867159.png",
+"gen": 7
+},
+
+
+
+
+
+{
+"id": "2016-1",
+"title": "Gears of War 4",
+"series": "Gears of War",
+"seriesIndex": 4,
+"console": "Xbox One",
+"releaseYear": 2016,
+"orderIndex": 0.799,
+"image": "https://gamesdb-images.launchbox.gg/r2_22be5e28-43d9-4625-a155-21c3607d8fd1.png",
+"gen": 7
+},
+{
+"id": "2016-2",
+"title": "Kirby: Planet Robobot",
+"series": "Kirby",
+"seriesIndex": 0,
+"console": "Nintendo 3DS",
+"releaseYear": 2016,
+"orderIndex": 0.776,
+"image": "https://images.launchbox-app.com//7ead9a56-e7a7-4b18-a672-598cc4f4bfa5.png",
+"gen": 7
+},
+{
+"id": "2016-3",
+"title": "Quantum Break",
+"series": null,
+"seriesIndex": null,
+"console": "Xbox One",
+"releaseYear": 2016,
+"orderIndex": 0.607,
+"image": "https://images.launchbox-app.com//59093d2a-d681-4a9e-82ef-e856c1055055.jpg",
+"gen": 7
+},
+{
+"id": "2016-4",
+"title": "Uncharted 4: A Thief's End",
+"series": "Uncharted",
+"seriesIndex": 4,
+"console": "PlayStation 4",
+"releaseYear": 2016,
+"orderIndex": 0.543,
+"image": "https://images.launchbox-app.com//07f1ca51-57e2-4e7e-859b-fd03ebd4f7fe.jpg",
+"gen": 7
+},
+{
+"id": "2016-5",
+"title": "Pokkén Tournament",
+"series": null,
+"seriesIndex": null,
+"console": "Nintendo Wii U",
+"releaseYear": 2016,
+"orderIndex": 0.533,
+"image": "https://images.launchbox-app.com//69d643cd-b856-41d2-8ffb-1f951bd797b0.png",
+"gen": 7
+},
+{
+"id": "2016-6",
+"title": "Forza Horizon 3",
+"series": "Forza",
+"seriesIndex": 9,
+"console": "Xbox One",
+"releaseYear": 2016,
+"orderIndex": 0.219,
+"image": "https://images.launchbox-app.com//1f4c6714-c9d9-4c98-b200-71a5edbe40a1.jpg",
+"gen": 7
+},
+{
+"id": "2016-7",
+"title": "Paper Mario: Color Splash",
+"series": "Paper Mario",
+"seriesIndex": 5,
+"console": "Nintendo Wii U",
+"releaseYear": 2016,
+"orderIndex": 0.208,
+"image": "https://images.launchbox-app.com//583afc9a-8777-48a0-9f5a-408a5622e993.png",
+"gen": 7
+},
+{
+"id": "2016-8",
+"title": "Dark Souls III",
+"series": "Souls",
+"seriesIndex": 5,
+"console": "PlayStation 4",
+"releaseYear": 2016,
+"orderIndex": 0.182,
+"image": "https://images.launchbox-app.com//0a0602cd-edac-41a0-8e5b-ba61cb8b098b.jpg",
+"gen": 7
+},
+{
+"id": "2016-9",
+"title": "Tokyo Mirage Sessions ♯FE",
+"series": null,
+"seriesIndex": null,
+"console": "Nintendo Wii U",
+"releaseYear": 2016,
+"orderIndex": 0.107,
+"image": "https://images.launchbox-app.com//971e4ca8-0115-471f-ba24-8745851d0d28.png",
+"gen": 7
+},
+{
+"id": "2016-10",
+"title": "Persona 5",
+"series": "Persona",
+"seriesIndex": 6,
+"console": "PlayStation 4",
+"releaseYear": 2016,
+"orderIndex": 0.073,
+"image": "https://images.launchbox-app.com//6724a809-6fa8-4d06-b41e-400116460678.jpg",
+"gen": 7
+},
+
+
+
+
+
+
+{
+"id": "2017-1",
+"title": "Halo Wars 2",
+"series": "Halo",
+"seriesIndex": 8,
+"console": "Xbox One",
+"releaseYear": 2017,
+"orderIndex": 0.750,
+"image": "https://images.launchbox-app.com//11f8f345-00fb-489d-bee9-5a992b8a6f45.jpg",
+"gen": 7
+},
+{
+"id": "2017-2",
+"title": "Metroid: Samus Returns",
+"series": "Metroid",
+"seriesIndex": 11,
+"console": "Nintendo 3DS",
+"releaseYear": 2017,
+"orderIndex": 0.590,
+"image": "https://images.launchbox-app.com//ce7a4714-962a-4928-8f63-34b3f561162b.png",
+"gen": 7
+},
+{
+"id": "2017-3",
+"title": "Mario Kart 8 Deluxe",
+"series": "Mario Kart",
+"seriesIndex": 8,
+"console": "Nintendo Switch",
+"releaseYear": 2017,
+"orderIndex": 0.402,
+"image": "https://images.launchbox-app.com//29af52e1-764f-41a4-816f-6b523d97c905.png",
+"gen": 7
+},
+{
+"id": "2017-4",
+"title": "Super Mario Odyssey",
+"series": "Super Mario",
+"seriesIndex": 12,
+"console": "Nintendo Switch",
+"releaseYear": 2017,
+"orderIndex": 0.356,
+"image": "https://images.launchbox-app.com//c3f93a05-ff48-4dcf-8695-f3e6159f125a.png",
+"gen": 7
+},
+{
+"id": "2017-5",
+"title": "Nier: Automata",
+"series": "Nier",
+"seriesIndex": 2,
+"console": "PlayStation 4",
+"releaseYear": 2017,
+"orderIndex": 0.241,
+"image": "https://images.launchbox-app.com//72227130-0406-41ec-afd5-344f19442802.png",
+"gen": 7
+},
+{
+"id": "2017-6",
+"title": "Miitopia",
+"series": null,
+"seriesIndex": null,
+"console": "Nintendo 3DS",
+"releaseYear": 2017,
+"orderIndex": 0.185,
+"image": "https://images.launchbox-app.com//20b20f52-1732-4406-b12a-2d22e20a93f6.png",
+"gen": 7
+},
+{
+"id": "2017-7",
+"title": "Fire Emblem Echoes: Shadows of Valentia",
+"series": "Fire Emblem",
+"seriesIndex": 10,
+"console": "Nintendo 3DS",
+"releaseYear": 2017,
+"orderIndex": 0.179,
+"image": "https://images.launchbox-app.com//518e25ac-171e-4b8f-9dab-1fb926f7c1ca.png",
+"gen": 7
+},
+{
+"id": "2017-8",
+"title": "Yakuza 0",
+"series": "Yakuza",
+"seriesIndex": 6,
+"console": "PlayStation 4",
+"releaseYear": 2017,
+"orderIndex": 0.155,
+"image": "https://images.launchbox-app.com//5e31a63a-fffb-4520-8bf6-5dcb672d003a.png",
+"gen": 7
+},
+{
+"id": "2017-9",
+"title": "Pokémon Ultra Sun and Ultra Moon",
+"series": "Pokémon",
+"seriesIndex": 16,
+"console": "Nintendo 3DS",
+"releaseYear": 2017,
+"orderIndex": 0.155,
+"image": "/image/games/usum.png",
+"gen": 7
+},
+{
+"id": "2017-10",
+"title": "Forza Motorsport 7",
+"series": "Forza",
+"seriesIndex": 10,
+"console": "Xbox One",
+"releaseYear": 2017,
+"orderIndex": 0.134,
+"image": "https://images.launchbox-app.com//25fe0921-1363-41dc-880b-4195661155cd.jpg",
+"gen": 7
+},
+{
+"id": "2017-11",
+"title": "The Legend of Zelda: Breath of the Wild",
+"series": "The Legend of Zelda",
+"seriesIndex": 9,
+"console": "Nintendo Switch",
+"releaseYear": 2017,
+"orderIndex": 0.102,
+"image": "https://images.launchbox-app.com//0b909371-1a34-4979-977b-20cb14ecd783.png",
+"gen": 7
+},
+{
+"id": "2017-12",
+"title": "Xenoblade Chronicles 2",
+"series": "Xenoblade Chronicles",
+"seriesIndex": 3,
+"console": "Nintendo Switch",
+"releaseYear": 2017,
+"orderIndex": 0.085,
+"image": "https://images.launchbox-app.com//60a4d6a6-fd50-4fe7-886d-addcb6397217.png",
+"gen": 7
+},
+
+
+
+
+
+{
+"id": "2018-1",
+"title": "Shadow of the Colossus (2018)",
+"series": "Ico",
+"seriesIndex": 4,
+"console": "PlayStation 4",
+"releaseYear": 2018,
+"orderIndex": 1.013,
+"image": "https://images.launchbox-app.com//2822e862-9beb-4b40-bdd0-1b965068a7dc.png",
+"gen": 7
+},
+{
+"id": "2018-2",
+"title": "Marvel's Spider-Man",
+"series": "Marvel's Spider-Man",
+"seriesIndex": 1,
+"console": "PlayStation 4",
+"releaseYear": 2018,
+"orderIndex": 0.329,
+"image": "https://images.launchbox-app.com//ded2ed1f-5ef1-4752-bfce-79ccef7d7b8f.jpg",
+"gen": 7
+},
+{
+"id": "2018-3",
+"title": "God of War (2018)",
+"series": "God of War",
+"seriesIndex": 7,
+"console": "PlayStation 4",
+"releaseYear": 2018,
+"orderIndex": 0.281,
+"image": "https://images.launchbox-app.com//fb3aba7a-e87d-47c3-a57c-253d48a334d6.png",
+"gen": 7
+},
+{
+"id": "2018-4",
+"title": "State of Decay 2",
+"series": "State of Decay",
+"seriesIndex": 2,
+"console": "Xbox One",
+"releaseYear": 2018,
+"orderIndex": 0.281,
+"image": "https://media.gamestop.com/i/gamestop/10158901/State-of-Decay-2",
+"gen": 7
+},
+{
+"id": "2018-5",
+"title": "Super Smash Bros. Ultimate",
+"series": "Super Smash Bros.",
+"seriesIndex": 5,
+"console": "Nintendo Switch",
+"releaseYear": 2018,
+"orderIndex": 0.224,
+"image": "https://images.launchbox-app.com//5004bf45-8f51-4e60-84b3-5bdc6b1206dd.png",
+"gen": 7
+},
+{
+"id": "2018-6",
+"title": "Forza Horizon 4",
+"series": "Forza",
+"seriesIndex": 11,
+"console": "Xbox One",
+"releaseYear": 2018,
+"orderIndex": 0.175,
+"image": "https://images.launchbox-app.com//2edf2c88-07f8-4744-bf9b-a6d0ea56ad57.jpg",
+"gen": 7
+},
+{
+"id": "2018-7",
+"title": "Red Dead Redemption 2",
+"series": "Red Dead",
+"seriesIndex": 3,
+"console": "PlayStation 4",
+"releaseYear": 2018,
+"orderIndex": 0.124,
+"image": "https://images.launchbox-app.com//34aeba0d-b1e8-400f-8905-c81ed8d84c78.jpg",
+"gen": 7
+},
+{
+"id": "2018-8",
+"title": "Dragon Quest XI: Echoes of an Elusive Age",
+"series": "Dragon Quest",
+"seriesIndex": 11,
+"console": "PlayStation 4",
+"releaseYear": 2018,
+"orderIndex": 0.100,
+"image": "https://images.launchbox-app.com//ae225ecc-6fb8-41da-b7d0-0572a3b069ff.png",
+"gen": 7
+},
+{
+"id": "2018-9",
+"title": "Sea of Thieves",
+"series": null,
+"seriesIndex": null,
+"console": "Xbox One",
+"releaseYear": 2018,
+"orderIndex": 0.039,
+"image": "https://images.launchbox-app.com//9c397803-6292-43d8-8a7b-3ecd5bb6081b.jpg",
+"gen": 7
+},
+
+
+
+
+
+{
+"id": "2019-1",
+"title": "Resident Evil 2 (2019)",
+"series": "Resident Evil",
+"seriesIndex": 11,
+"console": "PlayStation 4",
+"releaseYear": 2019,
+"orderIndex": 0.701,
+"image": "https://images.launchbox-app.com//71d906a9-6f76-4b4b-bf37-1b2817b25c0e.png",
+"gen": 7
+},
+{
+"id": "2019-2",
+"title": "Gears 5",
+"series": "Gears of War",
+"seriesIndex": 5,
+"console": "Xbox One",
+"releaseYear": 2019,
+"orderIndex": 0.584,
+"image": "https://gamesdb-images.launchbox.gg/r2_c3f005b3-0e0f-4462-a1a9-088d1c3d77d7.png",
+"gen": 7
+},
+{
+"id": "2019-3",
+"title": "The Legend of Zelda: Link's Awakening (2019)",
+"series": "The Legend of Zelda",
+"seriesIndex": 0,
+"console": "Nintendo Switch",
+"releaseYear": 2019,
+"orderIndex": 0.521,
+"image": "https://images.launchbox-app.com//e8690e51-fe82-4c70-b7b4-d979f337ce72.png",
+"gen": 7
+},
+{
+"id": "2019-4",
+"title": "The Outer Worlds",
+"series": "The Outer Worlds",
+"seriesIndex": 1,
+"console": "Xbox One",
+"releaseYear": 2019,
+"orderIndex": 0.284,
+"image": "https://cdn.mos.cms.futurecdn.net/fjVsZ5DZDhYHzN34HEZ2sT.jpg",
+"gen": 7
+},
+{
+"id": "2019-5",
+"title": "Sekiro: Shadows Die Twice",
+"series": "Souls",
+"seriesIndex": 6,
+"console": "PlayStation 4",
+"releaseYear": 2019,
+"orderIndex": 0.205,
+"image": "https://images.launchbox-app.com//f53d28ed-72bf-4719-9a6e-6080294a4632.png",
+"gen": 7
+},
+{
+"id": "2019-6",
+"title": "Fire Emblem: Three Houses",
+"series": "Fire Emblem",
+"seriesIndex": 11,
+"console": "Nintendo Switch",
+"releaseYear": 2019,
+"orderIndex": 0.115,
+"image": "https://gamesdb-images.launchbox.gg/r2_c0343f4c-b7ed-4e8e-b8b6-6f2a4976780d.png",
+"gen": 7
+},
+
+
+
+
+
+{
+"id": "2020-1",
+"title": "Journey to the Savage Planet",
+"series": "Savage Planet",
+"seriesIndex": 1,
+"console": "Xbox One",
+"releaseYear": 2020,
+"orderIndex": 0.652,
+"image": "https://images.launchbox-app.com//d6807e52-380e-4ed9-bc73-04fd506c2322.jpg",
+"gen": 7
+},
+{
+"id": "2020-2",
+"title": "Doom Eternal",
+"series": "Doom",
+"seriesIndex": 7,
+"console": "PlayStation 4",
+"releaseYear": 2020,
+"orderIndex": 0.454,
+"image": "https://images.launchbox-app.com//2d28338d-02a1-456c-b674-4551d6f202f0.png",
+"gen": 7
+},
+{
+"id": "2020-3",
+"title": "The Last of Us Part II",
+"series": "The Last of Us",
+"seriesIndex": 2,
+"console": "PlayStation 4",
+"releaseYear": 2020,
+"orderIndex": 0.327,
+"image": "https://images.launchbox-app.com//3e0032bb-3e29-4206-af02-6fdeed8ecb06.jpg",
+"gen": 7
+},
+{
+"id": "2020-4",
+"title": "Gears Tactics",
+"series": "Gears of War",
+"seriesIndex": 6,
+"console": "Xbox One",
+"releaseYear": 2020,
+"orderIndex": 0.250,
+"image": "https://m.media-amazon.com/images/I/71rRqwigg7L._SL1200_.jpg",
+"gen": 7
+},
+{
+"id": "2020-5",
+"title": "Final Fantasy VII Remake",
+"series": "Final Fantasy",
+"seriesIndex": 16,
+"console": "PlayStation 4",
+"releaseYear": 2020,
+"orderIndex": 0.250,
+"image": "https://images.launchbox-app.com//7a07f5f9-5244-45f1-b91d-ae29fe4e03ab.jpg",
+"gen": 7
+},
+{
+"id": "2020-6",
+"title": "Ghost of Tsushima",
+"series": "Ghost",
+"seriesIndex": 1,
+"console": "PlayStation 4",
+"releaseYear": 2020,
+"orderIndex": 0.180,
+"image": "https://images.launchbox-app.com//e45c7c13-3b92-43e7-83e1-329041919414.jpg",
+"gen": 7
+},
+{
+"id": "2020-7",
+"title": "Animal Crossing: New Horizons",
+"series": "Animal Crossing",
+"seriesIndex": 5,
+"console": "PlayStation 4",
+"releaseYear": 2020,
+"orderIndex": 0.139,
+"image": "https://images.launchbox-app.com//fffac3cc-c0a4-4526-b50a-31ead02204f7.png",
+"gen": 7
+},
+
+
+
+
+
+{
+"id": "2021-1",
+"title": "Metroid Dread",
+"series": "Metroid",
+"seriesIndex": 12,
+"console": "Nintendo Switch",
+"releaseYear": 2021,
+"orderIndex": 0.800,
+"image": "https://images.launchbox-app.com//7fc3ec06-0547-4f73-97b4-459735b48426.png",
+"gen": 7
+},
+{
+"id": "2021-2",
+"title": "Bowser's Fury",
+"series": "Super Mario",
+"seriesIndex": 0,
+"console": "Nintendo Switch",
+"releaseYear": 2021,
+"orderIndex": 0.504,
+"image": "https://images.launchbox-app.com//2a633824-48dc-46b7-aca2-d3b132da5dc3.png",
+"gen": 7
+},
+
+
+
+
+
+{
+"id": "2022-1",
+"title": "Splatoon 3",
+"series": "Splatoon",
+"seriesIndex": 3,
+"console": "Nintendo Switch",
+"releaseYear": 2022,
+"orderIndex": 0.630,
+"image": "https://gamesdb-images.launchbox.gg/r2_a8cd2a4b-cdf7-4cb5-964f-03efea52a6c9.png",
+"gen": 7
+},
+{
+"id": "2022-2",
+"title": "Kirby and the Forgotten Land",
+"series": "Kirby",
+"seriesIndex": 11,
+"console": "Nintendo Switch",
+"releaseYear": 2022,
+"orderIndex": 0.518,
+"image": "https://images.launchbox-app.com//2718cc52-e4ef-4ce3-9e57-a4802f97ef9f.png",
+"gen": 7
+},
+{
+"id": "2022-3",
+"title": "Xenoblade Chronicles 3",
+"series": "Xenoblade Chronicles",
+"seriesIndex": 4,
+"console": "Nintendo Switch",
+"releaseYear": 2022,
+"orderIndex": 0.088,
+"image": "https://images.launchbox-app.com//c60a8261-bc98-47c9-8da1-8733183d93dd.png",
+"gen": 7
+},
+
+
+
+
+
+{
+"id": "2023-1",
+"title": "Super Mario RPG",
+"series": "Super Mario RPG",
+"seriesIndex": 2,
+"console": "Nintendo Switch",
+"releaseYear": 2023,
+"orderIndex": 0.622,
+"image": "https://images.launchbox-app.com//68c6c75f-81f5-4ff8-90d9-09d020696e7a.png",
+"gen": 7
+},
+{
+"id": "2023-2",
+"title": "Super Mario Bros. Wonder",
+"series": "Super Mario",
+"seriesIndex": 0,
+"console": "Nintendo Switch",
+"releaseYear": 2023,
+"orderIndex": 0.610,
+"image": "https://images.launchbox-app.com//642258c8-905f-4181-89aa-c15b9bbbfe39.png",
+"gen": 7
+},
+{
+"id": "2023-4",
+"title": "Pikmin 4",
+"series": "Pikmin",
+"seriesIndex": 4,
+"console": "Nintendo Switch",
+"releaseYear": 2023,
+"orderIndex": 0.271,
+"image": "https://images.launchbox-app.com//0c517806-21ba-4f76-9216-d397565c1507.png",
+"gen": 7
+},
+{
+"id": "2023-5",
+"title": "Octopath Traveler II",
+"series": "Octopath Traveler",
+"seriesIndex": 2,
+"console": "Nintendo Switch",
+"releaseYear": 2023,
+"orderIndex": 0.103,
+"image": "https://images.launchbox-app.com//2e79c237-08e2-4165-bfbc-664d4b748363.png",
+"gen": 7
+},
+{
+"id": "2023-6",
+"title": "The Legend of Zelda: Tears of the Kingdom",
+"series": "The Legend of Zelda",
+"seriesIndex": 10,
+"console": "Nintendo Switch",
+"releaseYear": 2023,
+"orderIndex": 0.086,
+"image": "https://images.launchbox-app.com//fee9663f-5856-4bdc-a8e2-65c3acbc51eb.png",
+"gen": 7
+},
+
+
+
+
+
+{
+"id": "2024-1",
+"title": "Prince of Persia: The Lost Crown",
+"series": "Prince of Persia",
+"seriesIndex": 9,
+"console": "Nintendo Switch",
+"releaseYear": 2024,
+"orderIndex": 0.342,
+"image": "https://images.launchbox-app.com//1be1eea1-c249-4537-a580-7397fae9cb6c.png",
+"gen": 7
+},
+{
+"id": "2024-2",
+"title": "The Legend of Zelda: Echoes of Wisdom",
+"series": "The Legend of Zelda",
+"seriesIndex": 0,
+"console": "Nintendo Switch",
+"releaseYear": 2024,
+"orderIndex": 0.304,
+"image": "https://images.launchbox-app.com//9e58e1bc-4c6e-4630-af30-b326436d78bb.png",
+"gen": 7
+}
+]

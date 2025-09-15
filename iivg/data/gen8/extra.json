@@ -8,6 +8,88 @@
 "releaseYear": 2023,
 "orderIndex": 0.143,
 "image": "https://images.launchbox-app.com//057dd8cf-8b9c-4541-aba1-4870051f3d16.png",
-"gen": 7
+"gen": 8
+},
+
+{
+"id": "pacman-16",
+"title": "Shadow Labyrinth",
+"series": "Pac-Man",
+"seriesIndex": 16,
+"console": "PlayStation 5",
+"releaseYear": 2025,
+"orderIndex": 0.152,
+"image": "https://media.gamestop.com/i/gamestop/20019254-4f107109?w=768&h=768&fmt=auto",
+"gen": 8
+},
+
+{
+"id": "yars-3",
+"title": "Yars: Recharged",
+"series": "Yars",
+"seriesIndex": 3,
+"console": "PC",
+"releaseYear":  2022,
+"orderIndex": 0.8173,
+"image": "https://images.launchbox-app.com//e7417a1e-8d4e-4cc9-9a0c-80cd8920fd0b.jpg",
+"gen": 8
+},
+{
+"id": "yars-4",
+"title": "Yars Rising",
+"series": "Yars",
+"seriesIndex": 4,
+"console": "PC",
+"releaseYear":  2024,
+"orderIndex": 0.649,
+"image": "https://images.launchbox-app.com//38e9020b-cf3d-43ff-be77-6f7825b3092f.jpg",
+"gen": 8
+},
+{
+"id": "contra-8",
+"title": "Contra: Operation Galuga",
+"series": "Contra",
+"seriesIndex": 8,
+"console": "PC",
+"releaseYear": 2024,
+"orderIndex": 2.202,
+"image": "https://images.launchbox-app.com//4109ff7f-f15f-4f31-a5b8-0603affa6720.jpg",
+"gen": 8
+},
+
+{
+"id": "ninjagaiden-7",
+"title": "Ninja Gaiden 4",
+"series": "Ninja Gaiden",
+"seriesIndex": 7,
+"console": "Xbox Series X",
+"releaseYear": 2025,
+"orderIndex": 0.752,
+"image": "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/23SQ96/9b1f75ecfa89485ab877b8d6bbb7f246.png/f/ninja-gaiden-4.png",
+"gen": 8
+},
+
+{
+"id": "tmnt-18",
+"title": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 18,
+"console": "Xbox Series X",
+"releaseYear": 2024,
+"orderIndex": 0.366,
+"image": "https://cdn.hmv.com/r/w-640/hmv/files/03/03b90bb9-c84b-401c-b6bd-1b8abc13343e.png",
+"gen": 8
+},
+
+{
+"id": "ys-11",
+"title": "Ys X: Nordics",
+"series": "Ys",
+"seriesIndex": 11,
+"console": "PlayStation 5",
+"releaseYear": 2024,
+"orderIndex": 0.156,
+"image": "https://videogamesplus.ca/cdn/shop/files/YsX_RP_PS5_ESRB_US_Packshot_3D_558x700.png?v=1708614926",
+"gen": 8
 }
 ]

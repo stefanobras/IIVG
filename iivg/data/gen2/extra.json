@@ -25,7 +25,7 @@
 "id": "castlevania-2",
 "title": "Castlevania II: Simon's Quest",
 "series": "Castlevania",
-"seriesIndex": 2,
+"seriesIndex": 0,
 "console": "NES",
 "releaseYear": 1988,
 "orderIndex": 1.413,
@@ -80,7 +80,7 @@
 "id": "finalfantasy-3",
 "title": "Final Fantasy III",
 "series": "Final Fantasy",
-"seriesIndex": 2,
+"seriesIndex": 3,
 "console": "NES",
 "releaseYear": 1990,
 "orderIndex": 0.386,
@@ -107,6 +107,53 @@
 "releaseYear": 1991,
 "orderIndex": 2.608,
 "image": "https://images.launchbox-app.com//e380653a-49cb-4765-a11f-a8fe16fa4ddb.png",
+"gen": 2
+},
+
+{
+"id": "tmnt-1",
+"title": "Teenage Mutant Ninja Turtles",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 1,
+"console": "NES",
+"releaseYear": 1989,
+"orderIndex": 2.139,
+"image": "https://images.launchbox-app.com//ba1a00a9-d48d-4e21-84d8-056bb0b8ad2c.png",
+"gen": 2
+},
+{
+"id": "tmnt-3",
+"title": "Teenage Mutant Ninja Turtles III: The Manhattan Project",
+"series": "Teenage Mutant Ninja Turtles",
+"seriesIndex": 3,
+"console": "NES",
+"releaseYear": 1992,
+"orderIndex": 2.819,
+"image": "https://images.launchbox-app.com//7c3dd63c-3b24-4ec7-a68a-06b66cb146c4.png",
+"gen": 2
+},
+
+{
+"id": "ducktales-2",
+"title": "DuckTales 2",
+"series": "DuckTales",
+"seriesIndex": 2,
+"console": "NES",
+"releaseYear": 1993,
+"orderIndex": 4.486,
+"image": "https://images.launchbox-app.com//de9b457e-589c-419f-89e1-67bd21c3d370.png",
+"gen": 2
+},
+
+{
+"id": "ys-2",
+"title": "Ys II: Ancient Ys Vanished - The Final Chapter",
+"series": "Ys",
+"seriesIndex": 2,
+"console": "NES",
+"releaseYear": 1990,
+"orderIndex": 0.590,
+"image": "https://images.launchbox-app.com//c942582d-7448-44c5-b5f8-af3304555565.png",
 "gen": 2
 }
 
