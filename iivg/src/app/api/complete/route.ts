@@ -59,7 +59,10 @@ export async function POST(req: Request) {
 
   // 2) Achievements: count completions for this console and see which thresholds are new
   const consoleName = game.console;
-  const idsSameConsole = new Set(catalog.allGames.filter(g => g.console === consoleName).map(g => g.id));
+  // Count base games only (extras do not contribute to achievements)
+  const idsSameConsole = new Set(
+    catalog.baseGames.filter(g => g.console === consoleName).map(g => g.id)
+  );
   const countForConsole = (comps || []).filter(c => idsSameConsole.has(c.game_id)).length;
 
   // Existing achievements for this console

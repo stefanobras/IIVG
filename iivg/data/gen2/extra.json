@@ -1,16 +1,5 @@
 [
 {
-"id": "fantasyzone-2",
-"title": "Fantasy Zone II: The Tears of Opa-Opa",
-"series": "Fantasy Zone",
-"seriesIndex": 2,
-"console": "Sega Master System",
-"releaseYear": 1987,
-"orderIndex": 4.038,
-"image": "https://images.launchbox-app.com//9217a441-916a-4025-9614-e2e09f1d1c5a.png",
-"gen": 2
-},
-{
 "id": "pitfall-3",
 "title": "Super Pitfall",
 "series": "Pitfall",
@@ -60,7 +49,7 @@
 "series": "Contra",
 "seriesIndex": 2,
 "console": "NES",
-"releaseYear": 1988,
+"releaseYear": 1990,
 "orderIndex": 4.588,
 "image": "https://images.launchbox-app.com//9b778b84-415a-40e3-8d40-edb59c2d513e.png",
 "gen": 2
@@ -144,7 +133,17 @@
 "image": "https://images.launchbox-app.com//de9b457e-589c-419f-89e1-67bd21c3d370.png",
 "gen": 2
 },
-
+{
+"id": "1989-7",
+"title": "Ys: The Vanished Omens",
+"series": "Ys",
+"seriesIndex": 1,
+"console": "Sega Master System",
+"releaseYear": 1989,
+"orderIndex": 0.808,
+"image": "https://images.launchbox-app.com//b048ea1c-f8fd-4b28-95de-e3a89823b978.png",
+"gen": 2
+},
 {
 "id": "ys-2",
 "title": "Ys II: Ancient Ys Vanished - The Final Chapter",

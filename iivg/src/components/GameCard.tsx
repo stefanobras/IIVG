@@ -36,7 +36,7 @@ export default function GameCard({
           <img
             src={game.image}
             alt={game.title}
-            className="h-full w-full object-scale-down"
+            className="h-full w-full object-cover"
             loading="lazy"
             onError={(e) => {
               e.currentTarget.src = "/images/placeholder.jpg";

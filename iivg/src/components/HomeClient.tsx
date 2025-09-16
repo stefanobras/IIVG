@@ -1,3 +1,4 @@
+// src/components/HomeClient.tsx
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
@@ -42,21 +43,55 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
     bootstrap(catalog);
   }, [bootstrap, catalog]);
 
-  // Hydrate from Supabase through your server route
+  // 2) Hydrate from server (/api/completions) with client fallback
   useEffect(() => {
     let cancelled = false;
 
     (async () => {
       try {
+        // First try your server route (uses SSR cookies)
         const res = await fetch("/api/completions", {
           cache: "no-store",
-          credentials: "include",   // 👈 ensures auth cookies are sent
+          credentials: "include",
         });
-        if (!res.ok) return;
-        const json = await res.json();
 
-        if (!cancelled && Array.isArray(json.completions) && json.completions.length) {
-          hydrateFromRemote(json.completions, catalog);
+        let usedAny = false;
+
+        if (res.ok) {
+          const json = await res.json();
+          if (
+            !cancelled &&
+            Array.isArray(json.completions) &&
+            json.completions.length > 0
+          ) {
+            hydrateFromRemote(json.completions, catalog);
+            usedAny = true;
+          }
+        }
+
+        // Fallback: query Supabase directly in the browser (if server returned none)
+        if (!usedAny) {
+          const supabase = createSupabaseBrowserClient(
+            process.env.NEXT_PUBLIC_SUPABASE_URL!,
+            process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+          );
+
+          const { data: sessionData } = await supabase.auth.getSession();
+          if (sessionData?.session) {
+            const { data, error } = await supabase
+              .from("user_completions")
+              .select("game_id, rating, completed_at")
+              .order("completed_at", { ascending: true });
+
+            if (!error && Array.isArray(data) && data.length > 0 && !cancelled) {
+              const rows = data.map((r: any) => ({
+                gameId: r.game_id as string,
+                rating: r.rating as number,
+                completedAt: (r.completed_at as string) ?? new Date().toISOString(),
+              }));
+              hydrateFromRemote(rows, catalog);
+            }
+          }
         }
       } catch {
         // ignore; UI still works with local state
@@ -65,9 +100,10 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
       }
     })();
 
-    return () => { cancelled = true; };
+    return () => {
+      cancelled = true;
+    };
   }, [catalog, hydrateFromRemote]);
-
 
   // id -> game
   const byId = useMemo(() => {
@@ -76,10 +112,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
   }, [catalog.allGames, dynamicExtras]);
 
   // Guard: never show already-completed ids (even if slipped into `available`)
-  const completedSet = useMemo(
-    () => new Set(completed.map((c) => c.gameId)),
-    [completed]
-  );
+  const completedSet = useMemo(() => new Set(completed.map((c) => c.gameId)), [completed]);
 
   // stable ordering: year ASC, then orderIndex DESC, then title ASC
   const sortedAvailable = useMemo(() => {
@@ -112,7 +145,7 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
   const cols = visibleIds.length || 1;
   const sizeTier = cols >= 5 ? "sm" : cols >= 4 ? "md" : "lg";
 
-  // While hydrating, show a tiny gate so we don’t flash pre-hydration cards
+  // While hydrating, don’t show cards
   if (hydrating) {
     return (
       <main className="min-h-screen">
@@ -249,7 +282,10 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
                       // After removal, snap to last valid page if we ended up past the end
                       setStart((s) => {
                         const nextLen = Math.max(0, len - 1);
-                        const lastStart = Math.max(0, nextLen - (nextLen % PAGE_SIZE || PAGE_SIZE));
+                        const lastStart = Math.max(
+                          0,
+                          nextLen - (nextLen % PAGE_SIZE || PAGE_SIZE),
+                        );
                         return s > lastStart ? lastStart : s;
                       });
                     }}
@@ -279,7 +315,11 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
               const elective = { ...g, id, custom: true } as Game;
               const state = useIIVG.getState();
               state.dynamicExtras.push(elective);
-              state.completed.push({ gameId: id, rating: r, completedAt: new Date().toISOString() });
+              state.completed.push({
+                gameId: id,
+                rating: r,
+                completedAt: new Date().toISOString(),
+              });
               useIIVG.setState({ ...state });
             }}
           />
