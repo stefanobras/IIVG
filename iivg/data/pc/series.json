@@ -68,5 +68,62 @@
     "The Walking Dead: A New Frontier",
     "The Walking Dead: The Final Season"
 ]
+},
+{
+"series": "Divinity",
+"games": [
+    "Divine Divinity",
+    "Beyond Divinity",
+    "Divinity II",
+    "Divinity: Original Sin",
+    "Divinity: Original Sin II"
+]
+},
+{
+"series": "Dragon Age",
+"games": [
+    "Dragon Age: Origins",
+    "Dragon Age II",
+    "Dragon Age: Inquisition",
+    "Dragon Age: The Veilguard"
+]
+},
+{
+"series": "Diablo",
+"games": [
+    "Diablo",
+    "Diablo II",
+    "Diablo III",
+    "Diablo IV"
+]
+},
+{
+"series": "Warcraft",
+"games": [
+    "Warcraft: Orcs & Humans",
+    "Warcraft II: Tides of Darkness",
+    "Warcraft III: Reign of Chaos",
+    "World of Warcraft"
+]
+},
+{
+"series": "StarCraft",
+"games": [
+    "StarCraft",
+    "StarCraft II: Wings of Liberty"
+]
+},
+{
+"series": "Hitman",
+"games": [
+    "Hitman: Codename 47",
+    "Hitman 2: Silent Assassin",
+    "Hitman: Contracts",
+    "Hitman: Blood Money",
+    "Hitman: Absolution",
+    "Hitman",
+    "Hitman 2",
+    "Hitman 3"
+]
 }
 ]
