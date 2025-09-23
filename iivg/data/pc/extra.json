@@ -1,0 +1,161 @@
+[
+{
+"id": "theelderscrolls-1",
+"title": "The Elder Scrolls: Arena",
+"releaseYear": 1994,
+"orderIndex": 0.169,
+"series": "The Elder Scrolls",
+"seriesIndex": 1,
+"console": "PC",
+"image": "https://images.launchbox-app.com//4a492437-4260-416c-aead-d65f726b39c5.png",
+"gen": 4,
+"pcRank": null
+},
+{
+"id": "theelderscrolls-2",
+"title": "The Elder Scrolls II: Daggerfall",
+"releaseYear": 1996,
+"orderIndex": 0.089,
+"series": "The Elder Scrolls",
+"seriesIndex": 2,
+"console": "PC",
+"image": "https://images.launchbox-app.com//1ff46c85-1d74-4e0e-842a-3a1df219f6d2.png",
+"gen": 4,
+"pcRank": null
+},
+{
+"id": "undertale-2",
+"title": "Deltarune: Chapter 1",
+"releaseYear": 2018,
+"orderIndex": 2.294,
+"series": "Undertale",
+"seriesIndex": 2,
+"console": "PC",
+"image": "https://images.launchbox-app.com//8c31d1c3-7e20-42a3-844d-9c9924391fa9.png",
+"gen": 7,
+"pcRank": null
+},
+{
+"id": "undertale-3",
+"title": "Deltarune: Chapter 2",
+"releaseYear": 2021,
+"orderIndex": 1.520,
+"series": "Undertale",
+"seriesIndex": 3,
+"console": "PC",
+"image": "https://images.launchbox-app.com//8c31d1c3-7e20-42a3-844d-9c9924391fa9.png",
+"gen": 8,
+"pcRank": null
+},
+{
+"id": "undertale-4",
+"title": "Deltarune: Chapter 3",
+"releaseYear": 2025,
+"orderIndex": 1.450,
+"series": "Undertale",
+"seriesIndex": 4,
+"console": "PC",
+"image": "https://images.launchbox-app.com//8c31d1c3-7e20-42a3-844d-9c9924391fa9.png",
+"gen": 8,
+"pcRank": null
+},
+{
+"id": "undertale-5",
+"title": "Deltarune: Chapter 4",
+"releaseYear": 2025,
+"orderIndex": 1.451,
+"series": "Undertale",
+"seriesIndex": 5,
+"console": "PC",
+"image": "https://images.launchbox-app.com//8c31d1c3-7e20-42a3-844d-9c9924391fa9.png",
+"gen": 8,
+"pcRank": null
+},
+
+{
+"id": "undertale-5",
+"title": "Deltarune: Chapter 4",
+"releaseYear": 2025,
+"orderIndex": 1.451,
+"series": "Undertale",
+"seriesIndex": 5,
+"console": "PC",
+"image": "https://images.launchbox-app.com//8c31d1c3-7e20-42a3-844d-9c9924391fa9.png",
+"gen": 8,
+"pcRank": null
+},
+
+{
+"id": "fallout-3",
+"title": "Fallout 3",
+"releaseYear": 2008,
+"orderIndex": 0.179,
+"series": "Fallout",
+"seriesIndex": 3,
+"console": "PC",
+"image": "https://images.launchbox-app.com//2755b7e2-0e26-433d-a61c-c426a067572a.png",
+"gen": 6,
+"pcRank": null
+},
+{
+"id": "fallout-5",
+"title": "Fallout 4",
+"releaseYear": 2015,
+"orderIndex": 0.101,
+"series": "Fallout",
+"seriesIndex": 5,
+"console": "PC",
+"image": "https://images.launchbox-app.com//7d6c57ad-8618-4dc6-a32e-921cdaabfd91.png",
+"gen": 7,
+"pcRank": null
+},
+{
+"id": "fallout-6",
+"title": "Fallout 76",
+"releaseYear": 2018,
+"orderIndex": 0.048,
+"series": "Fallout",
+"seriesIndex": 6,
+"console": "PC",
+"image": "https://images.launchbox-app.com//3aef8f38-51f3-4197-bc1d-d9e6b616fa36.png",
+"gen": 7,
+"pcRank": null
+},
+
+{
+"id": "thewalkingdead-2",
+"title": "The Walking Dead: Season Two",
+"releaseYear": 2013,
+"orderIndex": 0.818,
+"series": "The Walking Dead",
+"seriesIndex": 2,
+"console": "PC",
+"image": "https://images.launchbox-app.com//81bdbb85-2b28-43d5-b446-c2eb758b59d7.png",
+"gen": 7,
+"pcRank": null
+},
+{
+"id": "thewalkingdead-3",
+"title": "The Walking Dead: A New Frontier",
+"releaseYear": 2016,
+"orderIndex": 0.900,
+"series": "The Walking Dead",
+"seriesIndex": 3,
+"console": "PC",
+"image": "https://images.launchbox-app.com//5814bb4f-2dc8-40a6-b754-90f5273434c7.png",
+"gen": 7,
+"pcRank": null
+},
+{
+"id": "thewalkingdead-4",
+"title": "The Walking Dead: The Final Season",
+"releaseYear": 2018,
+"orderIndex": 0.773,
+"series": "The Walking Dead",
+"seriesIndex": 4,
+"console": "PC",
+"image": "https://images.launchbox-app.com//056d83ce-6c1a-4020-8cb8-a9a5b89d32e0.jpg",
+"gen": 7,
+"pcRank": null
+}
+]
