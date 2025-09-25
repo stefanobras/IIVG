@@ -774,6 +774,17 @@
 },
 {
 "id": "2018-2",
+"title": "Detroit: Become Human",
+"series": null,
+"seriesIndex": null,
+"console": "PlayStation 4",
+"releaseYear": 2018,
+"orderIndex": 0.605,
+"image": "https://images.launchbox-app.com//03ce209e-c82c-4ec1-bf2a-c16db76f6fc1.jpg",
+"gen": 7
+},
+{
+"id": "2018-3",
 "title": "Marvel's Spider-Man",
 "series": "Marvel's Spider-Man",
 "seriesIndex": 1,
@@ -784,7 +795,7 @@
 "gen": 7
 },
 {
-"id": "2018-3",
+"id": "2018-4",
 "title": "God of War (2018)",
 "series": "God of War",
 "seriesIndex": 7,
@@ -795,7 +806,7 @@
 "gen": 7
 },
 {
-"id": "2018-4",
+"id": "2018-5",
 "title": "State of Decay 2",
 "series": "State of Decay",
 "seriesIndex": 2,
@@ -806,7 +817,7 @@
 "gen": 7
 },
 {
-"id": "2018-5",
+"id": "2018-6",
 "title": "Super Smash Bros. Ultimate",
 "series": "Super Smash Bros.",
 "seriesIndex": 5,
@@ -817,7 +828,7 @@
 "gen": 7
 },
 {
-"id": "2018-6",
+"id": "2018-7",
 "title": "Forza Horizon 4",
 "series": "Forza",
 "seriesIndex": 11,
@@ -828,7 +839,7 @@
 "gen": 7
 },
 {
-"id": "2018-7",
+"id": "2018-8",
 "title": "Red Dead Redemption 2",
 "series": "Red Dead",
 "seriesIndex": 3,
@@ -839,7 +850,7 @@
 "gen": 7
 },
 {
-"id": "2018-8",
+"id": "2018-9",
 "title": "Dragon Quest XI: Echoes of an Elusive Age",
 "series": "Dragon Quest",
 "seriesIndex": 11,
@@ -850,7 +861,7 @@
 "gen": 7
 },
 {
-"id": "2018-9",
+"id": "2018-10",
 "title": "Sea of Thieves",
 "series": null,
 "seriesIndex": null,
@@ -889,6 +900,17 @@
 },
 {
 "id": "2019-3",
+"title": "Luigi's Mansion 3",
+"series": "Luigi's Mansion",
+"seriesIndex": 3,
+"console": "Nintendo Switch",
+"releaseYear": 2019,
+"orderIndex": 0.524,
+"image": "https://images.launchbox-app.com//28fc231a-39ad-4fe9-8622-632d03b42e31.png",
+"gen": 7
+},
+{
+"id": "2019-4",
 "title": "The Legend of Zelda: Link's Awakening (2019)",
 "series": "The Legend of Zelda",
 "seriesIndex": 0,
@@ -899,7 +921,7 @@
 "gen": 7
 },
 {
-"id": "2019-4",
+"id": "2019-5",
 "title": "The Outer Worlds",
 "series": "The Outer Worlds",
 "seriesIndex": 1,
@@ -910,7 +932,7 @@
 "gen": 7
 },
 {
-"id": "2019-5",
+"id": "2019-6",
 "title": "Sekiro: Shadows Die Twice",
 "series": "Souls",
 "seriesIndex": 6,
@@ -921,7 +943,7 @@
 "gen": 7
 },
 {
-"id": "2019-6",
+"id": "2019-7",
 "title": "Fire Emblem: Three Houses",
 "series": "Fire Emblem",
 "seriesIndex": 11,
@@ -949,17 +971,6 @@
 },
 {
 "id": "2020-2",
-"title": "Doom Eternal",
-"series": "Doom",
-"seriesIndex": 7,
-"console": "PlayStation 4",
-"releaseYear": 2020,
-"orderIndex": 0.454,
-"image": "https://images.launchbox-app.com//2d28338d-02a1-456c-b674-4551d6f202f0.png",
-"gen": 7
-},
-{
-"id": "2020-3",
 "title": "The Last of Us Part II",
 "series": "The Last of Us",
 "seriesIndex": 2,
@@ -970,7 +981,7 @@
 "gen": 7
 },
 {
-"id": "2020-4",
+"id": "2020-3",
 "title": "Gears Tactics",
 "series": "Gears of War",
 "seriesIndex": 6,
@@ -981,7 +992,7 @@
 "gen": 7
 },
 {
-"id": "2020-5",
+"id": "2020-4",
 "title": "Final Fantasy VII Remake",
 "series": "Final Fantasy",
 "seriesIndex": 16,
@@ -992,7 +1003,7 @@
 "gen": 7
 },
 {
-"id": "2020-6",
+"id": "2020-5",
 "title": "Ghost of Tsushima",
 "series": "Ghost",
 "seriesIndex": 1,
@@ -1003,7 +1014,7 @@
 "gen": 7
 },
 {
-"id": "2020-7",
+"id": "2020-6",
 "title": "Animal Crossing: New Horizons",
 "series": "Animal Crossing",
 "seriesIndex": 5,
@@ -1083,19 +1094,9 @@
 
 
 
+
 {
 "id": "2023-1",
-"title": "Super Mario RPG",
-"series": "Super Mario RPG",
-"seriesIndex": 2,
-"console": "Nintendo Switch",
-"releaseYear": 2023,
-"orderIndex": 0.622,
-"image": "https://images.launchbox-app.com//68c6c75f-81f5-4ff8-90d9-09d020696e7a.png",
-"gen": 7
-},
-{
-"id": "2023-2",
 "title": "Super Mario Bros. Wonder",
 "series": "Super Mario",
 "seriesIndex": 0,
@@ -1106,7 +1107,7 @@
 "gen": 7
 },
 {
-"id": "2023-4",
+"id": "2023-2",
 "title": "Pikmin 4",
 "series": "Pikmin",
 "seriesIndex": 4,
@@ -1117,7 +1118,7 @@
 "gen": 7
 },
 {
-"id": "2023-5",
+"id": "2023-3",
 "title": "Octopath Traveler II",
 "series": "Octopath Traveler",
 "seriesIndex": 2,
@@ -1128,7 +1129,7 @@
 "gen": 7
 },
 {
-"id": "2023-6",
+"id": "2023-4",
 "title": "The Legend of Zelda: Tears of the Kingdom",
 "series": "The Legend of Zelda",
 "seriesIndex": 10,

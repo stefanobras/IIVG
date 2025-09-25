@@ -70,16 +70,6 @@
 ]
 },
 {
-"series": "Divinity",
-"games": [
-    "Divine Divinity",
-    "Beyond Divinity",
-    "Divinity II",
-    "Divinity: Original Sin",
-    "Divinity: Original Sin II"
-]
-},
-{
 "series": "Dragon Age",
 "games": [
     "Dragon Age: Origins",
@@ -110,6 +100,7 @@
 "series": "StarCraft",
 "games": [
     "StarCraft",
+    "StarCraft: Brood War",
     "StarCraft II: Wings of Liberty"
 ]
 },
@@ -124,6 +115,195 @@
     "Hitman",
     "Hitman 2",
     "Hitman 3"
+]
+},
+{
+"series": "Max Payne",
+"games": [
+    "Max Payne",
+    "Max Payne 2: The Fall of Max Payne",
+    "Max Payne 3"
+]
+},
+{
+"series": "Left 4 Dead",
+"games": [
+    "Left 4 Dead",
+    "Left 4 Dead 2"
+]
+},
+{
+"series": "Helldivers",
+"games": [
+    "Helldivers",
+    "Helldivers II"
+]
+},
+{
+"series": "Doom",
+"games": [
+    "Doom",
+    "Doom II: Hell on Earth",
+    "Final Doom",
+    "Doom 64",
+    "Doom 3",
+    "Doom (2016)",
+    "Doom Eternal",
+    "Doom: The Dark Ages"
+]
+},
+{
+"series": "Monkey Island",
+"games": [
+    "The Secret of Monkey Island",
+    "Monkey Island 2: LeChuck's Revenge",
+    "The Curse of Monkey Island",
+    "Escape from Monkey Island",
+    "Tales of Monkey Island",
+    "Return to Monkey Island"
+]
+},
+{
+"series": "King's Quest",
+"games": [
+    "King's Quest",
+    "King's Quest II: Romancing the Throne",
+    "King's Quest III: To Heir Is Human",
+    "King's Quest IV: The Perils of Rosella",
+    "King's Quest V: Absence Makes the Heart Go Yonder!",
+    "King's Quest VI: Heir Today, Gone Tomorrow",
+    "King's Quest VII: The Princeless Bride",
+    "King's Quest: Mask of Eternity"
+]
+},
+{
+"series": "Wolfenstein",
+"games": [
+    "Castle Wolfenstein",
+    "Beyond Castle Wolfenstein",
+    "Wolfenstein 3D",
+    "Return to Castle Wolfenstein",
+    "Wolfenstein (2009)",
+    "Wolfenstein: The New Order",
+    "Wolfenstein II: The New Colossus"
+]
+},
+{
+"series": "Maniac Mansion",
+"games": [
+    "Maniac Mansion",
+    "Maniac Mansion II: Day of the Tentacle"
+]
+},
+{
+"series": "Ori",
+"games": [
+    "Ori and the Blind Forest",
+    "Ori and the Will of the Wisps"
+]
+},
+{
+"series": "Space Quest",
+"games": [
+    "Space Quest: The Sarien Encounter",
+    "Space Quest II: Vohaul's Revenge",
+    "Space Quest III: The Pirates of Pestulon",
+    "Space Quest IV: Roger Wilco and the Time Rippers",
+    "Space Quest V: Roger Wilco - The Next Mutation",
+    "Space Quest 6: Roger Wilco in The Spinal Frontier"
+]
+},
+{
+"series": "SimCity",
+"games": [
+    "SimCity",
+    "SimCity 2000",
+    "SimCity 3000",
+    "SimCity 4",
+    "SimCity (2013)"
+]
+},
+{
+"series": "Age of Empires",
+"games": [
+    "Age of Empires",
+    "Age of Empires II: The Age of Kings",
+    "Age of Empires III",
+    "Age of Empires IV"
+]
+},
+{
+"series": "Deus Ex",
+"games": [
+    "Deus Ex",
+    "Deus Ex: Invisible War",
+    "Deus Ex: Human Revolution",
+    "Deus Ex: Mankind Divided"
+]
+},
+{
+"series": "Baldur's Gate",
+"games": [
+    "Baldur's Gate",
+    "Baldur's Gate II: Shadows of Amn",
+    "Baldur's Gate III"
+]
+},
+{
+"series": "Myst",
+"games": [
+    "Myst",
+    "Riven",
+    "Myst III: Exile",
+    "Uru: Ages Beyond Myst",
+    "Myst IV: Revelation",
+    "Myst V: End of Ages"
+
+]
+},
+{
+"series": "Ultima",
+"games": [
+    "Ultima I: The First Age of Darkness",
+    "Ultima II: The Revenge of the Enchantress",
+    "Ultima III: Exodus",
+    "Ultima IV: Quest of the Avatar",
+    "Ultima V: Warriors of Destiny n",
+    "Ultima VI: The False Prophet",
+    "Ultima VII: The Black Gate",
+    "Ultima VII Part Two: Serpent Isle",
+    "Ultima VIII: Pagan",
+    "Ultima IX: Ascension"
+
+]
+},
+{
+"series": "Command & Conquer: Red Alert",
+"games": [
+    "Command & Conquer: Red Alert",
+    "Command & Conquer: Red Alert 2",
+    "Command & Conquer: Red Alert 3"
+
+]
+},
+{
+"series": "Quake",
+"games": [
+    "Quake",
+    "Quake II",
+    "Quake III Arena",
+    "Quake 4",
+    "Quake Champions"
+
+]
+},
+{
+"series": "Prince of Persia",
+"games": [
+    "Prince of Persia",
+    "Prince of Persia 2: The Shadow and the Flame",
+    "Prince of Persia 3D"
+
 ]
 }
 ]

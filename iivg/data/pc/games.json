@@ -1,6 +1,18 @@
 [
 {
 "id": "pc-1",
+"title": "Baldur's Gate III",
+"releaseYear": 2023,
+"orderIndex": 0.085,
+"series":  "Baldur's Gate",
+"seriesIndex": 3,
+"console": "PC",
+"image": "https://images.launchbox-app.com//8966edaf-28d4-48fa-a2dd-429017b06766.png",
+"gen": 8,
+"pcRank": 1
+},
+{
+"id": "pc-2",
 "title": "Hollow Knight",
 "releaseYear": 2017,
 "orderIndex": 0.223,
@@ -9,10 +21,10 @@
 "console": "PC",
 "image": "https://images.launchbox-app.com//ab532606-1479-44d2-9858-397ce172da2b.png",
 "gen": 7,
-"pcRank": 1
+"pcRank": 2
 },
 {
-"id": "pc-2",
+"id": "pc-3",
 "title": "Portal 2",
 "releaseYear": 2011,
 "orderIndex": 0.872,
@@ -20,18 +32,6 @@
 "seriesIndex": 2,
 "console": "PC",
 "image": "https://images.launchbox-app.com//523d4587-db62-40aa-92d4-98ae7abb399b.png",
-"gen": 6,
-"pcRank": 2
-},
-{
-"id": "pc-3",
-"title": "The Elder Scrolls V: Skyrim",
-"releaseYear": 2011,
-"orderIndex": 0.079,
-"series": "The Elder Scrolls",
-"seriesIndex": 5,
-"console": "PC",
-"image": "https://images.launchbox-app.com//8e4f94a5-2b7a-45fe-96ca-1e87196e7e14.png",
 "gen": 6,
 "pcRank": 3
 },
@@ -49,6 +49,18 @@
 },
 {
 "id": "pc-5",
+"title": "The Elder Scrolls V: Skyrim",
+"releaseYear": 2011,
+"orderIndex": 0.079,
+"series": "The Elder Scrolls",
+"seriesIndex": 5,
+"console": "PC",
+"image": "https://images.launchbox-app.com//8e4f94a5-2b7a-45fe-96ca-1e87196e7e14.png",
+"gen": 6,
+"pcRank": 5
+},
+{
+"id": "pc-6",
 "title": "Hades",
 "releaseYear": 2020,
 "orderIndex": 0.213,
@@ -57,10 +69,10 @@
 "console": "PC",
 "image": "https://images.launchbox-app.com//e47fbdac-3c40-4717-a7a9-025b775e4988.jpg",
 "gen": 7,
-"pcRank": 5
+"pcRank": 6
 },
 {
-"id": "pc-6",
+"id": "pc-7",
 "title": "Half-Life 2",
 "releaseYear": 2004,
 "orderIndex": 0.629,
@@ -69,10 +81,10 @@
 "console": "PC",
 "image": "https://images.launchbox-app.com//ec520fc1-3679-474f-b4b4-aeeeda190d46.png",
 "gen": 5,
-"pcRank": 6
+"pcRank": 7
 },
 {
-"id": "pc-7",
+"id": "pc-8",
 "title": "Outer Wilds",
 "releaseYear": 2019,
 "orderIndex": 0.422,
@@ -81,106 +93,10 @@
 "console": "PC",
 "image": "https://images.launchbox-app.com//3a00e9ea-e1eb-4236-b1b4-2750ec649f19.png",
 "gen": 7,
-"pcRank": 7
-},
-{
-"id": "pc-8",
-"title": "Stardew Valley",
-"releaseYear": 2016,
-"orderIndex": 0.096,
-"series": null,
-"seriesIndex": null,
-"console": "PC",
-"image": "https://images.launchbox-app.com//8ab60964-84fd-4296-b8d0-d939242ec3c3.png",
-"gen": 7,
 "pcRank": 8
 },
 {
 "id": "pc-9",
-"title": "Celeste",
-"releaseYear": 2018,
-"orderIndex": 0.716,
-"series": null,
-"seriesIndex": null,
-"console": "PC",
-"image": "https://images.launchbox-app.com//48d16840-466f-41d1-b239-4da4a6fe4438.png",
-"gen": 7,
-"pcRank": 9
-},
-{
-"id": "pc-10",
-"title": "Ori and the Will of the Wisps",
-"releaseYear": 2020,
-"orderIndex": 0.573,
-"series": "Ori",
-"seriesIndex": 2,
-"console": "PC",
-"image": "https://images.launchbox-app.com//25a23c96-65d3-4951-a129-a7f4bd0310f5.png",
-"gen": 7,
-"pcRank": 10
-},
-{
-"id": "pc-11",
-"title": "Disco Elysium",
-"releaseYear": 2019,
-"orderIndex": 1.049,
-"series": null,
-"seriesIndex": null,
-"console": "PC",
-"image": "https://images.launchbox-app.com//3fa228af-f94e-4c4f-aabc-f7f7a001e46b.png",
-"gen": 7,
-"pcRank": 11
-},
-{
-"id": "pc-12",
-"title": "Undertale",
-"releaseYear": 2015,
-"orderIndex": 0.884,
-"series": "Undertale",
-"seriesIndex": 1,
-"console": "PC",
-"image": "https://images.launchbox-app.com//72a6edc0-cebe-48e9-b3f3-1b63e08996e7.png",
-"gen": 7,
-"pcRank": 12
-},
-{
-"id": "pc-13",
-"title": "Fallout: New Vegas",
-"releaseYear": 2010,
-"orderIndex": 0.155,
-"series": "Fallout",
-"seriesIndex": 4,
-"console": "PC",
-"image": "https://images.launchbox-app.com//e7b473a9-11b5-4bfb-adc9-793eb5ab46e3.png",
-"gen": 6,
-"pcRank": 13
-},
-{
-"id": "pc-14",
-"title": "The Elder Scrolls IV: Oblivion",
-"releaseYear": 2006,
-"orderIndex": 0.111,
-"series": "The Elder Scrolls",
-"seriesIndex": 4,
-"console": "PC",
-"image": "https://images.launchbox-app.com//dda60523-5ac1-4bbd-a618-65ae12076e10.png",
-"gen": 6,
-"pcRank": 14
-},
-{
-"id": "pc-15",
-"title": "The Elder Scrolls IV: Oblivion",
-"releaseYear": 2018,
-"orderIndex": 0.927,
-"series": null,
-"seriesIndex": null,
-"console": "PC",
-"image": "https://images.launchbox-app.com//6dd94730-efa3-4e67-9060-f97618b70398.png",
-"gen": 7,
-"pcRank": 15
-},
-{
-"id": "pc-16",
 "title": "Hollow Knight: Silksong",
 "releaseYear": 2025,
 "orderIndex": 0.419,
@@ -189,34 +105,10 @@
 "console": "PC",
 "image": "https://images.launchbox-app.com//b35d1530-af7a-41d3-a07b-b4a812b0ade9.jpg",
 "gen": 8,
-"pcRank": 16
+"pcRank": 9
 },
 {
-"id": "pc-17",
-"title": "The Walking Dead: A Telltale Game Series",
-"releaseYear": 2012,
-"orderIndex": 0.647,
-"series": "The Walking Dead",
-"seriesIndex": 1,
-"console": "PC",
-"image": "https://images.launchbox-app.com//9de90f68-c825-4bbe-9d98-17288b3f2601.png",
-"gen": 6,
-"pcRank": 17
-},
-{
-"id": "pc-18",
-"title": "Cuphead",
-"releaseYear": 2017,
-"orderIndex": 0.563,
-"series": null,
-"seriesIndex": null,
-"console": "PC",
-"image": "https://images.launchbox-app.com//c08d5d5c-291a-48ac-9db3-a00b926d0eb6.png",
-"gen": 7,
-"pcRank": 18
-},
-{
-"id": "pc-19",
+"id": "pc-10",
 "title": "Half-Life",
 "releaseYear": 1998,
 "orderIndex": 0.695,
@@ -228,7 +120,7 @@
 "pcRank": 19
 },
 {
-"id": "pc-20",
+"id": "pc-11",
 "title": "Inscryption",
 "releaseYear": 2021,
 "orderIndex": 0.579,
@@ -237,6 +129,115 @@
 "console": "PC",
 "image": "https://images.launchbox-app.com//62ce7a3d-0311-405b-a1b1-8df191a343d7.jpg",
 "gen": 8,
+"pcRank": 11
+},
+
+{
+"id": "pc-12",
+"title": "Diablo II",
+"releaseYear": 2000,
+"orderIndex": 0.163,
+"series": "Diablo",
+"seriesIndex": 2,
+"console": "PC",
+"image": "https://images.launchbox-app.com//417c7f7e-4f64-48d8-87bb-5afcef9ba202.png",
+"gen": 5,
+"pcRank": 12
+},
+{
+"id": "pc-13",
+"title": "Warcraft III: Reign of Chaos",
+"releaseYear": 2002,
+"orderIndex": 1.131,
+"series":  "Warcraft",
+"seriesIndex": null,
+"console": "PC",
+"image": "https://images.launchbox-app.com//993d956b-1169-423d-9a85-3171f081a2c5.png",
+"gen": 5,
+"pcRank": 13
+},
+{
+"id": "pc-14",
+"title": "StarCraft",
+"releaseYear": 1998,
+"orderIndex": 0.319,
+"series":  "StarCraft",
+"seriesIndex": 1,
+"console": "PC",
+"image": "https://images.launchbox-app.com//859c6b35-77d9-485f-aa5c-86642d895daa.png",
+"gen": 4,
+"pcRank": 14
+},
+{
+"id": "pc-15",
+"title": "Doom",
+"releaseYear": 1993,
+"orderIndex": 1.379,
+"series": "Doom",
+"seriesIndex": 1,
+"console": "PC",
+"image": "https://images.launchbox-app.com//7d2b11b8-6df0-49a4-9f28-88a4b040bf00.png",
+"gen": 3,
+"pcRank": 15
+},
+{
+"id": "pc-16",
+"title": "The Secret of Monkey Island",
+"releaseYear": 1990,
+"orderIndex": 1.171,
+"series": "Monkey Island",
+"seriesIndex": 1,
+"console": "PC",
+"image": "https://images.launchbox-app.com/4f63c944-e1b9-49c4-9ffa-28d1772cd343.png",
+"gen": 3,
+"pcRank": 16
+},
+{
+"id": "pc-17",
+"title": "The Oregon Trail",
+"releaseYear": 1985,
+"orderIndex": 6.904,
+"series": null,
+"seriesIndex": null,
+"console": "PC",
+"image": "https://images.launchbox-app.com//e17d7516-c72a-43fe-a536-2f9177a8e962.png",
+"gen": 2,
+"pcRank": 17
+},
+{
+"id": "pc-18",
+"title": "Maniac Mansion",
+"releaseYear": 1987,
+"orderIndex": 1.977,
+"series": "Maniac Mansion",
+"seriesIndex": 1,
+"console": "PC",
+"image": "https://images.launchbox-app.com//dcc879c3-363f-47f1-91f4-3550c0bddde2.png",
+"gen": 2,
+"pcRank": 18
+},
+{
+"id": "pc-19",
+"title": "King's Quest: Quest for the Crown",
+"releaseYear": 1984,
+"orderIndex": 2.528,
+"series": "King's Quest",
+"seriesIndex": 1,
+"console": "PC",
+"image": "https://images.launchbox-app.com//9a1fc3de-e6f1-4b7f-892c-b6a156abf735.png",
+"gen": 1,
+"pcRank": 19
+},
+{
+"id": "pc-20",
+"title": "Karateka",
+"releaseYear": 1984,
+"orderIndex": 6.618,
+"series": null,
+"seriesIndex": null,
+"console": "PC",
+"image": "https://images.launchbox-app.com//db071146-8b21-4a3f-883b-6f8600a21fb6.png",
+"gen": 1,
 "pcRank": 20
 }
 ]

@@ -212,6 +212,16 @@
 "orderIndex": 0.182,
 "image": "https://images.launchbox-app.com//0a3444fc-3d47-488f-bbc4-f6aedccdb7ef.jpg",
 "gen": 7
+},
+{
+"id": "2023-1",
+"title": "Super Mario RPG",
+"series": "Super Mario RPG",
+"seriesIndex": 2,
+"console": "Nintendo Switch",
+"releaseYear": 2023,
+"orderIndex": 0.622,
+"image": "https://images.launchbox-app.com//68c6c75f-81f5-4ff8-90d9-09d020696e7a.png",
+"gen": 7
 }
-
 ]
