@@ -327,17 +327,7 @@
 "image": "https://m.media-amazon.com/images/I/81dQBQfDDGL._UF1000,1000_QL80_.jpg",
 "gen": 8
 },
-{
-"id": "2023-17",
-"title": "Baldur's Gate 3",
-"series": "Baldur's Gate",
-"seriesIndex": 3,
-"console": "PlayStation 5",
-"releaseYear": 2023,
-"orderIndex": 0.084,
-"image": "https://images.launchbox-app.com//5340d2a1-80aa-49a5-a7f7-57b55e9062ae.png",
-"gen": 8
-},
+
 
 
 
@@ -422,6 +412,17 @@
 },
 {
 "id": "2024-10",
+"title": "Persona 3 Reload",
+"series": "Persona",
+"seriesIndex": 7,
+"console": "PlayStation 5",
+"releaseYear": 2024,
+"orderIndex": 0.107,
+"image": "https://images.launchbox-app.com//e5254411-b208-4f5a-8f64-73e03f81868a.jpg",
+"gen": 8
+},
+{
+"id": "2024-11",
 "title": "Like a Dragon: Infinite Wealth",
 "series": "Yakuza",
 "seriesIndex": 9,
@@ -432,7 +433,7 @@
 "gen": 8
 },
 {
-"id": "2024-11",
+"id": "2024-12",
 "title": "Final Fantasy VII Rebirth",
 "series": "Final Fantasy",
 "seriesIndex": 18,

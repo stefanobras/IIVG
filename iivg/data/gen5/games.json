@@ -746,6 +746,17 @@
 },
 {
 "id": "2004-8",
+"title": "Ratchet & Clank: Up Your Arsenal",
+"series": "Ratchet & Clank",
+"seriesIndex": 3,
+"console": "PlayStation 2",
+"releaseYear": 2004,
+"orderIndex": 0.536,
+"image": "https://images.launchbox-app.com//e7d7a409-cbcc-4ba6-8b65-7ffdaf5f2b94.png",
+"gen": 5
+},
+{
+"id": "2004-9",
 "title": "Pikmin 2",
 "series": "Pikmin",
 "seriesIndex": 2,
@@ -756,7 +767,7 @@
 "gen": 5
 },
 {
-"id": "2004-9",
+"id": "2004-10",
 "title": "The Legend of Zelda: The Minish Cap",
 "series": "The Legend of Zelda",
 "seriesIndex": 0,
@@ -767,7 +778,7 @@
 "gen": 5
 },
 {
-"id": "2004-10",
+"id": "2004-11",
 "title": "Fable",
 "series": "Fable",
 "seriesIndex": 1,
@@ -778,7 +789,7 @@
 "gen": 5
 },
 {
-"id": "2004-11",
+"id": "2004-12",
 "title": "Metroid Prime 2: Echoes",
 "series": "Metroid",
 "seriesIndex": 7,
@@ -789,7 +800,7 @@
 "gen": 5
 },
 {
-"id": "2004-12",
+"id": "2004-13",
 "title": "Ninja Gaiden Black",
 "series": "Ninja Gaiden",
 "seriesIndex": 4,
@@ -800,7 +811,7 @@
 "gen": 5
 },
 {
-"id": "2004-13",
+"id": "2004-14",
 "title": "The Chronicles of Riddick: Escape from Butcher Bay",
 "series": "The Chronicles of Riddick",
 "seriesIndex": 1,
@@ -811,7 +822,7 @@
 "gen": 5
 },
 {
-"id": "2004-14",
+"id": "2004-15",
 "title": "Paper Mario: The Thousand-Year Door",
 "series": "Paper Mario",
 "seriesIndex": 2,
@@ -822,7 +833,7 @@
 "gen": 5
 },
 {
-"id": "2004-15",
+"id": "2004-16",
 "title": "Grand Theft Auto: San Andreas",
 "series": "Grand Theft Auto",
 "seriesIndex": 5,
@@ -833,7 +844,7 @@
 "gen": 5
 },
 {
-"id": "2004-16",
+"id": "2004-17",
 "title": "Star Wars Knights of the Old Republic II: The Sith Lords",
 "series": "Star Wars: Knights of the Old Republic",
 "seriesIndex": 2,
@@ -844,7 +855,7 @@
 "gen": 5
 },
 {
-"id": "2004-17",
+"id": "2004-18",
 "title": "Pokémon FireRed and LeafGreen",
 "series": "Pokémon",
 "seriesIndex": 6,
@@ -1104,17 +1115,6 @@
 },
 {
 "id": "2007-2",
-"title": "Guitar Hero III: Legends of Rock",
-"series": "Guitar Hero",
-"seriesIndex": 3,
-"console": "PlayStation 2",
-"releaseYear": 2007,
-"orderIndex": 0.626,
-"image": "https://images.launchbox-app.com//69fc9413-2c44-4914-86c4-e0f9e64345ce.png",
-"gen": 5
-},
-{
-"id": "2007-3",
 "title": "Dragon Ball Z: Budokai Tenkaichi 3",
 "series": "Dragon Ball Z: Budokai Tenkaichi",
 "seriesIndex": 3,

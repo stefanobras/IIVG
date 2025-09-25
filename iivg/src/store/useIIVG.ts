@@ -7,7 +7,6 @@ import {
   ensureYearWave,
   finishGame as finishGameOp,
   recomputeSeriesRatings,
-  enqueueNextInSeriesIfEligible,
   enqueueEligibleExtrasFromAverages,
 } from "@/lib/stream";
 import { DEGREE_STEPS, degreeForCount, degreeIndex } from "@/lib/achievements";
@@ -18,7 +17,14 @@ type Actions = {
   setName: (name: string) => void;
   dismissAchievement: () => void;
   attachImageToLastEarned: (dataUrl: string) => void;
-  hydrateFromRemote: (rows: Completion[], catalog: Catalog) => void;
+  /**
+   * Optionally accepts extra info (pcAvg, pcRatingsCount) returned by /api/completions.
+   */
+  hydrateFromRemote: (
+    rows: Completion[],
+    catalog: Catalog,
+    extra?: { pcAvg?: number | null; pcRatingsCount?: number | null }
+  ) => void;
 };
 
 function consoleCounts(completed: Completion[], catalog: Catalog, dynamicExtras: Game[]) {
@@ -63,6 +69,10 @@ export const useIIVG = create<UserState & Actions>()((set, get) => ({
   earnedAchievements: [],
   lastEarned: null,
 
+  // For PC logic (mandatory/top-ups)
+  pcAvg: 0,
+  pcRatingsCount: 0,
+
   bootstrap: (catalog) =>
     set((s) => {
       if (s.available.length === 0 && s.completed.length === 0 && s.addedYears.length === 0) {
@@ -76,65 +86,76 @@ export const useIIVG = create<UserState & Actions>()((set, get) => ({
       }
     }),
 
-  complete: (game, rating, catalog) => set((prev) => {
-    const next = { ...prev } as UserState;
+  complete: (game, rating, catalog) =>
+    set((prev) => {
+      const next = { ...prev } as UserState;
 
-    // 1) record the completion locally, advance year wave, recompute series
-    finishGameOp(next, game, rating, catalog);
-    recomputeSeriesRatings(next, catalog);
+      // 1) record locally, advance wave, recompute series
+      finishGameOp(next, game, rating, catalog);
+      recomputeSeriesRatings(next, catalog);
 
-    // 2) ACHIEVEMENT COUNTING — base games ONLY (extras do NOT count)
-    // Build a lookup of BASE games by id, and count only those completions.
-    const baseById = Object.fromEntries(catalog.baseGames.map(g => [g.id, g]));
+      // 2) ACHIEVEMENTS — base games ONLY
+      const baseById = Object.fromEntries(catalog.baseGames.map((g) => [g.id, g]));
+      const consoleName = game.console;
+      const currentCount = next.completed.reduce((acc, c) => {
+        const g = baseById[c.gameId];
+        return g && g.console === consoleName ? acc + 1 : acc;
+      }, 0);
 
-    const consoleName = game.console;
-    const currentCount = next.completed.reduce((acc, c) => {
-      const g = baseById[c.gameId];
-      return (g && g.console === consoleName) ? acc + 1 : acc;
-    }, 0);
+      const currentLabel = degreeForCount(currentCount);
+      const currentIdx = currentLabel ? (degreeIndex(currentLabel) ?? 0) : 0;
 
-    // 3) what degree that count corresponds to
-    const currentLabel = degreeForCount(currentCount); // e.g., "Kindergarten Diploma"
-    const currentIdx = currentLabel ? (degreeIndex(currentLabel) ?? 0) : 0;
+      const prevBestIdx = Math.max(
+        0,
+        ...next.earnedAchievements
+          .filter((a) => a.console === consoleName)
+          .map((a) => degreeIndex(a.label) ?? 0),
+      );
 
-    // 4) highest degree previously stored for this console
-    const prevBestIdx = Math.max(
-      0,
-      ...next.earnedAchievements
-        .filter(a => a.console === consoleName)
-        .map(a => degreeIndex(a.label) ?? 0)
-    );
+      if (currentIdx > prevBestIdx && currentLabel) {
+        const rec = { console: consoleName, label: currentLabel, earnedAt: new Date().toISOString() };
+        next.earnedAchievements = [...next.earnedAchievements, rec];
+        next.lastEarned = rec;
+      }
 
-    // 5) if we advanced (and only counting base games), store + show modal
-    if (currentIdx > prevBestIdx && currentLabel) {
-      const rec = { console: consoleName, label: currentLabel, earnedAt: new Date().toISOString() };
-      next.earnedAchievements = [...next.earnedAchievements, rec];
-      next.lastEarned = rec;
-    }
+      // 3) persist remotely; capture pcAvg if API returns it (for PC logic)
+      (async () => {
+        try {
+          const res = await fetch("/api/complete", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ gameId: game.id, rating }),
+          });
+          if (res.ok) {
+            const json = await res.json().catch(() => null);
+            if (json && typeof json.pcAvg === "number") {
+              useIIVG.setState((state) => ({
+                ...state,
+                pcAvg: json.pcAvg,
+                pcRatingsCount: Number(json.pcRatingsCount || 0),
+              }));
+              // After updating pcAvg, rebuild the wave to allow PC top-ups
+              const snap = { ...useIIVG.getState() } as UserState;
+              ensureYearWave(snap, catalog);
+              useIIVG.setState(snap);
+            }
+          }
+        } catch {
+          // ignore
+        }
+      })();
 
-    // 6) persist remotely (still records ALL games you rate — base or extra)
-    try {
-      void fetch("/api/complete", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ gameId: game.id, rating }),
-      });
-    } catch {
-      // ignore network errors; local state already updated
-    }
+      // 4) optional: localStorage fallback
+      try {
+        const key = "iivg_completions";
+        const raw = localStorage.getItem(key);
+        const arr = raw ? JSON.parse(raw) : [];
+        arr.push({ gameId: game.id, rating, completedAt: new Date().toISOString() });
+        localStorage.setItem(key, JSON.stringify(arr));
+      } catch {}
 
-    // 7) optional: keep your localStorage fallback if you added it earlier
-    try {
-      const key = "iivg_completions";
-      const raw = localStorage.getItem(key);
-      const arr = raw ? JSON.parse(raw) : [];
-      arr.push({ gameId: game.id, rating, completedAt: new Date().toISOString() });
-      localStorage.setItem(key, JSON.stringify(arr));
-    } catch {}
-
-    return next;
-  }),
-
+      return next;
+    }),
 
   setName: (name) => set(() => ({ name })),
   dismissAchievement: () => set(() => ({ lastEarned: null })),
@@ -144,9 +165,7 @@ export const useIIVG = create<UserState & Actions>()((set, get) => ({
       if (!s.lastEarned) return s;
       const { console: con, label } = s.lastEarned;
 
-      const idx = s.earnedAchievements.findIndex(
-        (a) => a.console === con && a.label === label,
-      );
+      const idx = s.earnedAchievements.findIndex((a) => a.console === con && a.label === label);
       if (idx >= 0 && s.earnedAchievements[idx].imageDataUrl) return s;
 
       const earned = [...s.earnedAchievements];
@@ -162,19 +181,22 @@ export const useIIVG = create<UserState & Actions>()((set, get) => ({
       };
     }),
 
-  hydrateFromRemote: (rows, catalog) => {
+  hydrateFromRemote: (rows, catalog, extra) => {
     set((prev) => {
+      const next = { ...prev } as UserState;
+
+      // Sync PC average from /api/completions if provided
+      if (extra && typeof extra.pcAvg === "number") next.pcAvg = extra.pcAvg!;
+      if (extra && typeof extra.pcRatingsCount === "number") next.pcRatingsCount = extra.pcRatingsCount!;
+
       // de-dup against any local completions
-      const have = new Set(prev.completed.map((c) => c.gameId));
+      const have = new Set(next.completed.map((c) => c.gameId));
       const incoming = rows.filter((r) => !have.has(r.gameId));
       if (incoming.length === 0) {
-        // Still rebuild wave in case we had stale available items
-        const snapshot = { ...prev };
-        ensureYearWave(snapshot, catalog);
-        return snapshot;
+        ensureYearWave(next, catalog);
+        return next;
       }
 
-      const next = { ...prev };
       next.completed = [...next.completed, ...incoming];
 
       // remove completed from available
@@ -185,11 +207,10 @@ export const useIIVG = create<UserState & Actions>()((set, get) => ({
       recomputeSeriesRatings(next, catalog);
       enqueueEligibleExtrasFromAverages(next, catalog);
 
-      // rebuild what's visible
+      // rebuild wave (clamped by detected current year)
       ensureYearWave(next, catalog);
 
-      // do NOT set lastEarned here (we don't want the modal popping on refresh)
-      return next;
+      return next; // don't pop modal on refresh
     });
   },
 }));

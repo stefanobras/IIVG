@@ -164,7 +164,7 @@
 
 
 {
-"id": "2007-4",
+"id": "2007-3",
 "title": "WarioWare: Smooth Moves",
 "series": "WarioWare",
 "seriesIndex": 4,
@@ -175,7 +175,7 @@
 "gen": 6
 },
 {
-"id": "2007-5",
+"id": "2007-4",
 "title": "Silent Hill: Origins",
 "series": "Silent Hill",
 "seriesIndex": 5,
@@ -186,7 +186,7 @@
 "gen": 6
 },
 {
-"id": "2007-09",
+"id": "2007-04",
 "title": "Castlevania: The Dracula X Chronicles",
 "series": "Castlevania",
 "seriesIndex": 0,
@@ -197,7 +197,7 @@
 "gen": 6
 },
 {
-"id": "2007-7",
+"id": "2007-5",
 "title": "Call of Duty 4: Modern Warfare",
 "series": "Call of Duty",
 "seriesIndex": 4,
@@ -208,7 +208,7 @@
 "gen": 6
 },
 {
-"id": "2007-8",
+"id": "2007-6",
 "title": "Halo 3",
 "series": "Halo",
 "seriesIndex": 3,
@@ -218,8 +218,19 @@
 "image": "https://images.launchbox-app.com//2b7f5006-f077-459f-aca6-f09f789deb86.png",
 "gen": 6
 },
+{ 
+"id": "2007-7",
+"title": "Guitar Hero III: Legends of Rock",
+"series": "Guitar Hero",
+"seriesIndex": 3,
+"console": "Nintendo Wii",
+"releaseYear": 2007,
+"orderIndex": 0.626,
+"image": "https://images.launchbox-app.com//4916d71e-8573-4bad-9e3e-98b02351ba47.png",
+"gen": 5
+},
 {
-"id": "2007-9",
+"id": "2007-8",
 "title": "BioShock",
 "series": "BioShock",
 "seriesIndex": 1,
@@ -230,7 +241,7 @@
 "gen": 6
 },
 {
-"id": "2007-10",
+"id": "2007-9",
 "title": "Mario Strikers Charged",
 "series": "Mario Strikers",
 "seriesIndex": 2,
@@ -241,7 +252,7 @@
 "gen": 6
 },
 {
-"id": "2007-11",
+"id": "2007-10",
 "title": "Metroid Prime 3: Corruption",
 "series": "Metroid",
 "seriesIndex": 9,
@@ -252,7 +263,7 @@
 "gen": 6
 },
 {
-"id": "2007-12",
+"id": "2007-11",
 "title": "Super Mario Galaxy",
 "series": "Super Mario",
 "seriesIndex": 7,
@@ -263,7 +274,7 @@
 "gen": 6
 },
 {
-"id": "2007-13",
+"id": "2007-12",
 "title": "Super Paper Mario",
 "series": "Paper Mario",
 "seriesIndex": 3,
@@ -274,7 +285,7 @@
 "gen": 6
 },
 {
-"id": "2007-14",
+"id": "2007-13",
 "title": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
 "series": "Ace Attorney",
 "seriesIndex": 3,
@@ -285,7 +296,7 @@
 "gen": 6
 },
 {
-"id": "2007-15",
+"id": "2007-14",
 "title": "Lego Star Wars: The Complete Saga",
 "series": "Lego Star Wars",
 "seriesIndex": 1,
@@ -296,7 +307,7 @@
 "gen": 6
 },
 {
-"id": "2007-16",
+"id": "2007-15",
 "title": "Mass Effect",
 "series": "Mass Effect",
 "seriesIndex": 1,
@@ -307,7 +318,7 @@
 "gen": 6
 },
 {
-"id": "2007-17",
+"id": "2007-16",
 "title": "Fire Emblem: Radiant Dawn",
 "series": "Fire Emblem",
 "seriesIndex": 4,
@@ -318,7 +329,7 @@
 "gen": 6
 },
 {
-"id": "2007-18",
+"id": "2007-17",
 "title": "Final Fantasy Tactics: The War of the Lions",
 "series": "Ivalice Alliance",
 "seriesIndex": 3,
@@ -329,7 +340,7 @@
 "gen": 6
 },
 {
-"id": "2007-19",
+"id": "2007-18",
 "title": "Pokémon Diamond and Pearl",
 "series": "Pokémon",
 "seriesIndex": 8,
@@ -1094,17 +1105,7 @@
 "image": "https://images.launchbox-app.com//7e47570f-f3a7-4185-ab85-510dea736359.png",
 "gen": 6
 },
-{
-"id": "2012-8",
-"title": "Skylanders: Giants",
-"series": "Skylanders",
-"seriesIndex": 2,
-"console": "Nintendo Wii",
-"releaseYear": 2012,
-"orderIndex": 0.155,
-"image": "https://images.launchbox-app.com//650c25e1-7e7a-455e-a5e4-c09d684a5648.png",
-"gen": 6
-},
+
 
 
 

@@ -64,7 +64,8 @@ export default function HomeClient({ catalog }: { catalog: Catalog }) {
             Array.isArray(json.completions) &&
             json.completions.length > 0
           ) {
-            hydrateFromRemote(json.completions, catalog);
+            hydrateFromRemote(json.completions, catalog, { pcAvg: json.pcAvg, pcRatingsCount: json.pcRatingsCount });
+
             usedAny = true;
           }
         }

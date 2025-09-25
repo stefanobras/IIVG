@@ -106,9 +106,58 @@ export async function POST(req: Request) {
     }
   }
 
+  // 4) NEW — Recompute & upsert user's PC average if this is a PC game
+  let pcAvg: number | null = null;
+  let pcRatingsCount: number | null = null;
+
+  if (game.console === "PC") {
+    // collect all ratings that belong to PC games
+    const pcIds = new Set(
+      catalog.allGames.filter(g => g.console === "PC").map(g => g.id)
+    );
+    const pcRatings = (comps || []).filter(c => pcIds.has(c.game_id)).map(c => c.rating);
+
+    if (pcRatings.length > 0) {
+      const avg = Math.round(
+        (pcRatings.reduce((a, b) => a + b, 0) / pcRatings.length) * 100
+      ) / 100;
+
+      pcAvg = avg;
+      pcRatingsCount = pcRatings.length;
+
+      // upsert into user_pc_average
+      const { error: upErr } = await supabase
+        .from("user_pc_average")
+        .upsert({
+          user_id: user.id,
+          avg_rating: avg,
+          ratings_count: pcRatings.length,
+          updated_at: new Date().toISOString(),
+        });
+      // If this fails, we still return ok; client can tolerate missing pcAvg
+      if (upErr) {
+        // no-op (log if you want)
+      }
+    } else {
+      // no PC ratings -> ensure row is at least zeroed
+      await supabase
+        .from("user_pc_average")
+        .upsert({
+          user_id: user.id,
+          avg_rating: 0,
+          ratings_count: 0,
+          updated_at: new Date().toISOString(),
+        });
+      pcAvg = 0;
+      pcRatingsCount = 0;
+    }
+  }
+
   return NextResponse.json({
     ok: true,
     newAchievements: newlyEarned,   // array of labels you just earned (if any)
-    seriesAvg                         // { series, avg } or null
+    seriesAvg,                         // { series, avg } or null
+    pcAvg,              // number | null
+    pcRatingsCount,     // number | null
   });
 }
